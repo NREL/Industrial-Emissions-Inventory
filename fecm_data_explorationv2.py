@@ -356,7 +356,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
             df1_sector['FRS_ID'] = df1_sector['FRS_ID'].astype('str')
             df_ghgrp_frs = df1_sector[df1_sector['Source'] == 'GHGRP']
             frs_id_list = list(pd.unique(df_ghgrp_frs['FRS_ID']))
-
+            df1_sector = add_cas_number(df1_sector)
             df1_sector.to_csv(
             out_path2+sector+'_'+'inventory_facility_level_including_all_facilities_from_all_db.csv', index=False)
             # Including only GHGRP facilities if correcred parquet is available
@@ -398,7 +398,9 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
             if corrected_parquet_available_flag:
                 df1_sector = df1_sector.loc[df1_sector['FRS_ID'].isin(frs_id_list)]
     
+        
         df1_sector['FRS_ID'] = df1_sector['FRS_ID'].astype('str')
+        df1_sector = add_cas_number(df1_sector)
         df1_sector.to_csv(
             out_path2+sector+'_'+'inventory_facility_level.csv', index=False)
     
@@ -407,10 +409,6 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
     
     
     df1_sector, naics_list, frs_id_list = manipulate_databases(naics1, naics2, naics3, naics4)
-    df1_sector = add_cas_number(df1_sector)
-
-
-
     
     
     def facility_stack_parameters(df1_sector):
