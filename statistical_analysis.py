@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import altair as alt
 from sklearn.ensemble import IsolationForest
 import sys
+import numpy as np
 
 
 import warnings
@@ -49,9 +50,19 @@ for sec in sectors:
         sns.histplot(x=co2['FlowAmount'],bins = 50)
         plt.title('Carbon dioxide Kgs')
         plt.xticks([])
-        fig.savefig(sec+'_co2_total_flow_histogram.pdf',bbox_inches='tight')
+        fig.savefig(out_path1+"/"+sec+"/"+sec+'_co2_total_flow_histogram.pdf',bbox_inches='tight')
 
         
+        def mean_median(df,comment):
+            print(comment)
+            print("Mean " + comment + " " + str(np.mean(df['Concentration'])))
+            print("Median " + comment + " " + str(np.median(df['Concentration'])))
+            print("")
+            print("")
+
+
+
+
         #Redo plots
         
         def plotting(fac_lev_df,figname):
@@ -93,7 +104,7 @@ for sec in sectors:
                 b = b +1
             
             fig.subplots_adjust(bottom=0.2)
-            fig.savefig(figname+'.pdf',bbox_inches='tight')
+            fig.savefig(out_path1+"/"+sec+"/"+figname+'.pdf',bbox_inches='tight')
         
         
         plotting(fac_lev_df,sec+"_plot")
@@ -120,7 +131,6 @@ for sec in sectors:
             try:
                 clf.fit(em_df[['Concentration']])
             except:
-                em_df.to_csv(sec+'_co2_only.csv',index = False)
                 em_df = em_df.dropna(subset = ['Concentration'])
                 clf.fit(em_df[['Concentration']])
             
@@ -137,6 +147,7 @@ for sec in sectors:
         emissions = ['Carbon Dioxide', 'Methane', 'Nitrous Oxide','PM10-PM2.5']
         for em in emissions:
             em_df = fac_lev_df[fac_lev_df['FlowName'] == em]
+            mean_median(em_df,em)
             frs_id_outliers.append(outlier_isolater(em_df))
         # Compiling the completel outlier list for different pollutants and creating an universal outlier list   
         final_outlier_list = []
@@ -150,6 +161,12 @@ for sec in sectors:
         fac_lev_df_cleaned = fac_lev_df[~fac_lev_df['FRS_ID'].isin(final_outlier_list)]
         fac_lev_df_outliers = fac_lev_df[fac_lev_df['FRS_ID'].isin(final_outlier_list)]
         
-        fac_lev_df_cleaned.to_csv(sec+"cleaned_after_outlier_removal.csv")   
-        fac_lev_df_outliers.to_csv(sec+"_outliers.csv")   
+        fac_lev_df_cleaned.to_csv(out_path1+"/"+sec+"/"+sec+"cleaned_after_outlier_removal.csv")   
+        fac_lev_df_outliers.to_csv(out_path1+"/"+sec+"/"+sec+"_outliers.csv")   
         plotting(fac_lev_df_cleaned,sec+"_cleaned_plot")
+
+
+        emissions = ['Carbon Dioxide', 'Methane', 'Nitrous Oxide','PM10-PM2.5']
+        for em in emissions:
+            em_df = fac_lev_df_cleaned[fac_lev_df_cleaned['FlowName'] == em]
+            mean_median(em_df,em)
