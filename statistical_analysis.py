@@ -6,7 +6,6 @@ This code performs statistical analysis for generated datasets
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import altair as alt
 from sklearn.ensemble import IsolationForest
 import sys
 import numpy as np

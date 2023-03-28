@@ -366,33 +366,27 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
             naics_list = list(pd.unique(df_ghgrp_flight['Primary NAICS Code']))
             
             print(naics_list,flush=True)
-            df1_sector = df1_air[df1_air['NAICS'].isin(naics_list)]
-            df_ghgrp2 = df_ghgrp[df_ghgrp['NAICS'].isin(naics_list)]
-            df_ghgrp2.to_csv(out_path2+sector+'_'+'inventory.csv',index = False)
-            print(df_ghgrp2,flush = True)
-            df1_sector['FRS_ID'] = df1_sector['FRS_ID'].astype('str')
             
+            df1_sector = df1_air[df1_air['NAICS'].isin(naics_list)]            
+            df3 = df_ghgrp[df_ghgrp['NAICS'].isin(naics_list)]         
+            df4 = df_nei_tri.loc[df_nei_tri['NAICS'].isin(naics_list)]
 
-
+            df1_sector = pd.concat([df3, df4])
+            df1_sector['FRS_ID'] = df1_sector['FRS_ID'].astype('str')
             # If any of the database has a correct NAICS code atleast the FRS ID ( if correct) will be included in this list
-            frs_id_list_all_db = list(pd.unique(df1_sector['FRS_ID']))
-
+            frs_id_list_2 = list(pd.unique(df1_sector['FRS_ID']))
             df1_air['FRS_ID'] = df1_air['FRS_ID'].astype('str')
             #Creating the inventory using the FRS ID list. Even if NAICS code is wrong it will get selected
-            df1_sector = df1_air.loc[df1_air['FRS_ID'].isin(frs_id_list_all_db)]
-
-            naics_code_checker(df1_sector, frs_id_list_all_db)
-
-            df_ghgrp_flight['FRS Id'] = df_ghgrp_flight['FRS Id'].astype('str')
-
-            frs_id_list = list(pd.unique(df_ghgrp_flight['FRS Id']))
+            df1_sector = df1_air.loc[df1_air['FRS_ID'].isin(frs_id_list_2)]
+            naics_code_checker(df1_sector,frs_id_list_2)
             
-            frs_id_list = list(pd.unique(df_ghgrp2['FRS_ID']))
-            
-            print(frs_id_list,flush = True)
+
+            fac_ids_from_ghgrp = list(pd.unique(df_ghgrp_flight['Facility Id']))
+            df_ghgrp[['FacilityID','FRS_ID']] = df_ghgrp[['FacilityID','FRS_ID']].astype('str')
+            ghgrp_chosen = df_ghgrp.loc[df_ghgrp['FacilityID'].isin(fac_ids_from_ghgrp)]
+            frs_id_list = list(pd.unique(ghgrp_chosen['FRS_ID']))
 
             df1_sector = add_cas_number(df1_sector)
-
             df1_sector.to_csv(
             out_path2+sector+'_'+'inventory_facility_level_including_all_facilities_from_all_db.csv', index=False)
             # Including only GHGRP facilities if correcred parquet is available
@@ -401,7 +395,6 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
             We keep the facilities from other inventories before the corrections so that facilities with ID issues do not get dropped and are properly combined across inventories via our debugger correction method. 
             """
             if corrected_parquet_available_flag:
-                print(frs_id_list)
                 df1_sector = df1_sector.loc[df1_sector['FRS_ID'].isin(frs_id_list)]
 
                 
@@ -458,7 +451,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         # saved inventory for sector facilities with facility data
     
     
-    df1_sector, naics_list,  frs_id_list = manipulate_databases(naics1, naics2, naics3, naics4)
+    df1_sector, naics_list, frs_id_list = manipulate_databases(naics1, naics2, naics3, naics4)
     
     
     def facility_stack_parameters(df1_sector):
@@ -1073,8 +1066,6 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
     ghgrp_process_exploration_fuel(naics1, naics2, naics3, naics4)
 
 
-
-
     def ghgrp():
     
         ghgrp_raw_data = pd.read_excel('../Data/GHGRP_epa_2017.xlsx')
@@ -1093,8 +1084,6 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
             df_ghgrp = df_ghgrp.merge(ghgrp_raw_data, left_on=[
                                       'GHGRP ID'], right_on=['Facility Id'])
             naics_list = list(pd.unique(df_ghgrp['Primary NAICS Code']))
-
-            df_ghgrp.to_csv(out_path3+sector+'_'+'GHGRP_file.csv', index=False)
         else:
             df_ghgrp = ghgrp_raw_data[ghgrp_raw_data['Primary NAICS Code'] == naics1]
         
@@ -1182,6 +1171,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
     
     
     def nei(naics_list):
+
         """
         nei_raw_data1 = pd.read_csv("../Data/point_12345.csv", low_memory=False)
         nei_raw_data2 = pd.read_csv("../Data/point_678910.csv", low_memory=False)
@@ -1195,6 +1185,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         
         nei_raw_data.to_excel("../Data/NEI_facility_information_file.xlsx",index=False)
         """
+
         nei_raw_data = pd.read_excel("../Data/NEI_facility_information_file.xlsx")
         nei_raw_data['naics code'] = nei_raw_data['naics code'].astype('str')
         
@@ -1234,6 +1225,8 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         f_sector['eis facility id'] = f_sector['eis facility id'].astype('str')
         f_sector = f_sector.drop_duplicates()
 
+        df1_f_sector = df1_f_sector[df1_f_sector['Source'] == "NEI"]
+
         issues_with_nei_r = f_sector.merge(
             df1_f_sector, left_on='eis facility id', right_on='FacilityID',how = "outer")
         issues_with_nei_r = issues_with_nei_r.fillna('issues')
@@ -1243,7 +1236,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         missing_facilities2 = issues_with_nei[[
             'eis facility id', 'site name', 'FRS_ID', 'FacilityName', 'FacilityID', 'Source']].drop_duplicates()
         missing_facilities2.to_csv(
-            out_path3+sector+'_'+'NEI_issue_file_missing_facility_ALL_using_NAICS_codes.csv', index=False)
+            out_path3+sector+'_'+'NEI_issue_file_missing_facility_all_using_NAICS_codes.csv', index=False)
 
         d = missing_facilities2
 
@@ -1254,7 +1247,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         Unfortunately NEI DOES not have FRS IDS. So we cannot merge NEI with GHGRP FLight Tool. 
         """
 
-        issues_with_nei.to_csv(out_path3+sector+'_'+'NEI_issue_file_ALL_using_NAICS_codes.csv')
+        issues_with_nei.to_csv(out_path3+sector+'_'+'NEI_issue_file_all_using_NAICS_codes.csv')
 
         ids = list(pd.unique(d['eis facility id']))
 
@@ -1313,6 +1306,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         tri = pd.read_excel("../Data/TRI_Facility_information_file.xlsx")
         tri['PRIMARY NAICS'] = tri['PRIMARY NAICS'].astype('str')
         [str(i) for i in naics_list]
+
         if filename_flag:
             f_sector1 = tri.loc[tri['PRIMARY NAICS'].isin(naics_list)]
         else:
@@ -1321,6 +1315,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
     
         # missing facilies =
         df1_f_sector = pd.read_csv(out_path2+sector+'_'+'inventory_facility_level.csv')
+
         df1_f_sector[['FRS_ID', 'FacilityName', 'Address', 'City', 'State',
                     'Zip', 'Latitude', 'Longitude', 'County', 'NAICS', 'SIC', 'FacilityID']] = df1_f_sector[['FRS_ID', 'FacilityName', 'Address', 'City', 'State',
                                                                                                            'Zip', 'Latitude', 'Longitude', 'County', 'NAICS', 'SIC', 'FacilityID']].astype('str')
@@ -1328,6 +1323,10 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
                                  'Zip', 'Latitude', 'Longitude', 'County', 'NAICS', 'SIC', 'FacilityID', 'Source']].drop_duplicates()
     
         f_sector1['TRIFD'] = f_sector1['TRIFD'].astype('str')
+
+        df1_f_sector = df1_f_sector[df1_f_sector['Source'] == "TRI"]
+        df1_f_sector['FacilityID'] = df1_f_sector['FacilityID'].astype('str')
+
         issues_with_tri_r = f_sector1.merge(df1_f_sector, left_on=["TRIFD"], right_on=[
                                            "FacilityID"],how = "outer")
         
@@ -1337,7 +1336,6 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         issues_with_tri.to_csv(out_path3+sector+'_'+'TRI_issue_file_missing_facility_all_using_naics_code.csv', index=False)
         
         
-
         """
         List of of all TRI facilities that are missing or have issues
         I think we are uninterested in those IDS that DO NOT occur in GHGRP
@@ -1350,8 +1348,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         ghgrp_raw_data[['Facility Id', 'FRS Id']] = ghgrp_raw_data[[
             'Facility Id', 'FRS Id']].astype('str')
         
-        frs_id_list = list(pd.unique(ghgrp_raw_data['FRS Id']))
-        
+
         # Including only GHGRP facilities if correcred parquet is available
         """
         If all necessary corrections to facilities, IDS, inventories have been performed and a corrected STEWI parquet file is available, the code needs to drop all facilities that do not report exclusively to GHGRP. 
@@ -1359,18 +1356,15 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         """
         if corrected_parquet_available_flag:
             issues_with_tri_ghgrp_only = issues_with_tri.loc[issues_with_tri['FRS_ID'].isin(frs_id_list)]
-
         else:
             issues_with_tri_ghgrp_only = issues_with_tri
         
-        
         issues_with_tri_frs_issues = issues_with_tri_ghgrp_only
-        issues_with_tri_frs_issues['FRS_ID_Issues'] = np.where(
-            issues_with_tri_frs_issues['FRS ID'] == issues_with_tri_frs_issues['FRS_ID'], True, False)
+        issues_with_tri_frs_issues['FRS_ID_Issues'] = np.where(issues_with_tri_frs_issues['FRS ID'] == issues_with_tri_frs_issues['FRS_ID'], True, False)
         
         issues_with_tri_frs_issues = issues_with_tri_frs_issues[issues_with_tri_frs_issues['FRS_ID_Issues'] == True]
         issues_with_tri_frs_issues.to_csv(
-            out_path3+sector+'_'+'TRI_issue_file_FRS_mismatch.csv', index=False)       
+            out_path3+sector+'_'+'TRI_issue_file_FRS_mismatch.csv', index=False)    
 
         d = issues_with_tri
         
@@ -1404,7 +1398,7 @@ def main(sector,filename_flag,naics,corrected_parquet_available_flag,flag_for_ru
         #Missing completely in STEWI
         tri_missing_in_stewi.to_csv(out_path3+sector+'_'+'tri_missing_in_stewi.csv')
         #Missing only in combined files
-        tri_missing_in_combination_frs_fac_id_issue.to_csv(out_path2+sector+'_'+'tri_missing_in_combination_frs_fac_id_issue.csv')
+        tri_missing_in_combination_frs_fac_id_issue.to_csv(out_path3+sector+'_'+'tri_missing_in_combination_frs_fac_id_issue.csv')
         #Other issues
         tri_missing_other_issues.to_csv(out_path3+sector+'_'+'tri_missing_other_issues.csv')
 

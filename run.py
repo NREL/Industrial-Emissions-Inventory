@@ -27,7 +27,7 @@ If a corrected parquet is available, the inventory builder drops all non GHGRP l
 flag_for_running_stewi = False
 corrected_parquet = True
 
-sectors = ['cement','steel','ammonia','hydrogen','refining','natural_gas_processing']
+sectors = ['natural_gas_processing','cement','steel','ammonia','hydrogen','refining']
 
 count = 0
 for sec in sectors:
