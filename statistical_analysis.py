@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.ensemble import IsolationForest
 import sys
 import numpy as np
+from decimal import Decimal
 
 
 import warnings
@@ -22,7 +23,10 @@ result_folder = dt
 out_path1 = "../"+dt
 
 
-sectors = ['hydrogen','cement','steel','ammonia','refining','natural_gas_processing','ethanol','pulp']
+#sectors = ['hydrogen','cement','steel','ammonia','refining','natural_gas_processing','ethanol','pulp']
+sectors = ["cement"]
+emissions_for_plotting = ['Volatile Organic Compounds', 'Sulfur Dioxide', 'Nitrogen Oxides','PM10-PM2.5']
+emissions_for_outlier_removal= ['Volatile Organic Compounds', 'Sulfur Dioxide', 'Nitrogen Oxides','PM10-PM2.5','Methane','Carbon Dioxide','Nitrous Oxide']
 
 for sec in sectors:
     
@@ -49,13 +53,42 @@ for sec in sectors:
         sns.histplot(x=co2['FlowAmount'],bins = 50)
         plt.title('Carbon dioxide Kgs')
         plt.xticks([])
+        plt.xlabel('Flow Amount kgs',fontsize = 20)
         fig.savefig(out_path1+"/"+sec+"/"+sec+'_co2_total_flow_histogram.pdf',bbox_inches='tight')
 
         
-        def mean_median(df,comment):
+        def mean_median(df,comment,sec):
+            
+            mean_list = []
+            median_list = []
+            comment_list = []
+            sector_list = []
+            minimum_list = []
+            maximum_list = []
             print(comment)
+
+            df_r = pd.DataFrame()
+
             print("Mean " + comment + " " + str(np.mean(df['Concentration'])))
             print("Median " + comment + " " + str(np.median(df['Concentration'])))
+            print("Emissions " + comment + " " + str(comment))
+
+            mean_list.append(f"{Decimal(np.mean(df['Concentration'])):.4E}")
+            median_list.append(f"{Decimal(np.median(df['Concentration'])):.4E}")
+            comment_list.append(str(comment))
+            sector_list.append(sec)
+            minimum_list.append(f"{Decimal(min(df['Concentration'])):.4E}")
+            maximum_list.append(f"{Decimal(max(df['Concentration'])):.4E}")
+
+            df_r['mean'] = mean_list
+            df_r['median'] = median_list
+            df_r['emissions'] = comment_list
+            df_r['sector'] = sector_list
+            df_r['minimum'] = minimum_list
+            df_r['maximum'] = maximum_list
+
+            return df_r
+
             print("")
             print("")
 
@@ -86,8 +119,8 @@ for sec in sectors:
             
             a = 0
             b = 0
-            emissions = ['Carbon Dioxide', 'Methane', 'Nitrous Oxide','PM10-PM2.5']
-            for em in emissions:
+            
+            for em in emissions_for_plotting:
                 
                 if b > 1:
                     a = a + 1
@@ -98,6 +131,7 @@ for sec in sectors:
                 axs[a,b].set_title(em, fontsize=30)
                 axs[a,b].tick_params(axis='y', labelsize=30)
                 axs[a,b].set_ylabel(ylabel = 'Concentration kg/kg',fontsize=30)
+                axs[a,b].set_xlabel(xlabel = 'FRS_ID',fontsize=20)
                 axs[a,b].tick_params(axis='x', labelsize=30)
                 axs[a,b].set_xticklabels(labels = [])
                 b = b +1
@@ -143,12 +177,13 @@ for sec in sectors:
         
         
         #Searching for Outliers for different pollutants separately. 
-        emissions = ['Carbon Dioxide', 'Methane', 'Nitrous Oxide','PM10-PM2.5']
-        for em in emissions:
+
+        for em in emissions_for_outlier_removal:
             em_df = fac_lev_df[fac_lev_df['FlowName'] == em]
-            mean_median(em_df,em)
+            mean_median(em_df,em,sec)
             frs_id_outliers.append(outlier_isolater(em_df))
-        # Compiling the completel outlier list for different pollutants and creating an universal outlier list   
+
+        # Compiling the complete outlier list for different pollutants and creating an universal outlier list   
         final_outlier_list = []
         for i in frs_id_outliers:
             for j in i:
@@ -160,12 +195,114 @@ for sec in sectors:
         fac_lev_df_cleaned = fac_lev_df[~fac_lev_df['FRS_ID'].isin(final_outlier_list)]
         fac_lev_df_outliers = fac_lev_df[fac_lev_df['FRS_ID'].isin(final_outlier_list)]
         
-        fac_lev_df_cleaned.to_csv(out_path1+"/"+sec+"/"+sec+"cleaned_after_outlier_removal.csv")   
+        fac_lev_df_cleaned.to_csv(out_path1+"/"+sec+"/"+sec+"_cleaned_after_outlier_removal.csv")   
         fac_lev_df_outliers.to_csv(out_path1+"/"+sec+"/"+sec+"_outliers.csv")   
         plotting(fac_lev_df_cleaned,sec+"_cleaned_plot")
 
+        df_statistics = pd.DataFrame()
 
-        emissions = ['Carbon Dioxide', 'Methane', 'Nitrous Oxide','PM10-PM2.5']
-        for em in emissions:
+        for em in emissions_for_outlier_removal:
             em_df = fac_lev_df_cleaned[fac_lev_df_cleaned['FlowName'] == em]
-            mean_median(em_df,em)
+            df_statistics = pd.concat([df_statistics,mean_median(em_df,em,'w/o outliers')])
+            em_df_c = fac_lev_df[fac_lev_df['FlowName'] == em]
+            df_statistics = pd.concat([df_statistics,mean_median(em_df_c,em,'w. outliers')])
+
+
+        df_statistics.to_csv(out_path1+"/"+sec+"/"+sec+"statistics_summary.csv")
+        df_with_outliers = pd.read_csv(out_path1+"/"+sec+"/"+sec+"_facility_level_with_concentration_via_co2_reference.csv")
+        df_without_outliers = pd.read_csv(out_path1+"/"+sec+"/"+sec+"_cleaned_after_outlier_removal.csv") 
+        df_with_outliers['outliers'] = 'before outlier removal'
+        df_without_outliers['outliers'] = 'after outlier removal'
+        total_df = pd.concat([df_with_outliers,df_without_outliers])
+        total_df = total_df.reset_index()
+
+
+
+        def plotting2(fac_lev_df):
+            """
+            Parameters
+            ----------
+            fac_lev_df : pd dataframe
+               pandas dataframe for the inventory
+                
+
+            Returns
+            -------
+            None.
+
+            """
+            
+            a = 2
+            b = 2
+            fig, axs = plt.subplots(a, b,figsize=(35, 20))
+            a = 0
+            b = 0
+            
+            for em in emissions_for_plotting:
+                
+                if b > 1:
+                    a = a + 1
+                    b = 0
+                
+                em_df = fac_lev_df[fac_lev_df['FlowName'] == em]
+                axs[a,b] = sns.histplot(ax=axs[a, b],x=em_df['Concentration'],bins = 50,hue = em_df['outliers'])
+                axs[a,b].set_title(em, fontsize=15)
+                axs[a,b].tick_params(axis='y', labelsize=15)
+                axs[a,b].set_xlabel(xlabel = 'Concentration kg/kg',fontsize=15)
+                axs[a,b].tick_params(axis='x', labelsize=15)
+
+                b = b + 1
+            
+            fig.subplots_adjust(bottom=0.2)
+            fig.savefig(out_path1+"/"+sec+"/"+sec+'_comparison_histogram.pdf',bbox_inches='tight')
+
+
+        plotting2(total_df)
+
+
+        def plotting3(fac_lev_df):
+            """
+            Parameters
+            ----------
+            fac_lev_df : pd dataframe
+               pandas dataframe for the inventory
+                
+
+            Returns
+            -------
+            None.
+
+            """
+            
+            a = 2
+            b = 2
+            fig, axs = plt.subplots(a, b,figsize=(35, 20))
+            
+            a = 0
+            b = 0
+            
+            for em in emissions_for_plotting:
+                
+                if b > 1:
+                    a = a + 1
+                    b = 0
+                
+                em_df = fac_lev_df[fac_lev_df['FlowName'] == em]
+                axs[a,b] = sns.boxplot(ax=axs[a, b],x=em_df['Concentration'], y = em_df['outliers'], hue = em_df['outliers'])
+                axs[a,b].set_title(em, fontsize=10)
+                axs[a,b].tick_params(axis='y', labelsize=10)
+                axs[a,b].set_xlabel(xlabel = 'Concentration kg/kg',fontsize=10)
+                axs[a,b].tick_params(axis='x', labelsize=10)
+                axs[a,b].set_yticklabels(labels = [])
+                b = b +1
+            
+            fig.subplots_adjust(bottom=0.2)
+            fig.savefig(out_path1+"/"+sec+"/"+sec+'_comparison_box.pdf',bbox_inches='tight') 
+
+
+        plotting3(total_df)        
+
+    
+
+
+
