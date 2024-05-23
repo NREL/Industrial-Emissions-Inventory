@@ -1,0 +1,2 @@
+TRIFD,FACILITY NAME,PRIMARY NAICS,NAICS 2,NAICS 3,NAICS 4,NAICS 5,NAICS 6,PARENT CO NAME,FRS ID,FRS_ID,FacilityName,Address,City,State,Zip,Latitude,Longitude,County,NAICS,SIC,FacilityID,Source,_merge,FRS_ID_Issues
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110000582977.0,UNION ELECTRIC STEEL CORP,RT 18,BURGETTSTOWN,PA,15021,40.4077,-80.4053,WASHINGTON,332111,nan,15021NNLCTPOBOX,TRI,right_only,False

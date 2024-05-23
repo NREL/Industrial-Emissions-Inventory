@@ -1,0 +1,5 @@
+TRIFD,FACILITY NAME,PRIMARY NAICS,NAICS 2,NAICS 3,NAICS 4,NAICS 5,NAICS 6,PARENT CO NAME,FRS ID,FRS_ID,FacilityName,Address,City,State,Zip,Latitude,Longitude,County,NAICS,SIC,FacilityID,Source,_merge,FRS_ID_Issues
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110000376502.0,ERGON BIOFUELS LLC,1833 HAINING RD.,VICKSBURG,MS,39180,32.389246,-90.895446,WARREN,325199,nan,39180BNGCR1833H,TRI,right_only,False
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110017436130.0,CARGILL CORN MILLING,17540 MONROE-WAPELLO ROAD,EDDYVILLE,IA,52553,41.14481,-92.63579,MONROE,311221,nan,52553CRGLLRR1CO,TRI,right_only,False
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110033219078.0,DIDION ETHANOL LLC,N7088 STATE HWY 146,CAMBRIA,WI,53923,43.53731,-89.10315,COLUMBIA,325193,nan,5392WDDNTHN788S,TRI,right_only,False
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110000595035.0,ADM CORN PROCESSING,12868 COUNTY RD 9,WALHALLA,ND,582820709,48.910797,-97.888743,PEMBINA,325193,nan,58282DMCRNCOUNT,TRI,right_only,False

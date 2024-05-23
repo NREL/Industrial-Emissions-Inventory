@@ -23,8 +23,8 @@ result_folder = dt
 out_path1 = "../"+dt
 
 
-#sectors = ['hydrogen','cement','steel','ammonia','refining','natural_gas_processing','ethanol','pulp']
-sectors = ["cement"]
+sectors = ['hydrogen','cement','steel','ammonia','refining','natural_gas_processing','ethanol','pulp']
+
 emissions_for_plotting = ['Volatile Organic Compounds', 'Sulfur Dioxide', 'Nitrogen Oxides','PM10-PM2.5']
 emissions_for_outlier_removal= ['Volatile Organic Compounds', 'Sulfur Dioxide', 'Nitrogen Oxides','PM10-PM2.5','Methane','Carbon Dioxide','Nitrous Oxide']
 

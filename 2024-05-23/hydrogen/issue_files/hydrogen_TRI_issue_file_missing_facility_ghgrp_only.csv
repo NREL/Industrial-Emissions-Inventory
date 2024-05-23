@@ -1,0 +1,3 @@
+TRIFD,FACILITY NAME,PRIMARY NAICS,NAICS 2,NAICS 3,NAICS 4,NAICS 5,NAICS 6,PARENT CO NAME,FRS ID,FRS_ID,FacilityName,Address,City,State,Zip,Latitude,Longitude,County,NAICS,SIC,FacilityID,Source,_merge,FRS_ID_Issues
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110000437974.0,EVONIK CORP,8300 W RT 24,MAPLETON,IL,61547,40.564725,-89.724485,PEORIA,325613,nan,61547GLDSC8300W,TRI,right_only,False
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110012267965.0,PRAXAIR INC SULPHUR 676,4451 HIGHWAY 108 W,SULPHUR,LA,70665,30.139164,-93.526936,CALCASIEU PARISH,325120,nan,70664PRXRN4451H,TRI,right_only,False
