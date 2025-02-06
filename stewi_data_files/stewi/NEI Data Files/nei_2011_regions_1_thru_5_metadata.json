@@ -1,0 +1,17 @@
+{
+    "tool": "StEWI",
+    "category": "NEI Data Files",
+    "name_data": "nei_2011_regions_1_thru_5",
+    "tool_version": "0.9.9",
+    "git_hash": null,
+    "ext": "parquet",
+    "date_created": "06-Aug-2021",
+    "tool_meta": {
+        "SourceType": "EIS csv download",
+        "SourceFileName": "",
+        "SourceURL": "http://eis.epa.gov",
+        "SourceVersion": "v3",
+        "SourceAcquisitionTime": "Fri Jul 23 08:31:14 2021",
+        "StEWI_Version": "0.9.9"
+    }
+}

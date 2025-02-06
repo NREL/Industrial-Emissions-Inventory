@@ -1,0 +1,20 @@
+{
+    "tool": "StEWI",
+    "category": "TRI Data Files",
+    "name_data": "TRI_2011",
+    "tool_version": "1.0.6",
+    "git_hash": "8263456",
+    "ext": "parquet",
+    "date_created": "13-Jun-2023",
+    "tool_meta": {
+        "SourceType": "Zip file",
+        "SourceFileName": [
+            "/Users/tghosh/Library/Application Support/stewi/TRI Data Files/US_1a_2011.csv",
+            "/Users/tghosh/Library/Application Support/stewi/TRI Data Files/US_3a_2011.csv"
+        ],
+        "SourceURL": "https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-plus-data-files-calendar-years-1987-present",
+        "SourceVersion": "last",
+        "SourceAcquisitionTime": "Tue Jun 13 15:48:17 2023",
+        "StEWI_Version": "1.0.6"
+    }
+}

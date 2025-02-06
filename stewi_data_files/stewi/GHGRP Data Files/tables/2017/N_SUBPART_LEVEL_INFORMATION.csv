@@ -1,0 +1,409 @@
+FACILITY_ID,REPORTING_YEAR,GHG_QUANTITY,GHG_NAME
+1000002,2017,0.0,Biogenic Carbon dioxide
+1000002,2017,0.0,Methane
+1000002,2017,0.0,Nitrous Oxide
+1000002,2017,34624.5,Carbon Dioxide
+1000003,2017,0.0,Biogenic Carbon dioxide
+1000003,2017,0.0,Methane
+1000003,2017,0.0,Nitrous Oxide
+1000003,2017,23138.3,Carbon Dioxide
+1000004,2017,0.0,Biogenic Carbon dioxide
+1000004,2017,0.0,Methane
+1000004,2017,0.0,Nitrous Oxide
+1000004,2017,16061.1,Carbon Dioxide
+1000005,2017,0.0,Biogenic Carbon dioxide
+1000005,2017,0.0,Methane
+1000005,2017,0.0,Nitrous Oxide
+1000005,2017,22089.7,Carbon Dioxide
+1000006,2017,0.0,Biogenic Carbon dioxide
+1000006,2017,0.0,Methane
+1000006,2017,0.0,Nitrous Oxide
+1000006,2017,2537.5,Carbon Dioxide
+1000020,2017,0.0,Biogenic Carbon dioxide
+1000020,2017,0.0,Methane
+1000020,2017,0.0,Nitrous Oxide
+1000020,2017,14158.4,Carbon Dioxide
+1000021,2017,0.0,Biogenic Carbon dioxide
+1000021,2017,0.0,Methane
+1000021,2017,0.0,Nitrous Oxide
+1000021,2017,27991.0,Carbon Dioxide
+1000023,2017,0.0,Biogenic Carbon dioxide
+1000023,2017,0.0,Methane
+1000023,2017,0.0,Nitrous Oxide
+1000023,2017,39153.6,Carbon Dioxide
+1000024,2017,0.0,Biogenic Carbon dioxide
+1000024,2017,0.0,Methane
+1000024,2017,0.0,Nitrous Oxide
+1000024,2017,16852.9,Carbon Dioxide
+1000026,2017,0.0,Biogenic Carbon dioxide
+1000026,2017,0.0,Methane
+1000026,2017,0.0,Nitrous Oxide
+1000026,2017,16201.5,Carbon Dioxide
+1000028,2017,0.0,Biogenic Carbon dioxide
+1000028,2017,0.0,Methane
+1000028,2017,0.0,Nitrous Oxide
+1000028,2017,28308.2,Carbon Dioxide
+1000105,2017,0.0,Biogenic Carbon dioxide
+1000105,2017,0.0,Methane
+1000105,2017,0.0,Nitrous Oxide
+1000105,2017,26396.6,Carbon Dioxide
+1000329,2017,0.0,Biogenic Carbon dioxide
+1000329,2017,0.0,Methane
+1000329,2017,0.0,Nitrous Oxide
+1000329,2017,27744.8,Carbon Dioxide
+1000351,2017,0.0,Biogenic Carbon dioxide
+1000351,2017,0.0,Methane
+1000351,2017,0.0,Nitrous Oxide
+1000351,2017,12452.5,Carbon Dioxide
+1000622,2017,0.0,Biogenic Carbon dioxide
+1000622,2017,0.0,Methane
+1000622,2017,0.0,Nitrous Oxide
+1000622,2017,6449.3,Carbon Dioxide
+1000789,2017,0.0,Biogenic Carbon dioxide
+1000789,2017,0.0,Methane
+1000789,2017,0.0,Nitrous Oxide
+1000789,2017,7028.6,Carbon Dioxide
+1001718,2017,0.0,Biogenic Carbon dioxide
+1001718,2017,0.0,Methane
+1001718,2017,0.0,Nitrous Oxide
+1001718,2017,43855.4,Carbon Dioxide
+1001961,2017,0.0,Biogenic Carbon dioxide
+1001961,2017,0.0,Methane
+1001961,2017,0.0,Nitrous Oxide
+1001961,2017,25879.2,Carbon Dioxide
+1001975,2017,0.0,Biogenic Carbon dioxide
+1001975,2017,0.0,Methane
+1001975,2017,0.0,Nitrous Oxide
+1001975,2017,39076.3,Carbon Dioxide
+1001978,2017,0.0,Biogenic Carbon dioxide
+1001978,2017,0.0,Methane
+1001978,2017,0.0,Nitrous Oxide
+1001978,2017,28256.8,Carbon Dioxide
+1001980,2017,0.0,Biogenic Carbon dioxide
+1001980,2017,0.0,Methane
+1001980,2017,0.0,Nitrous Oxide
+1001980,2017,3655.1,Carbon Dioxide
+1001987,2017,0.0,Biogenic Carbon dioxide
+1001987,2017,0.0,Methane
+1001987,2017,0.0,Nitrous Oxide
+1001987,2017,20805.4,Carbon Dioxide
+1002007,2017,0.0,Biogenic Carbon dioxide
+1002007,2017,0.0,Methane
+1002007,2017,0.0,Nitrous Oxide
+1002007,2017,25807.7,Carbon Dioxide
+1002019,2017,0.0,Biogenic Carbon dioxide
+1002019,2017,0.0,Methane
+1002019,2017,0.0,Nitrous Oxide
+1002019,2017,661.3,Carbon Dioxide
+1002129,2017,0.0,Biogenic Carbon dioxide
+1002129,2017,0.0,Carbon Dioxide
+1002129,2017,0.0,Methane
+1002129,2017,0.0,Nitrous Oxide
+1002143,2017,0.0,Biogenic Carbon dioxide
+1002143,2017,0.0,Methane
+1002143,2017,0.0,Nitrous Oxide
+1002143,2017,1340.8,Carbon Dioxide
+1002145,2017,0.0,Biogenic Carbon dioxide
+1002145,2017,0.0,Methane
+1002145,2017,0.0,Nitrous Oxide
+1002145,2017,424.8,Carbon Dioxide
+1002160,2017,0.0,Biogenic Carbon dioxide
+1002160,2017,0.0,Methane
+1002160,2017,0.0,Nitrous Oxide
+1002160,2017,37015.7,Carbon Dioxide
+1002178,2017,0.0,Biogenic Carbon dioxide
+1002178,2017,0.0,Methane
+1002178,2017,0.0,Nitrous Oxide
+1002178,2017,12566.6,Carbon Dioxide
+1002180,2017,0.0,Biogenic Carbon dioxide
+1002180,2017,0.0,Methane
+1002180,2017,0.0,Nitrous Oxide
+1002180,2017,18283.3,Carbon Dioxide
+1002181,2017,0.0,Biogenic Carbon dioxide
+1002181,2017,0.0,Methane
+1002181,2017,0.0,Nitrous Oxide
+1002181,2017,25999.4,Carbon Dioxide
+1002189,2017,0.0,Biogenic Carbon dioxide
+1002189,2017,0.0,Methane
+1002189,2017,0.0,Nitrous Oxide
+1002189,2017,19567.4,Carbon Dioxide
+1002217,2017,0.0,Biogenic Carbon dioxide
+1002217,2017,0.0,Methane
+1002217,2017,0.0,Nitrous Oxide
+1002217,2017,36030.7,Carbon Dioxide
+1002221,2017,0.0,Biogenic Carbon dioxide
+1002221,2017,0.0,Carbon Dioxide
+1002221,2017,0.0,Methane
+1002221,2017,0.0,Nitrous Oxide
+1002226,2017,0.0,Biogenic Carbon dioxide
+1002226,2017,0.0,Methane
+1002226,2017,0.0,Nitrous Oxide
+1002226,2017,22909.1,Carbon Dioxide
+1002262,2017,0.0,Biogenic Carbon dioxide
+1002262,2017,0.0,Methane
+1002262,2017,0.0,Nitrous Oxide
+1002262,2017,15833.7,Carbon Dioxide
+1002322,2017,0.0,Biogenic Carbon dioxide
+1002322,2017,0.0,Methane
+1002322,2017,0.0,Nitrous Oxide
+1002322,2017,3469.7,Carbon Dioxide
+1002439,2017,0.0,Biogenic Carbon dioxide
+1002439,2017,0.0,Methane
+1002439,2017,0.0,Nitrous Oxide
+1002439,2017,48871.3,Carbon Dioxide
+1002499,2017,0.0,Biogenic Carbon dioxide
+1002499,2017,0.0,Methane
+1002499,2017,0.0,Nitrous Oxide
+1002499,2017,43686.0,Carbon Dioxide
+1002504,2017,0.0,Biogenic Carbon dioxide
+1002504,2017,0.0,Methane
+1002504,2017,0.0,Nitrous Oxide
+1002504,2017,15618.0,Carbon Dioxide
+1002636,2017,0.0,Biogenic Carbon dioxide
+1002636,2017,0.0,Methane
+1002636,2017,0.0,Nitrous Oxide
+1002636,2017,3392.1,Carbon Dioxide
+1002770,2017,0.0,Biogenic Carbon dioxide
+1002770,2017,0.0,Methane
+1002770,2017,0.0,Nitrous Oxide
+1002770,2017,33122.5,Carbon Dioxide
+1002864,2017,0.0,Biogenic Carbon dioxide
+1002864,2017,0.0,Methane
+1002864,2017,0.0,Nitrous Oxide
+1002864,2017,10783.2,Carbon Dioxide
+1002905,2017,0.0,Biogenic Carbon dioxide
+1002905,2017,0.0,Methane
+1002905,2017,0.0,Nitrous Oxide
+1002905,2017,41514.5,Carbon Dioxide
+1002907,2017,0.0,Biogenic Carbon dioxide
+1002907,2017,0.0,Methane
+1002907,2017,0.0,Nitrous Oxide
+1002907,2017,13355.5,Carbon Dioxide
+1002911,2017,0.0,Biogenic Carbon dioxide
+1002911,2017,0.0,Methane
+1002911,2017,0.0,Nitrous Oxide
+1002911,2017,20420.5,Carbon Dioxide
+1002922,2017,0.0,Biogenic Carbon dioxide
+1002922,2017,0.0,Carbon Dioxide
+1002922,2017,0.0,Methane
+1002922,2017,0.0,Nitrous Oxide
+1002924,2017,0.0,Biogenic Carbon dioxide
+1002924,2017,0.0,Methane
+1002924,2017,0.0,Nitrous Oxide
+1002924,2017,39276.9,Carbon Dioxide
+1002929,2017,0.0,Biogenic Carbon dioxide
+1002929,2017,0.0,Methane
+1002929,2017,0.0,Nitrous Oxide
+1002929,2017,15103.8,Carbon Dioxide
+1003188,2017,0.0,Biogenic Carbon dioxide
+1003188,2017,0.0,Methane
+1003188,2017,0.0,Nitrous Oxide
+1003188,2017,195.9,Carbon Dioxide
+1003258,2017,0.0,Biogenic Carbon dioxide
+1003258,2017,0.0,Methane
+1003258,2017,0.0,Nitrous Oxide
+1003258,2017,23183.6,Carbon Dioxide
+1003348,2017,0.0,Biogenic Carbon dioxide
+1003348,2017,0.0,Methane
+1003348,2017,0.0,Nitrous Oxide
+1003348,2017,936.9,Carbon Dioxide
+1003349,2017,0.0,Biogenic Carbon dioxide
+1003349,2017,0.0,Methane
+1003349,2017,0.0,Nitrous Oxide
+1003349,2017,1825.1,Carbon Dioxide
+1003465,2017,0.0,Biogenic Carbon dioxide
+1003465,2017,0.0,Methane
+1003465,2017,0.0,Nitrous Oxide
+1003465,2017,27268.9,Carbon Dioxide
+1003520,2017,0.0,Biogenic Carbon dioxide
+1003520,2017,0.0,Methane
+1003520,2017,0.0,Nitrous Oxide
+1003520,2017,6423.1,Carbon Dioxide
+1003739,2017,0.0,Biogenic Carbon dioxide
+1003739,2017,0.0,Methane
+1003739,2017,0.0,Nitrous Oxide
+1003739,2017,346.2,Carbon Dioxide
+1003849,2017,0.0,Biogenic Carbon dioxide
+1003849,2017,0.0,Methane
+1003849,2017,0.0,Nitrous Oxide
+1003849,2017,64592.7,Carbon Dioxide
+1003968,2017,0.0,Biogenic Carbon dioxide
+1003968,2017,0.0,Methane
+1003968,2017,0.0,Nitrous Oxide
+1003968,2017,8478.8,Carbon Dioxide
+1004085,2017,0.0,Biogenic Carbon dioxide
+1004085,2017,0.0,Methane
+1004085,2017,0.0,Nitrous Oxide
+1004085,2017,41466.8,Carbon Dioxide
+1004225,2017,0.0,Biogenic Carbon dioxide
+1004225,2017,0.0,Methane
+1004225,2017,0.0,Nitrous Oxide
+1004225,2017,33072.8,Carbon Dioxide
+1004508,2017,0.0,Biogenic Carbon dioxide
+1004508,2017,0.0,Methane
+1004508,2017,0.0,Nitrous Oxide
+1004508,2017,8194.2,Carbon Dioxide
+1004631,2017,0.0,Biogenic Carbon dioxide
+1004631,2017,0.0,Methane
+1004631,2017,0.0,Nitrous Oxide
+1004631,2017,29875.3,Carbon Dioxide
+1004632,2017,0.0,Biogenic Carbon dioxide
+1004632,2017,0.0,Methane
+1004632,2017,0.0,Nitrous Oxide
+1004632,2017,10.9,Carbon Dioxide
+1004660,2017,0.0,Biogenic Carbon dioxide
+1004660,2017,0.0,Methane
+1004660,2017,0.0,Nitrous Oxide
+1004660,2017,3132.0,Carbon Dioxide
+1004724,2017,0.0,Biogenic Carbon dioxide
+1004724,2017,0.0,Methane
+1004724,2017,0.0,Nitrous Oxide
+1004724,2017,14697.4,Carbon Dioxide
+1004836,2017,0.0,Biogenic Carbon dioxide
+1004836,2017,0.0,Methane
+1004836,2017,0.0,Nitrous Oxide
+1004836,2017,1713.8,Carbon Dioxide
+1004852,2017,0.0,Biogenic Carbon dioxide
+1004852,2017,0.0,Methane
+1004852,2017,0.0,Nitrous Oxide
+1004852,2017,6385.0,Carbon Dioxide
+1004941,2017,0.0,Biogenic Carbon dioxide
+1004941,2017,0.0,Methane
+1004941,2017,0.0,Nitrous Oxide
+1004941,2017,17795.9,Carbon Dioxide
+1004942,2017,0.0,Biogenic Carbon dioxide
+1004942,2017,0.0,Methane
+1004942,2017,0.0,Nitrous Oxide
+1004942,2017,24685.1,Carbon Dioxide
+1004943,2017,0.0,Biogenic Carbon dioxide
+1004943,2017,0.0,Methane
+1004943,2017,0.0,Nitrous Oxide
+1004943,2017,27533.8,Carbon Dioxide
+1005074,2017,0.0,Biogenic Carbon dioxide
+1005074,2017,0.0,Methane
+1005074,2017,0.0,Nitrous Oxide
+1005074,2017,31059.7,Carbon Dioxide
+1005121,2017,0.0,Biogenic Carbon dioxide
+1005121,2017,0.0,Methane
+1005121,2017,0.0,Nitrous Oxide
+1005121,2017,8907.8,Carbon Dioxide
+1005122,2017,0.0,Biogenic Carbon dioxide
+1005122,2017,0.0,Methane
+1005122,2017,0.0,Nitrous Oxide
+1005122,2017,11812.4,Carbon Dioxide
+1005358,2017,0.0,Biogenic Carbon dioxide
+1005358,2017,0.0,Methane
+1005358,2017,0.0,Nitrous Oxide
+1005358,2017,31947.8,Carbon Dioxide
+1005558,2017,0.0,Biogenic Carbon dioxide
+1005558,2017,0.0,Methane
+1005558,2017,0.0,Nitrous Oxide
+1005558,2017,32420.6,Carbon Dioxide
+1005745,2017,0.0,Biogenic Carbon dioxide
+1005745,2017,0.0,Methane
+1005745,2017,0.0,Nitrous Oxide
+1005745,2017,14273.1,Carbon Dioxide
+1005824,2017,0.0,Biogenic Carbon dioxide
+1005824,2017,0.0,Methane
+1005824,2017,0.0,Nitrous Oxide
+1005824,2017,60387.1,Carbon Dioxide
+1005906,2017,0.0,Biogenic Carbon dioxide
+1005906,2017,0.0,Methane
+1005906,2017,0.0,Nitrous Oxide
+1005906,2017,4777.7,Carbon Dioxide
+1005915,2017,0.0,Biogenic Carbon dioxide
+1005915,2017,0.0,Methane
+1005915,2017,0.0,Nitrous Oxide
+1005915,2017,31999.2,Carbon Dioxide
+1005919,2017,0.0,Biogenic Carbon dioxide
+1005919,2017,0.0,Methane
+1005919,2017,0.0,Nitrous Oxide
+1005919,2017,2441.6,Carbon Dioxide
+1005977,2017,0.0,Biogenic Carbon dioxide
+1005977,2017,0.0,Methane
+1005977,2017,0.0,Nitrous Oxide
+1005977,2017,20140.8,Carbon Dioxide
+1005984,2017,0.0,Biogenic Carbon dioxide
+1005984,2017,0.0,Methane
+1005984,2017,0.0,Nitrous Oxide
+1005984,2017,225.8,Carbon Dioxide
+1006050,2017,0.0,Biogenic Carbon dioxide
+1006050,2017,0.0,Methane
+1006050,2017,0.0,Nitrous Oxide
+1006050,2017,16966.0,Carbon Dioxide
+1006053,2017,0.0,Biogenic Carbon dioxide
+1006053,2017,0.0,Methane
+1006053,2017,0.0,Nitrous Oxide
+1006053,2017,7702.6,Carbon Dioxide
+1006060,2017,0.0,Biogenic Carbon dioxide
+1006060,2017,0.0,Methane
+1006060,2017,0.0,Nitrous Oxide
+1006060,2017,29720.3,Carbon Dioxide
+1006397,2017,0.0,Biogenic Carbon dioxide
+1006397,2017,0.0,Methane
+1006397,2017,0.0,Nitrous Oxide
+1006397,2017,59152.4,Carbon Dioxide
+1006551,2017,0.0,Biogenic Carbon dioxide
+1006551,2017,0.0,Methane
+1006551,2017,0.0,Nitrous Oxide
+1006551,2017,23880.6,Carbon Dioxide
+1006810,2017,0.0,Biogenic Carbon dioxide
+1006810,2017,0.0,Methane
+1006810,2017,0.0,Nitrous Oxide
+1006810,2017,10703.7,Carbon Dioxide
+1007055,2017,0.0,Biogenic Carbon dioxide
+1007055,2017,0.0,Methane
+1007055,2017,0.0,Nitrous Oxide
+1007055,2017,6521.9,Carbon Dioxide
+1007089,2017,0.0,Biogenic Carbon dioxide
+1007089,2017,0.0,Methane
+1007089,2017,0.0,Nitrous Oxide
+1007089,2017,1192.3,Carbon Dioxide
+1007333,2017,0.0,Biogenic Carbon dioxide
+1007333,2017,0.0,Methane
+1007333,2017,0.0,Nitrous Oxide
+1007333,2017,93601.0,Carbon Dioxide
+1007499,2017,0.0,Biogenic Carbon dioxide
+1007499,2017,0.0,Methane
+1007499,2017,0.0,Nitrous Oxide
+1007499,2017,41162.2,Carbon Dioxide
+1007823,2017,0.0,Biogenic Carbon dioxide
+1007823,2017,0.0,Methane
+1007823,2017,0.0,Nitrous Oxide
+1007823,2017,10885.9,Carbon Dioxide
+1007904,2017,0.0,Biogenic Carbon dioxide
+1007904,2017,0.0,Methane
+1007904,2017,0.0,Nitrous Oxide
+1007904,2017,37983.2,Carbon Dioxide
+1007952,2017,0.0,Biogenic Carbon dioxide
+1007952,2017,0.0,Methane
+1007952,2017,0.0,Nitrous Oxide
+1007952,2017,2432.9,Carbon Dioxide
+1007966,2017,0.0,Biogenic Carbon dioxide
+1007966,2017,0.0,Methane
+1007966,2017,0.0,Nitrous Oxide
+1007966,2017,17887.2,Carbon Dioxide
+1007968,2017,0.0,Biogenic Carbon dioxide
+1007968,2017,0.0,Methane
+1007968,2017,0.0,Nitrous Oxide
+1007968,2017,19804.6,Carbon Dioxide
+1009491,2017,0.0,Biogenic Carbon dioxide
+1009491,2017,0.0,Methane
+1009491,2017,0.0,Nitrous Oxide
+1009491,2017,2815.2,Carbon Dioxide
+1009530,2017,0.0,Biogenic Carbon dioxide
+1009530,2017,0.0,Methane
+1009530,2017,0.0,Nitrous Oxide
+1009530,2017,5900.7,Carbon Dioxide
+1010530,2017,0.0,Biogenic Carbon dioxide
+1010530,2017,0.0,Methane
+1010530,2017,0.0,Nitrous Oxide
+1010530,2017,1169.1,Carbon Dioxide
+1010836,2017,0.0,Biogenic Carbon dioxide
+1010836,2017,0.0,Methane
+1010836,2017,0.0,Nitrous Oxide
+1010836,2017,119.9,Carbon Dioxide
+1011553,2017,0.0,Biogenic Carbon dioxide
+1011553,2017,0.0,Carbon Dioxide
+1011553,2017,0.0,Methane
+1011553,2017,0.0,Nitrous Oxide

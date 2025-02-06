@@ -1,0 +1,125 @@
+FACILITY_ID,REPORTING_YEAR,FACILITY_NAME,GHG_QUANTITY,GHG_NAME
+1000326,2020,PECO Transmission and Distribution,1.0678,Sulfur hexafluoride
+1000506,2020,Sargent Canyon Cogeneration Facility,0.0,Sulfur hexafluoride
+1000507,2020,Salinas River Cogeneration Facility,0.0,Sulfur hexafluoride
+1001032,2020,Gibbons Creek Switchyard,0.0,Perfluorocyclobutane
+1001032,2020,Gibbons Creek Switchyard,0.0,Perfluorocyclopropane
+1001032,2020,Gibbons Creek Switchyard,0.0,PFC-116 (Perfluoroethane)
+1001032,2020,Gibbons Creek Switchyard,0.0,PFC-14 (Perfluoromethane)
+1001032,2020,Gibbons Creek Switchyard,0.0,PFC-218 (Perfluoropropane)
+1001032,2020,Gibbons Creek Switchyard,0.0,PFC-3-1-10 (Perfluorobutane)
+1001032,2020,Gibbons Creek Switchyard,0.0,PFC-4-1-12 (Perfluoropentane)
+1001032,2020,Gibbons Creek Switchyard,0.0,PFC-5-1-14 (Perfluorohexane)
+1001032,2020,Gibbons Creek Switchyard,0.0,PFC-9-1-18
+1001032,2020,Gibbons Creek Switchyard,0.0669,Sulfur hexafluoride
+1001564,2020,Muscatine,0.0009,Sulfur hexafluoride
+1001695,2020,East Kentucky Power Transmission System,0.1795,Sulfur hexafluoride
+1002040,2020,DOW TEXAS OPERATIONS FREEPORT,0.0013,Sulfur hexafluoride
+1003060,2020,FPL Transmission and Distribution System,1.8,Sulfur hexafluoride
+1003708,2020,AEP Corporate SF6 Emissions,13.320546,Sulfur hexafluoride
+1003998,2020,SYCAMORE COGENERATION Facility,0.0095,Sulfur hexafluoride
+1004001,2020,Kern River Cogeneration Facility,0.008,Sulfur hexafluoride
+1005611,2020,Bonneville Power Administration - Transmission,1.1412,Sulfur hexafluoride
+1006158,2020,CON EDISON - ELECTRIC TRANSMISSION & DISTRIBUTION SYSTEM,2.8397,Sulfur hexafluoride
+1007204,2020,Coalinga Cogeneration Facility,0.0,Sulfur hexafluoride
+1007339,2020,BP Whiting Business Unit,0.0508,Sulfur hexafluoride
+1007416,2020,Oklahoma Gas & Electric Co.,1.4431,Sulfur hexafluoride
+1008107,2020,Oncor Electric Delivery,1.1866,Sulfur hexafluoride
+1008193,2020,Tucson Electric Power Company,2.488406,Sulfur hexafluoride
+1008343,2020,"CenterPoint Energy Houston Electric, LLC substations",1.0804,Sulfur hexafluoride
+1008733,2020,TVA Transmission System,1.5591,Sulfur hexafluoride
+1008769,2020,East Garden City Substation,0.0637,Sulfur hexafluoride
+1009439,2020,Texas New Mexico Power,0.197,Sulfur hexafluoride
+1009440,2020,PNM Electric Operations,1.274,Sulfur hexafluoride
+1009507,2020,Clark Energy Center,0.5553,Sulfur hexafluoride
+1009537,2020,T&D FLORIDA,5.5318,Sulfur hexafluoride
+1009540,2020,Duke Energy Power Delivery Midwest,0.385503,Sulfur hexafluoride
+1009542,2020,"Northern States Power Company, A Minnesota Corporation - Subpart DD",1.3087,Sulfur hexafluoride
+1009543,2020,Public Service Company of Colorado - Subpart DD,1.1808,Sulfur hexafluoride
+1009544,2020,Southwestern Public Service Company - Subpart DD,2.465499,Sulfur hexafluoride
+1009555,2020,Los Angeles Department of Water and Power - electric power transmission & distribution entity (SF6),0.75817,Sulfur hexafluoride
+1009569,2020,PPL Electric Utilities,0.054885,Sulfur hexafluoride
+1009578,2020,Pacific Gas and Electric Company (PG&E) - SF6 Emissions,3.738786,Sulfur hexafluoride
+1009585,2020,Southern Company Transmission and Distribution,2.644655,Sulfur hexafluoride
+1009612,2020,Nevada Power d/b/a NV Energy Transmission,1.079236,Sulfur hexafluoride
+1009619,2020,PacifiCorp (T&D System),1.1054,Sulfur hexafluoride
+1009620,2020,Evergy Transmission and Distribution,0.4383,Sulfur hexafluoride
+1009627,2020,MidAmerican Energy Company,0.4632,Sulfur hexafluoride
+1009645,2020,Tampa Electric Company,0.2141,Sulfur hexafluoride
+1009685,2020,Duke Energy Power Delivery Carolinas,10.48682,Sulfur hexafluoride
+1009695,2020,SCE&G Electric Power Delivery,0.164305,Sulfur hexafluoride
+1009725,2020,ITC Transmission/Michigan Electric Transmission Company,0.608081,Sulfur hexafluoride
+1009726,2020,ITC Midwest,0.427,Sulfur hexafluoride
+1009741,2020,New England Power Company,0.53923,Sulfur hexafluoride
+1009765,2020,"LG&E and KU Energy, LLC - Subpart DD SF6",1.6525,Sulfur hexafluoride
+1009780,2020,Arizona Public Service Company,1.7885,Sulfur hexafluoride
+1009784,2020,Sierra Pacific Power Co d/b/a NV Energy Transmission,0.0252,Sulfur hexafluoride
+1009787,2020,Southern California Edison,6.173301,Sulfur hexafluoride
+1009854,2020,FirstEnergy Substation Group,5.900937,Sulfur hexafluoride
+1009855,2020,Consumers Energy - Electric Asset Management,0.035879,Sulfur hexafluoride
+1009868,2020,LIPA T&D System,0.7334,Sulfur hexafluoride
+1009888,2020,Salt River Project - T & D Equipment,1.886607,Sulfur hexafluoride
+1009894,2020,LCRA Transmission Services,1.0151,Sulfur hexafluoride
+1009917,2020,Transmission and Distribution,1.3653,Sulfur hexafluoride
+1009971,2020,Virginia Electric and Power Company,1.3585,Sulfur hexafluoride
+1010049,2020,NPPD T&D System,0.104916,Sulfur hexafluoride
+1010076,2020,Anaheim Electric Distribution System,0.079379,Sulfur hexafluoride
+1010082,2020,Seattle City Light,0.0,Perfluorocyclobutane
+1010082,2020,Seattle City Light,0.0,Perfluorocyclopropane
+1010082,2020,Seattle City Light,0.0,PFC-116 (Perfluoroethane)
+1010082,2020,Seattle City Light,0.0,PFC-14 (Perfluoromethane)
+1010082,2020,Seattle City Light,0.0,PFC-218 (Perfluoropropane)
+1010082,2020,Seattle City Light,0.0,PFC-3-1-10 (Perfluorobutane)
+1010082,2020,Seattle City Light,0.0,PFC-4-1-12 (Perfluoropentane)
+1010082,2020,Seattle City Light,0.0,PFC-5-1-14 (Perfluorohexane)
+1010082,2020,Seattle City Light,0.0,PFC-9-1-18
+1010082,2020,Seattle City Light,0.002286,Sulfur hexafluoride
+1010121,2020,NIPSCO Electric Transmission,0.218675,Sulfur hexafluoride
+1010144,2020,PGE T&D Facility,0.2429,Sulfur hexafluoride
+1010171,2020,WAPA,3.0359,Sulfur hexafluoride
+1010191,2020,PREPA Electrical Transmission and Distribution Equiment,0.4273,Sulfur hexafluoride
+1010301,2020,Puget Sound Energy T&D,0.09906,Sulfur hexafluoride
+1010321,2020,Vermont Electric Power Company,0.014,Sulfur hexafluoride
+1010344,2020,HECO Distribution and Transmission,0.1579,Sulfur hexafluoride
+1010527,2020,ITC Great Plains,0.01,Sulfur hexafluoride
+1010796,2020,PSE&G Subpart DD,0.8102,Sulfur hexafluoride
+1010805,2020,Avista Corporation,0.044538,Sulfur hexafluoride
+1010811,2020,Ameren Illinois Electric,0.3353,Sulfur hexafluoride
+1010812,2020,Ameren Missouri Electric,0.230878,Sulfur hexafluoride
+1011120,2020,Entergy (all subsidiary companies),0.2281,Sulfur hexafluoride
+1011288,2020,Central Hudson Gas and Electric Corporation Elec T&D Equipment,0.168827,Sulfur hexafluoride
+1012373,2020,Red Gate Power Plant,0.0,Sulfur hexafluoride
+1012430,2020,Rochester Gas and Electric - Subpart DD,0.058,Sulfur hexafluoride
+1013043,2020,Basin Electric Power Cooperative,0.235,Sulfur hexafluoride
+1013191,2020,Sand Bluff Substation,0.0014,Sulfur hexafluoride
+1013207,2020,Bearkat Substation,0.0,Sulfur hexafluoride
+1013208,2020,Cottonwood Substation,0.0,Sulfur hexafluoride
+1013209,2020,Faraday Substation,0.0,Sulfur hexafluoride
+1013210,2020,Grelton Substation,0.0,Sulfur hexafluoride
+1013211,2020,Long Draw Substation,0.0,Sulfur hexafluoride
+1013238,2020,Liberty Utilities Kodiak Service Center,0.0288,Sulfur hexafluoride
+1013286,2020,Hummel Station LLC,0.0,Perfluorocyclobutane
+1013286,2020,Hummel Station LLC,0.0,Perfluorocyclopropane
+1013286,2020,Hummel Station LLC,0.0,PFC-116 (Perfluoroethane)
+1013286,2020,Hummel Station LLC,0.0,PFC-14 (Perfluoromethane)
+1013286,2020,Hummel Station LLC,0.0,PFC-218 (Perfluoropropane)
+1013286,2020,Hummel Station LLC,0.0,PFC-3-1-10 (Perfluorobutane)
+1013286,2020,Hummel Station LLC,0.0,PFC-4-1-12 (Perfluoropentane)
+1013286,2020,Hummel Station LLC,0.0,PFC-5-1-14 (Perfluorohexane)
+1013286,2020,Hummel Station LLC,0.0,PFC-9-1-18
+1013499,2020,Gulf Power Company Transmission and Distribution,0.0609,Sulfur hexafluoride
+1013535,2020,Indianapolis Power & Light Company,0.0748,Sulfur hexafluoride
+1013543,2020,Sacramento Municipal Utility District (SMUD)-SF6,0.0828,Sulfur hexafluoride
+1013650,2020,Otter Tail Power Co. Transmisstion & Distribution System,0.0471,Sulfur hexafluoride
+1013733,2020,Shell Chemical Appalachia LLC,0.0,Sulfur hexafluoride
+1013811,2020,PowerSouth Transmission System,0.0,Perfluorocyclobutane
+1013811,2020,PowerSouth Transmission System,0.0,Perfluorocyclopropane
+1013811,2020,PowerSouth Transmission System,0.0,PFC-116 (Perfluoroethane)
+1013811,2020,PowerSouth Transmission System,0.0,PFC-14 (Perfluoromethane)
+1013811,2020,PowerSouth Transmission System,0.0,PFC-218 (Perfluoropropane)
+1013811,2020,PowerSouth Transmission System,0.0,PFC-3-1-10 (Perfluorobutane)
+1013811,2020,PowerSouth Transmission System,0.0,PFC-4-1-12 (Perfluoropentane)
+1013811,2020,PowerSouth Transmission System,0.0,PFC-5-1-14 (Perfluorohexane)
+1013811,2020,PowerSouth Transmission System,0.0,PFC-9-1-18
+1013811,2020,PowerSouth Transmission System,0.004944,Sulfur hexafluoride
+1014009,2020,Montana-Dakota Utilities Co. - Electric Power System,0.006486,Sulfur hexafluoride

@@ -1,0 +1,61 @@
+OTHER_GHG_NAME,FACILITY_ID,GAS_NAME,REPORTING_YEAR,FACILITY_NAME,GHG_QUANTITY
+,1000039,Perfluorocyclobutane,2017,GE's Grid Solutions,0.0
+,1000039,Perfluorocyclopropane,2017,GE's Grid Solutions,0.0
+,1000039,PFC-116 (Perfluoroethane),2017,GE's Grid Solutions,0.0
+,1000039,PFC-14 (Perfluoromethane),2017,GE's Grid Solutions,0.0118
+,1000039,PFC-218 (Perfluoropropane),2017,GE's Grid Solutions,0.0
+,1000039,PFC-3-1-10 (Perfluorobutane),2017,GE's Grid Solutions,0.0
+,1000039,PFC-4-1-12 (Perfluoropentane),2017,GE's Grid Solutions,0.0
+,1000039,PFC-5-1-14 (Perfluorohexane),2017,GE's Grid Solutions,0.0
+,1000039,PFC-9-1-18,2017,GE's Grid Solutions,0.0
+,1000039,Sulfur hexafluoride,2017,GE's Grid Solutions,0.5895
+,1005459,Perfluorocyclobutane,2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,Perfluorocyclopropane,2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,PFC-116 (Perfluoroethane),2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,PFC-14 (Perfluoromethane),2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,PFC-218 (Perfluoropropane),2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,PFC-3-1-10 (Perfluorobutane),2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,PFC-4-1-12 (Perfluoropentane),2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,PFC-5-1-14 (Perfluorohexane),2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,PFC-9-1-18,2017,"Mitsubishi Electric Power Products, Inc.",0.0
+,1005459,Sulfur hexafluoride,2017,"Mitsubishi Electric Power Products, Inc.",2.734
+,1006009,Perfluorocyclobutane,2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,Perfluorocyclopropane,2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,PFC-116 (Perfluoroethane),2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,PFC-14 (Perfluoromethane),2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,PFC-218 (Perfluoropropane),2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,PFC-3-1-10 (Perfluorobutane),2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,PFC-4-1-12 (Perfluoropentane),2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,PFC-5-1-14 (Perfluorohexane),2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,PFC-9-1-18,2017,"Hitachi Energy USA, Inc.",0.0
+,1006009,Sulfur hexafluoride,2017,"Hitachi Energy USA, Inc.",0.2849
+,1009613,Perfluorocyclobutane,2017,G & W Electric Company,0.0
+,1009613,Perfluorocyclopropane,2017,G & W Electric Company,0.0
+,1009613,PFC-116 (Perfluoroethane),2017,G & W Electric Company,0.0
+,1009613,PFC-14 (Perfluoromethane),2017,G & W Electric Company,0.0
+,1009613,PFC-218 (Perfluoropropane),2017,G & W Electric Company,0.0
+,1009613,PFC-3-1-10 (Perfluorobutane),2017,G & W Electric Company,0.0
+,1009613,PFC-4-1-12 (Perfluoropentane),2017,G & W Electric Company,0.0
+,1009613,PFC-5-1-14 (Perfluorohexane),2017,G & W Electric Company,0.0
+,1009613,PFC-9-1-18,2017,G & W Electric Company,0.0
+,1009613,Sulfur hexafluoride,2017,G & W Electric Company,0.5561
+,1009615,Perfluorocyclobutane,2017,S&C Electric Company,0.0
+,1009615,Perfluorocyclopropane,2017,S&C Electric Company,0.0
+,1009615,PFC-116 (Perfluoroethane),2017,S&C Electric Company,0.0
+,1009615,PFC-14 (Perfluoromethane),2017,S&C Electric Company,0.0
+,1009615,PFC-218 (Perfluoropropane),2017,S&C Electric Company,0.0
+,1009615,PFC-3-1-10 (Perfluorobutane),2017,S&C Electric Company,0.0
+,1009615,PFC-4-1-12 (Perfluoropentane),2017,S&C Electric Company,0.0
+,1009615,PFC-5-1-14 (Perfluorohexane),2017,S&C Electric Company,0.0
+,1009615,PFC-9-1-18,2017,S&C Electric Company,0.0
+,1009615,Sulfur hexafluoride,2017,S&C Electric Company,2.2271
+,1011746,Perfluorocyclobutane,2017,General Cable,0.0
+,1011746,Perfluorocyclopropane,2017,General Cable,0.0
+,1011746,PFC-116 (Perfluoroethane),2017,General Cable,0.0
+,1011746,PFC-14 (Perfluoromethane),2017,General Cable,0.0
+,1011746,PFC-218 (Perfluoropropane),2017,General Cable,0.0
+,1011746,PFC-3-1-10 (Perfluorobutane),2017,General Cable,0.0
+,1011746,PFC-4-1-12 (Perfluoropentane),2017,General Cable,0.0
+,1011746,PFC-5-1-14 (Perfluorohexane),2017,General Cable,0.0
+,1011746,PFC-9-1-18,2017,General Cable,0.0
+,1011746,Sulfur hexafluoride,2017,General Cable,0.1565

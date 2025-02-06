@@ -1,0 +1,9 @@
+{
+    "SourceType": "Static File",
+    "SourceFileName": "GHGRP Table V_GHG_EMITTER_SUBPART",
+    "SourceURL": "https://data.epa.gov/efservice/V_GHG_EMITTER_SUBPART/CSV",
+    "SourceVersion": NaN,
+    "SourceAcquisitionTime": "17-Jun-2021",
+    "StEWI_Version": "1.0.6",
+    "Criteria": NaN
+}

@@ -1,0 +1,287 @@
+FACILITY_ID,REPORTING_YEAR,GHG_QUANTITY,GHG_NAME
+1000232,2020,0.0,Methane
+1000232,2020,0.0,Nitrous Oxide
+1000232,2020,318796.1,Carbon Dioxide
+1000342,2020,0.0,Biogenic Carbon dioxide
+1000342,2020,0.194,Nitrous Oxide
+1000342,2020,53.69,Methane
+1000342,2020,19358.7,Carbon Dioxide
+1000603,2020,0.0,Biogenic Carbon dioxide
+1000603,2020,0.0,Methane
+1000603,2020,0.0,Nitrous Oxide
+1000603,2020,266051.0,Carbon Dioxide
+1000604,2020,0.0,Biogenic Carbon dioxide
+1000604,2020,0.0,Methane
+1000604,2020,0.0,Nitrous Oxide
+1000604,2020,211562.0,Carbon Dioxide
+1000605,2020,0.0,Biogenic Carbon dioxide
+1000605,2020,0.0,Methane
+1000605,2020,0.0,Nitrous Oxide
+1000605,2020,179168.0,Carbon Dioxide
+1001705,2020,0.0,Biogenic Carbon dioxide
+1001705,2020,5.494,Nitrous Oxide
+1001705,2020,30.74,Methane
+1001705,2020,342141.7,Carbon Dioxide
+1001706,2020,0.0,Biogenic Carbon dioxide
+1001706,2020,0.0,Methane
+1001706,2020,0.0,Nitrous Oxide
+1001706,2020,9535.4,Carbon Dioxide
+1001711,2020,0.0,Biogenic Carbon dioxide
+1001711,2020,0.0,Methane
+1001711,2020,0.0,Nitrous Oxide
+1001711,2020,13760.0,Carbon Dioxide
+1001713,2020,0.0,Biogenic Carbon dioxide
+1001713,2020,0.0,Methane
+1001713,2020,0.0,Nitrous Oxide
+1001713,2020,34299.4,Carbon Dioxide
+1001936,2020,0.0,Biogenic Carbon dioxide
+1001936,2020,0.0,Methane
+1001936,2020,0.0,Nitrous Oxide
+1001936,2020,174946.4,Carbon Dioxide
+1002040,2020,0.0,Biogenic Carbon dioxide
+1002040,2020,0.438,Nitrous Oxide
+1002040,2020,146.37,Methane
+1002040,2020,1599652.1,Carbon Dioxide
+1002046,2020,0.0,Biogenic Carbon dioxide
+1002046,2020,0.0,Methane
+1002046,2020,0.0,Nitrous Oxide
+1002046,2020,223633.9,Carbon Dioxide
+1002146,2020,0.0,Biogenic Carbon dioxide
+1002146,2020,0.684,Nitrous Oxide
+1002146,2020,134.56,Methane
+1002146,2020,68425.0,Carbon Dioxide
+1002190,2020,0.0,Biogenic Carbon dioxide
+1002190,2020,0.0,Methane
+1002190,2020,0.0,Nitrous Oxide
+1002190,2020,331092.6,Carbon Dioxide
+1002350,2020,0.0,Biogenic Carbon dioxide
+1002350,2020,0.0,Methane
+1002350,2020,0.0,Nitrous Oxide
+1002350,2020,41954.0,Carbon Dioxide
+1002758,2020,0.0,Biogenic Carbon dioxide
+1002758,2020,0.201,Nitrous Oxide
+1002758,2020,25.16,Methane
+1002758,2020,86059.9,Carbon Dioxide
+1002859,2020,0.0,Biogenic Carbon dioxide
+1002859,2020,0.29,Nitrous Oxide
+1002859,2020,30.33,Methane
+1002859,2020,238650.1,Carbon Dioxide
+1002927,2020,0.0,Biogenic Carbon dioxide
+1002927,2020,0.118,Nitrous Oxide
+1002927,2020,32.25,Methane
+1002927,2020,12047.0,Carbon Dioxide
+1002955,2020,0.0,Biogenic Carbon dioxide
+1002955,2020,0.0,Methane
+1002955,2020,0.0,Nitrous Oxide
+1002955,2020,77703.1,Carbon Dioxide
+1002967,2020,0.0,Biogenic Carbon dioxide
+1002967,2020,0.0,Methane
+1002967,2020,0.0,Nitrous Oxide
+1002967,2020,260065.7,Carbon Dioxide
+1003134,2020,0.0,Biogenic Carbon dioxide
+1003134,2020,0.0,Methane
+1003134,2020,0.0,Nitrous Oxide
+1003134,2020,93102.6,Carbon Dioxide
+1003382,2020,0.0,Biogenic Carbon dioxide
+1003382,2020,6.895,Nitrous Oxide
+1003382,2020,2081.29,Methane
+1003382,2020,689518.8,Carbon Dioxide
+1003533,2020,0.0,Biogenic Carbon dioxide
+1003533,2020,0.0,Methane
+1003533,2020,0.0,Nitrous Oxide
+1003533,2020,114322.1,Carbon Dioxide
+1003655,2020,0.0,Biogenic Carbon dioxide
+1003655,2020,0.744,Nitrous Oxide
+1003655,2020,224.66,Methane
+1003655,2020,74429.2,Carbon Dioxide
+1003781,2020,0.0,Biogenic Carbon dioxide
+1003781,2020,0.0,Methane
+1003781,2020,0.0,Nitrous Oxide
+1003781,2020,164102.2,Carbon Dioxide
+1003790,2020,0.0,Biogenic Carbon dioxide
+1003790,2020,0.0,Methane
+1003790,2020,0.0,Nitrous Oxide
+1003790,2020,153874.6,Carbon Dioxide
+1003899,2020,0.0,Biogenic Carbon dioxide
+1003899,2020,0.0,Methane
+1003899,2020,0.0,Nitrous Oxide
+1003899,2020,270544.0,Carbon Dioxide
+1003991,2020,0.0,Biogenic Carbon dioxide
+1003991,2020,0.686,Nitrous Oxide
+1003991,2020,258.07,Methane
+1003991,2020,68549.0,Carbon Dioxide
+1004071,2020,0.0,Biogenic Carbon dioxide
+1004071,2020,0.0,Methane
+1004071,2020,0.0,Nitrous Oxide
+1004071,2020,128700.9,Carbon Dioxide
+1004208,2020,0.0,Biogenic Carbon dioxide
+1004208,2020,0.0,Methane
+1004208,2020,0.0,Nitrous Oxide
+1004208,2020,88765.4,Carbon Dioxide
+1004314,2020,0.0,Biogenic Carbon dioxide
+1004314,2020,0.715,Nitrous Oxide
+1004314,2020,268.34,Methane
+1004314,2020,153423.8,Carbon Dioxide
+1004329,2020,0.0,Biogenic Carbon dioxide
+1004329,2020,0.0,Methane
+1004329,2020,0.0,Nitrous Oxide
+1004329,2020,132606.9,Carbon Dioxide
+1004368,2020,0.0,Biogenic Carbon dioxide
+1004368,2020,0.683,Nitrous Oxide
+1004368,2020,206.26,Methane
+1004368,2020,68333.9,Carbon Dioxide
+1004570,2020,0.0,Biogenic Carbon dioxide
+1004570,2020,0.0,Methane
+1004570,2020,0.0,Nitrous Oxide
+1004570,2020,114051.2,Carbon Dioxide
+1004791,2020,0.0,Biogenic Carbon dioxide
+1004791,2020,0.0,Methane
+1004791,2020,0.0,Nitrous Oxide
+1004791,2020,222326.2,Carbon Dioxide
+1004867,2020,0.0,Biogenic Carbon dioxide
+1004867,2020,0.0,Methane
+1004867,2020,0.0,Nitrous Oxide
+1004867,2020,241036.1,Carbon Dioxide
+1004880,2020,0.0,Biogenic Carbon dioxide
+1004880,2020,0.438,Nitrous Oxide
+1004880,2020,132.29,Methane
+1004880,2020,43825.5,Carbon Dioxide
+1004900,2020,0.0,Biogenic Carbon dioxide
+1004900,2020,0.54,Nitrous Oxide
+1004900,2020,2.71,Methane
+1004900,2020,53202.3,Carbon Dioxide
+1005114,2020,0.0,Biogenic Carbon dioxide
+1005114,2020,0.0,Methane
+1005114,2020,0.0,Nitrous Oxide
+1005114,2020,254708.1,Carbon Dioxide
+1005126,2020,0.0,Biogenic Carbon dioxide
+1005126,2020,0.0,Methane
+1005126,2020,0.0,Nitrous Oxide
+1005126,2020,85952.9,Carbon Dioxide
+1005823,2020,0.0,Biogenic Carbon dioxide
+1005823,2020,0.0,Methane
+1005823,2020,0.0,Nitrous Oxide
+1005823,2020,766908.7,Carbon Dioxide
+1005911,2020,0.0,Biogenic Carbon dioxide
+1005911,2020,0.937,Nitrous Oxide
+1005911,2020,282.59,Methane
+1005911,2020,93620.4,Carbon Dioxide
+1006010,2020,0.0,Biogenic Carbon dioxide
+1006010,2020,0.0,Methane
+1006010,2020,0.0,Nitrous Oxide
+1006010,2020,66367.9,Carbon Dioxide
+1006287,2020,0.0,Biogenic Carbon dioxide
+1006287,2020,0.0,Methane
+1006287,2020,0.0,Nitrous Oxide
+1006287,2020,172706.3,Carbon Dioxide
+1006435,2020,0.0,Biogenic Carbon dioxide
+1006435,2020,0.0,Methane
+1006435,2020,0.0,Nitrous Oxide
+1006435,2020,302817.9,Carbon Dioxide
+1006543,2020,0.0,Biogenic Carbon dioxide
+1006543,2020,0.517,Nitrous Oxide
+1006543,2020,156.07,Methane
+1006543,2020,51700.3,Carbon Dioxide
+1006621,2020,0.0,Biogenic Carbon dioxide
+1006621,2020,0.218,Nitrous Oxide
+1006621,2020,102.53,Methane
+1006621,2020,102758.9,Carbon Dioxide
+1006656,2020,0.0,Biogenic Carbon dioxide
+1006656,2020,0.0,Methane
+1006656,2020,0.0,Nitrous Oxide
+1006656,2020,11453.5,Carbon Dioxide
+1006691,2020,0.0,Biogenic Carbon dioxide
+1006691,2020,1.235,Nitrous Oxide
+1006691,2020,372.6,Methane
+1006691,2020,221263.9,Carbon Dioxide
+1006867,2020,0.0,Biogenic Carbon dioxide
+1006867,2020,0.0,Methane
+1006867,2020,0.0,Nitrous Oxide
+1006867,2020,236596.3,Carbon Dioxide
+1006891,2020,0.0,Biogenic Carbon dioxide
+1006891,2020,0.358,Nitrous Oxide
+1006891,2020,107.96,Methane
+1006891,2020,35768.8,Carbon Dioxide
+1006967,2020,0.0,Biogenic Carbon dioxide
+1006967,2020,0.46,Nitrous Oxide
+1006967,2020,186.86,Methane
+1006967,2020,45921.9,Carbon Dioxide
+1007002,2020,0.0,Biogenic Carbon dioxide
+1007002,2020,0.376,Nitrous Oxide
+1007002,2020,113.65,Methane
+1007002,2020,37650.1,Carbon Dioxide
+1007031,2020,0.0,Biogenic Carbon dioxide
+1007031,2020,3.657,Nitrous Oxide
+1007031,2020,1554.2,Methane
+1007031,2020,494312.9,Carbon Dioxide
+1007438,2020,0.329,Nitrous Oxide
+1007438,2020,99.44,Methane
+1007438,2020,35478.2,Carbon Dioxide
+1007542,2020,0.0,Biogenic Carbon dioxide
+1007542,2020,0.716,Nitrous Oxide
+1007542,2020,420.37,Methane
+1007542,2020,71407.7,Carbon Dioxide
+1007626,2020,0.0,Biogenic Carbon dioxide
+1007626,2020,0.0,Methane
+1007626,2020,0.0,Nitrous Oxide
+1007626,2020,125397.1,Carbon Dioxide
+1007643,2020,0.0,Biogenic Carbon dioxide
+1007643,2020,0.361,Nitrous Oxide
+1007643,2020,109.09,Methane
+1007643,2020,36140.6,Carbon Dioxide
+1007750,2020,0.0,Biogenic Carbon dioxide
+1007750,2020,0.0,Methane
+1007750,2020,0.0,Nitrous Oxide
+1007750,2020,6404.9,Carbon Dioxide
+1007909,2020,0.0,Biogenic Carbon dioxide
+1007909,2020,0.474,Nitrous Oxide
+1007909,2020,143.18,Methane
+1007909,2020,379715.2,Carbon Dioxide
+1007959,2020,0.0,Biogenic Carbon dioxide
+1007959,2020,0.488,Nitrous Oxide
+1007959,2020,147.36,Methane
+1007959,2020,48820.4,Carbon Dioxide
+1008459,2020,0.0,Biogenic Carbon dioxide
+1008459,2020,0.05,Nitrous Oxide
+1008459,2020,0.24,Methane
+1008459,2020,16282.0,Carbon Dioxide
+1010636,2020,0.0,Biogenic Carbon dioxide
+1010636,2020,0.0,Methane
+1010636,2020,0.0,Nitrous Oxide
+1010636,2020,49705.0,Carbon Dioxide
+1011799,2020,0.0,Biogenic Carbon dioxide
+1011799,2020,0.0,Methane
+1011799,2020,0.0,Nitrous Oxide
+1011799,2020,517515.2,Carbon Dioxide
+1011834,2020,0.0,Biogenic Carbon dioxide
+1011834,2020,0.0,Methane
+1011834,2020,0.0,Nitrous Oxide
+1011834,2020,42710.3,Carbon Dioxide
+1011907,2020,0.0,Biogenic Carbon dioxide
+1011907,2020,0.0,Methane
+1011907,2020,0.0,Nitrous Oxide
+1011907,2020,18148.1,Carbon Dioxide
+1013066,2020,0.0,Biogenic Carbon dioxide
+1013066,2020,0.572,Nitrous Oxide
+1013066,2020,172.91,Methane
+1013066,2020,57149.8,Carbon Dioxide
+1013088,2020,0.0,Biogenic Carbon dioxide
+1013088,2020,0.0,Methane
+1013088,2020,0.0,Nitrous Oxide
+1013088,2020,18228.9,Carbon Dioxide
+1013353,2020,0.0,Biogenic Carbon dioxide
+1013353,2020,0.0,Methane
+1013353,2020,0.0,Nitrous Oxide
+1013353,2020,530995.4,Carbon Dioxide
+1013382,2020,0.0,Biogenic Carbon dioxide
+1013382,2020,0.0,Methane
+1013382,2020,0.0,Nitrous Oxide
+1013382,2020,332136.8,Carbon Dioxide
+1013813,2020,0.0,Biogenic Carbon dioxide
+1013813,2020,0.0,Methane
+1013813,2020,0.0,Nitrous Oxide
+1013813,2020,77033.2,Carbon Dioxide
+1013816,2020,0.0,Biogenic Carbon dioxide
+1013816,2020,0.0,Methane
+1013816,2020,0.0,Nitrous Oxide
+1013816,2020,107201.9,Carbon Dioxide

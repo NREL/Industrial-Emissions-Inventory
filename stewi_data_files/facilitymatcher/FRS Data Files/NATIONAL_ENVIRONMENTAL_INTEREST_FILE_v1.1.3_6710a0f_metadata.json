@@ -1,0 +1,17 @@
+{
+    "tool": "facilitymatcher",
+    "category": "FRS Data Files",
+    "name_data": "NATIONAL_ENVIRONMENTAL_INTEREST_FILE",
+    "tool_version": "1.1.3",
+    "git_hash": "6710a0f",
+    "ext": "parquet",
+    "date_created": "05-Feb-2025",
+    "tool_meta": {
+        "SourceType": "Zip file",
+        "SourceFileName": "NATIONAL_ENVIRONMENTAL_INTEREST_FILE.CSV",
+        "SourceURL": "https://ordsext.epa.gov/FLA/www3/state_files/national_combined.zip",
+        "SourceVersion": "NA",
+        "SourceAcquisitionTime": "05-Feb-2025",
+        "StEWI_Version": "1.1.3"
+    }
+}

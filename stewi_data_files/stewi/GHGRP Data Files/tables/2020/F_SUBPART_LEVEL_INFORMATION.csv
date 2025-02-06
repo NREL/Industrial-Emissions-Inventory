@@ -1,0 +1,43 @@
+GHGAS_LINEAR_CHEMICAL_FORMULA,FACILITY_ID,OTHER_GREENHOUSE_GAS_NAME,REPORTING_YEAR,FACILITY_NAME,OTHER_GAS_GHG_GROUP,GHG_QUANTITY,GHGAS_CAS_REGISTRY_NUMBER,GHG_NAME
+C2F6,1001877,,2020,ALCOA INC - WARRICK OPERATIONS,,1.426,76-16-4,PFC-116 (Perfluoroethane)
+C2F6,1002112,,2020,"Century Aluminum of South Carolina, Inc.",,0.6481,76-16-4,PFC-116 (Perfluoroethane)
+C2F6,1003562,,2020,ALCOA INTALCO WORKS,,11.7573,76-16-4,PFC-116 (Perfluoroethane)
+C2F6,1005534,,2020,Magnitude 7 Metals LLC,,0.6229,76-16-4,PFC-116 (Perfluoroethane)
+C2F6,1006666,,2020,Century Aluminum Sebree LLC,,1.2484,76-16-4,PFC-116 (Perfluoroethane)
+C2F6,1006853,,2020,CENTURY ALUMINUM OF KENTUCKY,,5.6732,76-16-4,PFC-116 (Perfluoroethane)
+C2F6,1012517,,2020,Alcoa USA Corp.,,0.5703,76-16-4,PFC-116 (Perfluoroethane)
+CF4,1001877,,2020,ALCOA INC - WARRICK OPERATIONS,,14.2602,75-73-0,PFC-14 (Perfluoromethane)
+CF4,1002112,,2020,"Century Aluminum of South Carolina, Inc.",,6.8505,75-73-0,PFC-14 (Perfluoromethane)
+CF4,1003562,,2020,ALCOA INTALCO WORKS,,37.4437,75-73-0,PFC-14 (Perfluoromethane)
+CF4,1005534,,2020,Magnitude 7 Metals LLC,,14.4854,75-73-0,PFC-14 (Perfluoromethane)
+CF4,1006666,,2020,Century Aluminum Sebree LLC,,26.009,75-73-0,PFC-14 (Perfluoromethane)
+CF4,1006853,,2020,CENTURY ALUMINUM OF KENTUCKY,,68.4304,75-73-0,PFC-14 (Perfluoromethane)
+CF4,1012517,,2020,Alcoa USA Corp.,,2.8162,75-73-0,PFC-14 (Perfluoromethane)
+,1001877,,2020,ALCOA INC - WARRICK OPERATIONS,,0.0,,Biogenic Carbon dioxide
+,1001877,,2020,ALCOA INC - WARRICK OPERATIONS,,0.0,,Methane
+,1001877,,2020,ALCOA INC - WARRICK OPERATIONS,,0.0,,Nitrous Oxide
+,1001877,,2020,ALCOA INC - WARRICK OPERATIONS,,245889.9,,Carbon Dioxide
+,1002112,,2020,"Century Aluminum of South Carolina, Inc.",,0.0,,Biogenic Carbon dioxide
+,1002112,,2020,"Century Aluminum of South Carolina, Inc.",,0.0,,Methane
+,1002112,,2020,"Century Aluminum of South Carolina, Inc.",,0.0,,Nitrous Oxide
+,1002112,,2020,"Century Aluminum of South Carolina, Inc.",,176025.2,,Carbon Dioxide
+,1003562,,2020,ALCOA INTALCO WORKS,,0.0,,Biogenic Carbon dioxide
+,1003562,,2020,ALCOA INTALCO WORKS,,0.0,,Methane
+,1003562,,2020,ALCOA INTALCO WORKS,,0.0,,Nitrous Oxide
+,1003562,,2020,ALCOA INTALCO WORKS,,140644.5,,Carbon Dioxide
+,1005534,,2020,Magnitude 7 Metals LLC,,0.0,,Biogenic Carbon dioxide
+,1005534,,2020,Magnitude 7 Metals LLC,,0.0,,Methane
+,1005534,,2020,Magnitude 7 Metals LLC,,0.0,,Nitrous Oxide
+,1005534,,2020,Magnitude 7 Metals LLC,,299987.2,,Carbon Dioxide
+,1006666,,2020,Century Aluminum Sebree LLC,,0.0,,Biogenic Carbon dioxide
+,1006666,,2020,Century Aluminum Sebree LLC,,0.0,,Methane
+,1006666,,2020,Century Aluminum Sebree LLC,,0.0,,Nitrous Oxide
+,1006666,,2020,Century Aluminum Sebree LLC,,330816.7,,Carbon Dioxide
+,1006853,,2020,CENTURY ALUMINUM OF KENTUCKY,,0.0,,Biogenic Carbon dioxide
+,1006853,,2020,CENTURY ALUMINUM OF KENTUCKY,,0.0,,Methane
+,1006853,,2020,CENTURY ALUMINUM OF KENTUCKY,,0.0,,Nitrous Oxide
+,1006853,,2020,CENTURY ALUMINUM OF KENTUCKY,,330032.3,,Carbon Dioxide
+,1012517,,2020,Alcoa USA Corp.,,0.0,,Biogenic Carbon dioxide
+,1012517,,2020,Alcoa USA Corp.,,0.0,,Methane
+,1012517,,2020,Alcoa USA Corp.,,0.0,,Nitrous Oxide
+,1012517,,2020,Alcoa USA Corp.,,224946.9,,Carbon Dioxide

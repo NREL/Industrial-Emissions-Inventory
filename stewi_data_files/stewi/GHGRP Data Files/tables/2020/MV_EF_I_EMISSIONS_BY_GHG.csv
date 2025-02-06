@@ -1,0 +1,575 @@
+GHGAS_LINEAR_CHEMICAL_FORMULA,FACILITY_ID,OTHER_GHGAS_LINEAR_CHEMFORM,GROUP_OF_FLUORINATED_GHG,OTHER_GHGAS_CAS_REGISTRY_NUM,OTHERGHGASNAME,GHGASNAME,REPORTING_YEAR,FACILITY_NAME,GHGASQUANTITY,GHGAS_CAS_REGISTRY_NUMBER
+blend,1008930,,,,,FC-77 (Blend - Perfluoro-2-butyltetrahydrofuran + C8F18),2020,LA Semiconductor,0.6645,"335-36-4, 307-34-6"
+blend,1010241,,,,,"HFE-72DA (1,2-Trans-dichloroethylene + Ethyl nonafluorobutyl ether + Ethyl nonafluoroisobutyl ether + Methyl nonafluorobutyl ether + Methyl nonafluoroisobutyl ether + Isopropyl alcohol)",2020,Honeywell Aerospace - Plymouth,0.2642,"156-60-5, 163702-05-4, 163702-06-5, 163702-07-6, 163702-08-7, 67-63-0"
+C2F6,1000354,,,,,PFC-116 (Perfluoroethane),2020,SKYWATER TECHNOLOGY INC,3.3792,76-16-4
+C2F6,1003726,,,,,PFC-116 (Perfluoroethane),2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,4.2457,76-16-4
+C2F6,1003759,,,,,PFC-116 (Perfluoroethane),2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.9994,76-16-4
+C2F6,1003945,,,,,PFC-116 (Perfluoroethane),2020,TEXAS INSTRUMENTS NORTH CAMPUS,11.2932,76-16-4
+C2F6,1003997,,,,,PFC-116 (Perfluoroethane),2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.176,76-16-4
+C2F6,1004006,,,,,PFC-116 (Perfluoroethane),2020,INTEL CORPORATION RONLER ACRES CAMPUS,2.299,76-16-4
+C2F6,1004300,,,,,PFC-116 (Perfluoroethane),2020,Onsemi East Fishkill Facility,0.0294,76-16-4
+C2F6,1004325,,,,,PFC-116 (Perfluoroethane),2020,"MICRON TECHNOLOGY, INC.",0.0016,76-16-4
+C2F6,1004371,,,,,PFC-116 (Perfluoroethane),2020,INTEL CORPORATION - Ocotillo Campus,2.744,76-16-4
+C2F6,1004746,,,,,PFC-116 (Perfluoroethane),2020,ANALOG DEVICES,0.0507,76-16-4
+C2F6,1004883,,,,,PFC-116 (Perfluoroethane),2020,MICROCHIP TECHNOLOGY INC,0.679,76-16-4
+C2F6,1005759,,,,,PFC-116 (Perfluoroethane),2020,"Wolfspeed, Inc",0.297,76-16-4
+C2F6,1007527,,,,,PFC-116 (Perfluoroethane),2020,ON Semiconductor,4.7754,76-16-4
+C2F6,1008059,,,,,PFC-116 (Perfluoroethane),2020,Texas Instruments Richardson,0.6422,76-16-4
+C2F6,1008262,,,,,PFC-116 (Perfluoroethane),2020,"Jireh Semiconductor, Inc.",2.57,76-16-4
+C2F6,1008734,,,,,PFC-116 (Perfluoroethane),2020,Avago Technologies,0.9352,76-16-4
+C2F6,1008768,,,,,PFC-116 (Perfluoroethane),2020,Microchip Technology Inc.,1.7547,76-16-4
+C2F6,1008930,,,,,PFC-116 (Perfluoroethane),2020,LA Semiconductor,0.1273,76-16-4
+C2F6,1009361,,,,,PFC-116 (Perfluoroethane),2020,WaferTech LLC,0.4243,76-16-4
+C2F6,1009556,,,,,PFC-116 (Perfluoroethane),2020,Texas Instruments- Lehi Fab,1.2426,76-16-4
+C2F6,1009580,,,,,PFC-116 (Perfluoroethane),2020,Fairchild Semiconductor,0.141,76-16-4
+C2F6,1009581,,,,,PFC-116 (Perfluoroethane),2020,Diodes US Manufacturing Incorporated,0.07,76-16-4
+C2F6,1009606,,,,,PFC-116 (Perfluoroethane),2020,INTEL CORPORATION ALOHA CAMPUS,0.07,76-16-4
+C2F6,1009735,,,,,PFC-116 (Perfluoroethane),2020,"Skyworks Solutions, Inc.",1.454,76-16-4
+C2F6,1009738,,,,,PFC-116 (Perfluoroethane),2020,X-FAB Texas Inc.,2.7094,76-16-4
+C2F6,1009792,,,,,PFC-116 (Perfluoroethane),2020,Microchip Technology,5.4021,76-16-4
+C2F6,1009805,,,,,PFC-116 (Perfluoroethane),2020,"Micron Technology, Inc.",1.4171,76-16-4
+C2F6,1009807,,,,,PFC-116 (Perfluoroethane),2020,Polar Semiconductor LLC,0.3866,76-16-4
+C2F6,1009872,,,,,PFC-116 (Perfluoroethane),2020,Samsung Austin Semiconductor,4.62,76-16-4
+C2F6,1009928,,,,,PFC-116 (Perfluoroethane),2020,Robert Bosch Semiconductor LLC,0.0718,76-16-4
+C2F6,1009951,,,,,PFC-116 (Perfluoroethane),2020,Infineon Technologies Americas Corp,0.4768,76-16-4
+C2F6,1009982,,,,,PFC-116 (Perfluoroethane),2020,Analog Devices Inc,2.5849,76-16-4
+C2F6,1010005,,,,,PFC-116 (Perfluoroethane),2020,Tower Semiconductor,0.5295,76-16-4
+C2F6,1010033,,,,,PFC-116 (Perfluoroethane),2020,QORVO,0.0129,76-16-4
+C2F6,1010066,,,,,PFC-116 (Perfluoroethane),2020,NXP Semiconductors - EB site,0.2552,76-16-4
+C2F6,1010067,,,,,PFC-116 (Perfluoroethane),2020,NXP Semiconductors - OH site,1.7939,76-16-4
+C2F6,1010083,,,,,PFC-116 (Perfluoroethane),2020,NXP Semiconductors Chandler Site,0.65,76-16-4
+C2F6,1010134,,,,,PFC-116 (Perfluoroethane),2020,Texas Instruments - Sherman,2.041,76-16-4
+C2F6,1010139,,,,,PFC-116 (Perfluoroethane),2020,Newport Fab LLC (dba TowerJazz),0.9082,76-16-4
+C2F6,1010141,,,,,PFC-116 (Perfluoroethane),2020,Cypress Semiconductor,0.302,76-16-4
+C2F6,1010208,,,,,PFC-116 (Perfluoroethane),2020,Texas Instruments Incorporated - Maine Fab,1.7477,76-16-4
+C2F6,1010241,,,,,PFC-116 (Perfluoroethane),2020,Honeywell Aerospace - Plymouth,0.0519,76-16-4
+C2F6,1010254,,,,,PFC-116 (Perfluoroethane),2020,"Qorvo US, Inc.",2.9444,76-16-4
+C2F6,1010586,,,,,PFC-116 (Perfluoroethane),2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.0777,76-16-4
+C2F6,1011813,,,,,PFC-116 (Perfluoroethane),2020,Qorvo Texas LLC,1.9282,76-16-4
+C2F6,1012448,,,,,PFC-116 (Perfluoroethane),2020,Wolfspeed RTP,1.532,76-16-4
+C2F6,1012992,,,,,PFC-116 (Perfluoroethane),2020,Aptina LLC,0.0062,76-16-4
+C2H3F3,1009738,,,,,HFC-143a,2020,X-FAB Texas Inc.,0.0003,420-46-2
+C2H3F3,1009872,,,,,HFC-143a,2020,Samsung Austin Semiconductor,0.1072,420-46-2
+C2HF5,1009738,,,,,HFC-125,2020,X-FAB Texas Inc.,0.009,354-33-6
+C2HF5,1009872,,,,,HFC-125,2020,Samsung Austin Semiconductor,0.0907,354-33-6
+C3F8,1003945,,,,,PFC-218 (Perfluoropropane),2020,TEXAS INSTRUMENTS NORTH CAMPUS,3.0896,76-19-7
+C3F8,1004300,,,,,PFC-218 (Perfluoropropane),2020,Onsemi East Fishkill Facility,0.0,76-19-7
+C3F8,1004883,,,,,PFC-218 (Perfluoropropane),2020,MICROCHIP TECHNOLOGY INC,1.313,76-19-7
+C3F8,1005759,,,,,PFC-218 (Perfluoropropane),2020,"Wolfspeed, Inc",0.0572,76-19-7
+C3F8,1008059,,,,,PFC-218 (Perfluoropropane),2020,Texas Instruments Richardson,0.0001,76-19-7
+C3F8,1008768,,,,,PFC-218 (Perfluoropropane),2020,Microchip Technology Inc.,0.5323,76-19-7
+C3F8,1009807,,,,,PFC-218 (Perfluoropropane),2020,Polar Semiconductor LLC,1.5224,76-19-7
+C3F8,1009928,,,,,PFC-218 (Perfluoropropane),2020,Robert Bosch Semiconductor LLC,0.1764,76-19-7
+C3F8,1010134,,,,,PFC-218 (Perfluoropropane),2020,Texas Instruments - Sherman,0.655,76-19-7
+C3F8,1010139,,,,,PFC-218 (Perfluoropropane),2020,Newport Fab LLC (dba TowerJazz),1.2378,76-19-7
+C3F8,1010241,,,,,PFC-218 (Perfluoropropane),2020,Honeywell Aerospace - Plymouth,0.0816,76-19-7
+C3F8,1012448,,,,,PFC-218 (Perfluoropropane),2020,Wolfspeed RTP,0.1634,76-19-7
+C3F8,1012992,,,,,PFC-218 (Perfluoropropane),2020,Aptina LLC,0.0191,76-19-7
+"C4F9OC2H5, (CF3)2CFCF2OC2H5",1000354,,,,,"HFE-569sf2, (HFE-7200) Isomer blend",2020,SKYWATER TECHNOLOGY INC,0.1188,"163702-05-4, 163702-06-5"
+"C4F9OC2H5, (CF3)2CFCF2OC2H5",1003726,,,,,"HFE-569sf2, (HFE-7200) Isomer blend",2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.6474,"163702-05-4, 163702-06-5"
+"C4F9OC2H5, (CF3)2CFCF2OC2H5",1004371,,,,,"HFE-569sf2, (HFE-7200) Isomer blend",2020,INTEL CORPORATION - Ocotillo Campus,0.0,"163702-05-4, 163702-06-5"
+"C4F9OC2H5, (CF3)2CFCF2OC2H5",1009556,,,,,"HFE-569sf2, (HFE-7200) Isomer blend",2020,Texas Instruments- Lehi Fab,0.1425,"163702-05-4, 163702-06-5"
+"C4F9OC2H5, (CF3)2CFCF2OC2H5",1009805,,,,,"HFE-569sf2, (HFE-7200) Isomer blend",2020,"Micron Technology, Inc.",0.2237,"163702-05-4, 163702-06-5"
+"C4F9OC2H5, (CF3)2CFCF2OC2H5",1009928,,,,,"HFE-569sf2, (HFE-7200) Isomer blend",2020,Robert Bosch Semiconductor LLC,0.065,"163702-05-4, 163702-06-5"
+"C4F9OC2H5, (CF3)2CFCF2OC2H5",1010083,,,,,"HFE-569sf2, (HFE-7200) Isomer blend",2020,NXP Semiconductors Chandler Site,0.049,"163702-05-4, 163702-06-5"
+"C4F9OC2H5, (CF3)2CFCF2OC2H5",1012992,,,,,"HFE-569sf2, (HFE-7200) Isomer blend",2020,Aptina LLC,0.21,"163702-05-4, 163702-06-5"
+"C4F9OCH3, (CF3)2CFCF2OCH3",1003726,,,,,"HFE-449sl, (HFE-7100) Isomer blend",2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,1.4355,"163702-07-6, 163702-08-7"
+"C4F9OCH3, (CF3)2CFCF2OCH3",1003759,,,,,"HFE-449sl, (HFE-7100) Isomer blend",2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.029,"163702-07-6, 163702-08-7"
+"C4F9OCH3, (CF3)2CFCF2OCH3",1003997,,,,,"HFE-449sl, (HFE-7100) Isomer blend",2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.01,"163702-07-6, 163702-08-7"
+"C4F9OCH3, (CF3)2CFCF2OCH3",1004006,,,,,"HFE-449sl, (HFE-7100) Isomer blend",2020,INTEL CORPORATION RONLER ACRES CAMPUS,0.14,"163702-07-6, 163702-08-7"
+"C4F9OCH3, (CF3)2CFCF2OCH3",1004371,,,,,"HFE-449sl, (HFE-7100) Isomer blend",2020,INTEL CORPORATION - Ocotillo Campus,0.02,"163702-07-6, 163702-08-7"
+"C4F9OCH3, (CF3)2CFCF2OCH3",1010241,,,,,"HFE-449sl, (HFE-7100) Isomer blend",2020,Honeywell Aerospace - Plymouth,0.1415,"163702-07-6, 163702-08-7"
+C6F14,1011813,,,,,"PFC-5-1-14 (Perfluorohexane, FC 72)",2020,Qorvo Texas LLC,0.0129,355-42-0
+C-C4F8,1000354,,,,,Perfluorocyclobutane,2020,SKYWATER TECHNOLOGY INC,0.0055,115-25-3
+C-C4F8,1003726,,,,,Perfluorocyclobutane,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,1.0006,115-25-3
+C-C4F8,1003759,,,,,Perfluorocyclobutane,2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.0887,115-25-3
+C-C4F8,1003945,,,,,Perfluorocyclobutane,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.1238,115-25-3
+C-C4F8,1003997,,,,,Perfluorocyclobutane,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.06,115-25-3
+C-C4F8,1004006,,,,,Perfluorocyclobutane,2020,INTEL CORPORATION RONLER ACRES CAMPUS,0.488,115-25-3
+C-C4F8,1004300,,,,,Perfluorocyclobutane,2020,Onsemi East Fishkill Facility,0.0105,115-25-3
+C-C4F8,1004371,,,,,Perfluorocyclobutane,2020,INTEL CORPORATION - Ocotillo Campus,0.671,115-25-3
+C-C4F8,1004412,,,,,Perfluorocyclobutane,2020,GE GLOBAL RESEARCH CENTER,0.0092,115-25-3
+C-C4F8,1004746,,,,,Perfluorocyclobutane,2020,ANALOG DEVICES,0.1116,115-25-3
+C-C4F8,1004883,,,,,Perfluorocyclobutane,2020,MICROCHIP TECHNOLOGY INC,0.023,115-25-3
+C-C4F8,1005759,,,,,Perfluorocyclobutane,2020,"Wolfspeed, Inc",0.0067,115-25-3
+C-C4F8,1007527,,,,,Perfluorocyclobutane,2020,ON Semiconductor,0.0533,115-25-3
+C-C4F8,1008059,,,,,Perfluorocyclobutane,2020,Texas Instruments Richardson,0.0145,115-25-3
+C-C4F8,1008262,,,,,Perfluorocyclobutane,2020,"Jireh Semiconductor, Inc.",0.2846,115-25-3
+C-C4F8,1008734,,,,,Perfluorocyclobutane,2020,Avago Technologies,0.0106,115-25-3
+C-C4F8,1008768,,,,,Perfluorocyclobutane,2020,Microchip Technology Inc.,0.0083,115-25-3
+C-C4F8,1008930,,,,,Perfluorocyclobutane,2020,LA Semiconductor,0.0338,115-25-3
+C-C4F8,1009361,,,,,Perfluorocyclobutane,2020,WaferTech LLC,0.6409,115-25-3
+C-C4F8,1009556,,,,,Perfluorocyclobutane,2020,Texas Instruments- Lehi Fab,0.1867,115-25-3
+C-C4F8,1009580,,,,,Perfluorocyclobutane,2020,Fairchild Semiconductor,0.07,115-25-3
+C-C4F8,1009581,,,,,Perfluorocyclobutane,2020,Diodes US Manufacturing Incorporated,0.218,115-25-3
+C-C4F8,1009792,,,,,Perfluorocyclobutane,2020,Microchip Technology,0.0432,115-25-3
+C-C4F8,1009805,,,,,Perfluorocyclobutane,2020,"Micron Technology, Inc.",0.2328,115-25-3
+C-C4F8,1009807,,,,,Perfluorocyclobutane,2020,Polar Semiconductor LLC,0.0095,115-25-3
+C-C4F8,1009872,,,,,Perfluorocyclobutane,2020,Samsung Austin Semiconductor,0.3693,115-25-3
+C-C4F8,1009928,,,,,Perfluorocyclobutane,2020,Robert Bosch Semiconductor LLC,0.001,115-25-3
+C-C4F8,1010005,,,,,Perfluorocyclobutane,2020,Tower Semiconductor,0.042,115-25-3
+C-C4F8,1010066,,,,,Perfluorocyclobutane,2020,NXP Semiconductors - EB site,0.0442,115-25-3
+C-C4F8,1010067,,,,,Perfluorocyclobutane,2020,NXP Semiconductors - OH site,0.1494,115-25-3
+C-C4F8,1010139,,,,,Perfluorocyclobutane,2020,Newport Fab LLC (dba TowerJazz),0.0682,115-25-3
+C-C4F8,1010141,,,,,Perfluorocyclobutane,2020,Cypress Semiconductor,0.574,115-25-3
+C-C4F8,1010208,,,,,Perfluorocyclobutane,2020,Texas Instruments Incorporated - Maine Fab,0.0398,115-25-3
+C-C4F8,1010241,,,,,Perfluorocyclobutane,2020,Honeywell Aerospace - Plymouth,0.0166,115-25-3
+C-C4F8,1010586,,,,,Perfluorocyclobutane,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.012,115-25-3
+C-C4F8,1012448,,,,,Perfluorocyclobutane,2020,Wolfspeed RTP,0.0127,115-25-3
+C-C4F8,1012992,,,,,Perfluorocyclobutane,2020,Aptina LLC,0.0136,115-25-3
+c-C5F8,1000354,,,,,PFC C-1418,2020,SKYWATER TECHNOLOGY INC,0.002,559-40-0
+c-C5F8,1003726,,,,,PFC C-1418,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.0186,559-40-0
+c-C5F8,1003759,,,,,PFC C-1418,2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.0002,559-40-0
+c-C5F8,1003945,,,,,PFC C-1418,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.0784,559-40-0
+c-C5F8,1004300,,,,,PFC C-1418,2020,Onsemi East Fishkill Facility,0.0003,559-40-0
+c-C5F8,1004746,,,,,PFC C-1418,2020,ANALOG DEVICES,0.0005,559-40-0
+c-C5F8,1004883,,,,,PFC C-1418,2020,MICROCHIP TECHNOLOGY INC,0.033,559-40-0
+c-C5F8,1005759,,,,,PFC C-1418,2020,"Wolfspeed, Inc",0.002,559-40-0
+c-C5F8,1007527,,,,,PFC C-1418,2020,ON Semiconductor,0.0052,559-40-0
+c-C5F8,1008059,,,,,PFC C-1418,2020,Texas Instruments Richardson,0.1076,559-40-0
+c-C5F8,1008262,,,,,PFC C-1418,2020,"Jireh Semiconductor, Inc.",0.0065,559-40-0
+c-C5F8,1008734,,,,,PFC C-1418,2020,Avago Technologies,0.0007,559-40-0
+c-C5F8,1008768,,,,,PFC C-1418,2020,Microchip Technology Inc.,0.0037,559-40-0
+c-C5F8,1008930,,,,,PFC C-1418,2020,LA Semiconductor,0.0033,559-40-0
+c-C5F8,1009361,,,,,PFC C-1418,2020,WaferTech LLC,0.0074,559-40-0
+c-C5F8,1009580,,,,,PFC C-1418,2020,Fairchild Semiconductor,0.002,559-40-0
+c-C5F8,1009581,,,,,PFC C-1418,2020,Diodes US Manufacturing Incorporated,0.0012,559-40-0
+c-C5F8,1009735,,,,,PFC C-1418,2020,"Skyworks Solutions, Inc.",0.0003,559-40-0
+c-C5F8,1009738,,,,,PFC C-1418,2020,X-FAB Texas Inc.,0.0001,559-40-0
+c-C5F8,1009792,,,,,PFC C-1418,2020,Microchip Technology,0.0172,559-40-0
+c-C5F8,1009807,,,,,PFC C-1418,2020,Polar Semiconductor LLC,0.0021,559-40-0
+c-C5F8,1009928,,,,,PFC C-1418,2020,Robert Bosch Semiconductor LLC,0.0001,559-40-0
+c-C5F8,1009951,,,,,PFC C-1418,2020,Infineon Technologies Americas Corp,0.0007,559-40-0
+c-C5F8,1009982,,,,,PFC C-1418,2020,Analog Devices Inc,0.005,559-40-0
+c-C5F8,1010005,,,,,PFC C-1418,2020,Tower Semiconductor,0.0138,559-40-0
+c-C5F8,1010033,,,,,PFC C-1418,2020,QORVO,0.0002,559-40-0
+c-C5F8,1010066,,,,,PFC C-1418,2020,NXP Semiconductors - EB site,0.006,559-40-0
+c-C5F8,1010067,,,,,PFC C-1418,2020,NXP Semiconductors - OH site,0.0111,559-40-0
+c-C5F8,1010083,,,,,PFC C-1418,2020,NXP Semiconductors Chandler Site,0.0027,559-40-0
+c-C5F8,1010134,,,,,PFC C-1418,2020,Texas Instruments - Sherman,0.001,559-40-0
+c-C5F8,1010139,,,,,PFC C-1418,2020,Newport Fab LLC (dba TowerJazz),0.0054,559-40-0
+c-C5F8,1010141,,,,,PFC C-1418,2020,Cypress Semiconductor,0.012,559-40-0
+c-C5F8,1010208,,,,,PFC C-1418,2020,Texas Instruments Incorporated - Maine Fab,0.0034,559-40-0
+c-C5F8,1010254,,,,,PFC C-1418,2020,"Qorvo US, Inc.",0.0004,559-40-0
+c-C5F8,1011813,,,,,PFC C-1418,2020,Qorvo Texas LLC,0.0006,559-40-0
+c-C5F8,1012448,,,,,PFC C-1418,2020,Wolfspeed RTP,0.0033,559-40-0
+c-C5F8,1012992,,,,,PFC C-1418,2020,Aptina LLC,0.0004,559-40-0
+CF2=CFCF=CF2,1000354,,,,,"Perfluorobuta-1,3-diene",2020,SKYWATER TECHNOLOGY INC,0.0005,685-63-2
+CF2=CFCF=CF2,1003997,,,,,"Perfluorobuta-1,3-diene",2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.006,685-63-2
+CF2=CFCF=CF2,1004006,,,,,"Perfluorobuta-1,3-diene",2020,INTEL CORPORATION RONLER ACRES CAMPUS,0.08,685-63-2
+CF2=CFCF=CF2,1004300,,,,,"Perfluorobuta-1,3-diene",2020,Onsemi East Fishkill Facility,0.0017,685-63-2
+CF2=CFCF=CF2,1004371,,,,,"Perfluorobuta-1,3-diene",2020,INTEL CORPORATION - Ocotillo Campus,0.13,685-63-2
+CF2=CFCF=CF2,1009556,,,,,"Perfluorobuta-1,3-diene",2020,Texas Instruments- Lehi Fab,0.083,685-63-2
+CF2=CFCF=CF2,1009805,,,,,"Perfluorobuta-1,3-diene",2020,"Micron Technology, Inc.",0.2664,685-63-2
+CF2=CFCF=CF2,1009872,,,,,"Perfluorobuta-1,3-diene",2020,Samsung Austin Semiconductor,0.1766,685-63-2
+CF2=CFCF=CF2,1010066,,,,,"Perfluorobuta-1,3-diene",2020,NXP Semiconductors - EB site,0.0139,685-63-2
+CF2=CFCF=CF2,1010139,,,,,"Perfluorobuta-1,3-diene",2020,Newport Fab LLC (dba TowerJazz),0.024,685-63-2
+CF2=CFCF=CF2,1010141,,,,,"Perfluorobuta-1,3-diene",2020,Cypress Semiconductor,0.034,685-63-2
+CF2=CFCF=CF2,1010586,,,,,"Perfluorobuta-1,3-diene",2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.003,685-63-2
+CF3OCF(CF3)CF2OCF2OCF3,1003726,,,,,PFPMIE (HT-70),2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.189,69991-67-9 (b)
+CF3OCF(CF3)CF2OCF2OCF3,1003945,,,,,PFPMIE (HT-70),2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.2531,69991-67-9 (b)
+CF3OCF(CF3)CF2OCF2OCF3,1004883,,,,,PFPMIE (HT-70),2020,MICROCHIP TECHNOLOGY INC,0.329,69991-67-9 (b)
+CF3OCF(CF3)CF2OCF2OCF3,1007527,,,,,PFPMIE (HT-70),2020,ON Semiconductor,0.0126,69991-67-9 (b)
+CF3OCF(CF3)CF2OCF2OCF3,1009792,,,,,PFPMIE (HT-70),2020,Microchip Technology,0.0562,69991-67-9 (b)
+CF4,1000354,,,,,PFC-14 (Perfluoromethane),2020,SKYWATER TECHNOLOGY INC,2.0154,75-73-0
+CF4,1003726,,,,,PFC-14 (Perfluoromethane),2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,6.2849,75-73-0
+CF4,1003759,,,,,PFC-14 (Perfluoromethane),2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.524,75-73-0
+CF4,1003945,,,,,PFC-14 (Perfluoromethane),2020,TEXAS INSTRUMENTS NORTH CAMPUS,20.6464,75-73-0
+CF4,1003997,,,,,PFC-14 (Perfluoromethane),2020,INTEL CORPORATION - RIO RANCHO FACILITY,1.7323,75-73-0
+CF4,1004006,,,,,PFC-14 (Perfluoromethane),2020,INTEL CORPORATION RONLER ACRES CAMPUS,12.424,75-73-0
+CF4,1004300,,,,,PFC-14 (Perfluoromethane),2020,Onsemi East Fishkill Facility,4.13,75-73-0
+CF4,1004325,,,,,PFC-14 (Perfluoromethane),2020,"MICRON TECHNOLOGY, INC.",0.0019,75-73-0
+CF4,1004371,,,,,PFC-14 (Perfluoromethane),2020,INTEL CORPORATION - Ocotillo Campus,21.853,75-73-0
+CF4,1004412,,,,,PFC-14 (Perfluoromethane),2020,GE GLOBAL RESEARCH CENTER,0.0102,75-73-0
+CF4,1004746,,,,,PFC-14 (Perfluoromethane),2020,ANALOG DEVICES,0.3641,75-73-0
+CF4,1004883,,,,,PFC-14 (Perfluoromethane),2020,MICROCHIP TECHNOLOGY INC,5.612,75-73-0
+CF4,1005759,,,,,PFC-14 (Perfluoromethane),2020,"Wolfspeed, Inc",4.4402,75-73-0
+CF4,1007527,,,,,PFC-14 (Perfluoromethane),2020,ON Semiconductor,3.771,75-73-0
+CF4,1008059,,,,,PFC-14 (Perfluoromethane),2020,Texas Instruments Richardson,10.789,75-73-0
+CF4,1008262,,,,,PFC-14 (Perfluoromethane),2020,"Jireh Semiconductor, Inc.",3.341,75-73-0
+CF4,1008734,,,,,PFC-14 (Perfluoromethane),2020,Avago Technologies,1.2581,75-73-0
+CF4,1008768,,,,,PFC-14 (Perfluoromethane),2020,Microchip Technology Inc.,1.7718,75-73-0
+CF4,1008930,,,,,PFC-14 (Perfluoromethane),2020,LA Semiconductor,0.9644,75-73-0
+CF4,1009361,,,,,PFC-14 (Perfluoromethane),2020,WaferTech LLC,2.9468,75-73-0
+CF4,1009556,,,,,PFC-14 (Perfluoromethane),2020,Texas Instruments- Lehi Fab,10.9569,75-73-0
+CF4,1009580,,,,,PFC-14 (Perfluoromethane),2020,Fairchild Semiconductor,0.51,75-73-0
+CF4,1009581,,,,,PFC-14 (Perfluoromethane),2020,Diodes US Manufacturing Incorporated,0.7347,75-73-0
+CF4,1009606,,,,,PFC-14 (Perfluoromethane),2020,INTEL CORPORATION ALOHA CAMPUS,0.642,75-73-0
+CF4,1009735,,,,,PFC-14 (Perfluoromethane),2020,"Skyworks Solutions, Inc.",0.367,75-73-0
+CF4,1009738,,,,,PFC-14 (Perfluoromethane),2020,X-FAB Texas Inc.,1.3767,75-73-0
+CF4,1009792,,,,,PFC-14 (Perfluoromethane),2020,Microchip Technology,3.5878,75-73-0
+CF4,1009805,,,,,PFC-14 (Perfluoromethane),2020,"Micron Technology, Inc.",10.9101,75-73-0
+CF4,1009807,,,,,PFC-14 (Perfluoromethane),2020,Polar Semiconductor LLC,1.6228,75-73-0
+CF4,1009872,,,,,PFC-14 (Perfluoromethane),2020,Samsung Austin Semiconductor,39.348,75-73-0
+CF4,1009928,,,,,PFC-14 (Perfluoromethane),2020,Robert Bosch Semiconductor LLC,0.1423,75-73-0
+CF4,1009951,,,,,PFC-14 (Perfluoromethane),2020,Infineon Technologies Americas Corp,0.3141,75-73-0
+CF4,1009982,,,,,PFC-14 (Perfluoromethane),2020,Analog Devices Inc,1.507,75-73-0
+CF4,1010005,,,,,PFC-14 (Perfluoromethane),2020,Tower Semiconductor,1.3197,75-73-0
+CF4,1010033,,,,,PFC-14 (Perfluoromethane),2020,QORVO,0.1644,75-73-0
+CF4,1010066,,,,,PFC-14 (Perfluoromethane),2020,NXP Semiconductors - EB site,2.3111,75-73-0
+CF4,1010067,,,,,PFC-14 (Perfluoromethane),2020,NXP Semiconductors - OH site,4.2278,75-73-0
+CF4,1010083,,,,,PFC-14 (Perfluoromethane),2020,NXP Semiconductors Chandler Site,3.669,75-73-0
+CF4,1010134,,,,,PFC-14 (Perfluoromethane),2020,Texas Instruments - Sherman,3.006,75-73-0
+CF4,1010139,,,,,PFC-14 (Perfluoromethane),2020,Newport Fab LLC (dba TowerJazz),1.6375,75-73-0
+CF4,1010141,,,,,PFC-14 (Perfluoromethane),2020,Cypress Semiconductor,4.103,75-73-0
+CF4,1010208,,,,,PFC-14 (Perfluoromethane),2020,Texas Instruments Incorporated - Maine Fab,5.3739,75-73-0
+CF4,1010241,,,,,PFC-14 (Perfluoromethane),2020,Honeywell Aerospace - Plymouth,0.08,75-73-0
+CF4,1010254,,,,,PFC-14 (Perfluoromethane),2020,"Qorvo US, Inc.",1.4268,75-73-0
+CF4,1010586,,,,,PFC-14 (Perfluoromethane),2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,13.3366,75-73-0
+CF4,1011813,,,,,PFC-14 (Perfluoromethane),2020,Qorvo Texas LLC,1.2561,75-73-0
+CF4,1012448,,,,,PFC-14 (Perfluoromethane),2020,Wolfspeed RTP,2.2909,75-73-0
+CF4,1012992,,,,,PFC-14 (Perfluoromethane),2020,Aptina LLC,0.0447,75-73-0
+CH2F2,1003726,,,,,HFC-32,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.0024,75-10-5
+CH2F2,1003945,,,,,HFC-32,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.0214,75-10-5
+CH2F2,1003997,,,,,HFC-32,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.007,75-10-5
+CH2F2,1004006,,,,,HFC-32,2020,INTEL CORPORATION RONLER ACRES CAMPUS,0.08,75-10-5
+CH2F2,1004300,,,,,HFC-32,2020,Onsemi East Fishkill Facility,0.0016,75-10-5
+CH2F2,1004371,,,,,HFC-32,2020,INTEL CORPORATION - Ocotillo Campus,0.148,75-10-5
+CH2F2,1004883,,,,,HFC-32,2020,MICROCHIP TECHNOLOGY INC,0.002,75-10-5
+CH2F2,1008059,,,,,HFC-32,2020,Texas Instruments Richardson,0.0106,75-10-5
+CH2F2,1009361,,,,,HFC-32,2020,WaferTech LLC,0.0091,75-10-5
+CH2F2,1009556,,,,,HFC-32,2020,Texas Instruments- Lehi Fab,0.1579,75-10-5
+CH2F2,1009606,,,,,HFC-32,2020,INTEL CORPORATION ALOHA CAMPUS,0.001,75-10-5
+CH2F2,1009792,,,,,HFC-32,2020,Microchip Technology,0.0036,75-10-5
+CH2F2,1009805,,,,,HFC-32,2020,"Micron Technology, Inc.",0.198,75-10-5
+CH2F2,1009872,,,,,HFC-32,2020,Samsung Austin Semiconductor,0.366,75-10-5
+CH2F2,1009928,,,,,HFC-32,2020,Robert Bosch Semiconductor LLC,0.0,75-10-5
+CH2F2,1009982,,,,,HFC-32,2020,Analog Devices Inc,0.0022,75-10-5
+CH2F2,1010005,,,,,HFC-32,2020,Tower Semiconductor,0.0018,75-10-5
+CH2F2,1010066,,,,,HFC-32,2020,NXP Semiconductors - EB site,0.0017,75-10-5
+CH2F2,1010139,,,,,HFC-32,2020,Newport Fab LLC (dba TowerJazz),0.0033,75-10-5
+CH2F2,1010586,,,,,HFC-32,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.0043,75-10-5
+CH2F2,1012992,,,,,HFC-32,2020,Aptina LLC,0.0001,75-10-5
+CH2FCF3,1000354,,,,,HFC-134a,2020,SKYWATER TECHNOLOGY INC,0.0092,811-97-2
+CH2FCF3,1004325,,,,,HFC-134a,2020,"MICRON TECHNOLOGY, INC.",0.0068,811-97-2
+CH2FCF3,1004746,,,,,HFC-134a,2020,ANALOG DEVICES,0.0015,811-97-2
+CH2FCF3,1009738,,,,,HFC-134a,2020,X-FAB Texas Inc.,0.0037,811-97-2
+CH2FCF3,1009872,,,,,HFC-134a,2020,Samsung Austin Semiconductor,0.0082,811-97-2
+CH3F,1000354,,,,,HFC-41,2020,SKYWATER TECHNOLOGY INC,0.003,593-53-3
+CH3F,1003726,,,,,HFC-41,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.0098,593-53-3
+CH3F,1003945,,,,,HFC-41,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.0371,593-53-3
+CH3F,1003997,,,,,HFC-41,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.019,593-53-3
+CH3F,1004006,,,,,HFC-41,2020,INTEL CORPORATION RONLER ACRES CAMPUS,0.531,593-53-3
+CH3F,1004300,,,,,HFC-41,2020,Onsemi East Fishkill Facility,0.004,593-53-3
+CH3F,1004371,,,,,HFC-41,2020,INTEL CORPORATION - Ocotillo Campus,0.655,593-53-3
+CH3F,1007527,,,,,HFC-41,2020,ON Semiconductor,0.0028,593-53-3
+CH3F,1008059,,,,,HFC-41,2020,Texas Instruments Richardson,0.0845,593-53-3
+CH3F,1009361,,,,,HFC-41,2020,WaferTech LLC,0.0064,593-53-3
+CH3F,1009556,,,,,HFC-41,2020,Texas Instruments- Lehi Fab,0.1383,593-53-3
+CH3F,1009606,,,,,HFC-41,2020,INTEL CORPORATION ALOHA CAMPUS,0.012,593-53-3
+CH3F,1009805,,,,,HFC-41,2020,"Micron Technology, Inc.",0.1603,593-53-3
+CH3F,1009872,,,,,HFC-41,2020,Samsung Austin Semiconductor,0.868,593-53-3
+CH3F,1010066,,,,,HFC-41,2020,NXP Semiconductors - EB site,0.0114,593-53-3
+CH3F,1010083,,,,,HFC-41,2020,NXP Semiconductors Chandler Site,0.0046,593-53-3
+CH3F,1010141,,,,,HFC-41,2020,Cypress Semiconductor,0.224,593-53-3
+CH3F,1010208,,,,,HFC-41,2020,Texas Instruments Incorporated - Maine Fab,0.0007,593-53-3
+CH3F,1010586,,,,,HFC-41,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.0197,593-53-3
+CH3F,1012992,,,,,HFC-41,2020,Aptina LLC,0.0,593-53-3
+CHF3,1000354,,,,,HFC-23,2020,SKYWATER TECHNOLOGY INC,0.3738,75-46-7
+CHF3,1003726,,,,,HFC-23,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,1.299,75-46-7
+CHF3,1003759,,,,,HFC-23,2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.0266,75-46-7
+CHF3,1003945,,,,,HFC-23,2020,TEXAS INSTRUMENTS NORTH CAMPUS,1.3548,75-46-7
+CHF3,1003997,,,,,HFC-23,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.141,75-46-7
+CHF3,1004006,,,,,HFC-23,2020,INTEL CORPORATION RONLER ACRES CAMPUS,2.544,75-46-7
+CHF3,1004300,,,,,HFC-23,2020,Onsemi East Fishkill Facility,0.0183,75-46-7
+CHF3,1004325,,,,,HFC-23,2020,"MICRON TECHNOLOGY, INC.",0.0,75-46-7
+CHF3,1004371,,,,,HFC-23,2020,INTEL CORPORATION - Ocotillo Campus,3.495,75-46-7
+CHF3,1004412,,,,,HFC-23,2020,GE GLOBAL RESEARCH CENTER,0.0035,75-46-7
+CHF3,1004746,,,,,HFC-23,2020,ANALOG DEVICES,0.1408,75-46-7
+CHF3,1004883,,,,,HFC-23,2020,MICROCHIP TECHNOLOGY INC,0.44,75-46-7
+CHF3,1005759,,,,,HFC-23,2020,"Wolfspeed, Inc",0.6031,75-46-7
+CHF3,1007527,,,,,HFC-23,2020,ON Semiconductor,0.2523,75-46-7
+CHF3,1008059,,,,,HFC-23,2020,Texas Instruments Richardson,0.6824,75-46-7
+CHF3,1008262,,,,,HFC-23,2020,"Jireh Semiconductor, Inc.",0.3877,75-46-7
+CHF3,1008734,,,,,HFC-23,2020,Avago Technologies,0.0228,75-46-7
+CHF3,1008768,,,,,HFC-23,2020,Microchip Technology Inc.,0.2513,75-46-7
+CHF3,1008930,,,,,HFC-23,2020,LA Semiconductor,0.1734,75-46-7
+CHF3,1009361,,,,,HFC-23,2020,WaferTech LLC,0.7111,75-46-7
+CHF3,1009556,,,,,HFC-23,2020,Texas Instruments- Lehi Fab,0.5633,75-46-7
+CHF3,1009580,,,,,HFC-23,2020,Fairchild Semiconductor,0.072,75-46-7
+CHF3,1009581,,,,,HFC-23,2020,Diodes US Manufacturing Incorporated,0.1021,75-46-7
+CHF3,1009606,,,,,HFC-23,2020,INTEL CORPORATION ALOHA CAMPUS,0.039,75-46-7
+CHF3,1009735,,,,,HFC-23,2020,"Skyworks Solutions, Inc.",0.154,75-46-7
+CHF3,1009738,,,,,HFC-23,2020,X-FAB Texas Inc.,0.1024,75-46-7
+CHF3,1009792,,,,,HFC-23,2020,Microchip Technology,0.3269,75-46-7
+CHF3,1009805,,,,,HFC-23,2020,"Micron Technology, Inc.",1.0174,75-46-7
+CHF3,1009807,,,,,HFC-23,2020,Polar Semiconductor LLC,0.3428,75-46-7
+CHF3,1009872,,,,,HFC-23,2020,Samsung Austin Semiconductor,5.793,75-46-7
+CHF3,1009928,,,,,HFC-23,2020,Robert Bosch Semiconductor LLC,0.0064,75-46-7
+CHF3,1009951,,,,,HFC-23,2020,Infineon Technologies Americas Corp,0.2584,75-46-7
+CHF3,1009982,,,,,HFC-23,2020,Analog Devices Inc,0.4766,75-46-7
+CHF3,1010005,,,,,HFC-23,2020,Tower Semiconductor,0.3125,75-46-7
+CHF3,1010033,,,,,HFC-23,2020,QORVO,0.0198,75-46-7
+CHF3,1010066,,,,,HFC-23,2020,NXP Semiconductors - EB site,0.4782,75-46-7
+CHF3,1010067,,,,,HFC-23,2020,NXP Semiconductors - OH site,0.3558,75-46-7
+CHF3,1010083,,,,,HFC-23,2020,NXP Semiconductors Chandler Site,0.63,75-46-7
+CHF3,1010134,,,,,HFC-23,2020,Texas Instruments - Sherman,0.146,75-46-7
+CHF3,1010139,,,,,HFC-23,2020,Newport Fab LLC (dba TowerJazz),0.3063,75-46-7
+CHF3,1010141,,,,,HFC-23,2020,Cypress Semiconductor,0.812,75-46-7
+CHF3,1010208,,,,,HFC-23,2020,Texas Instruments Incorporated - Maine Fab,0.1352,75-46-7
+CHF3,1010241,,,,,HFC-23,2020,Honeywell Aerospace - Plymouth,0.0001,75-46-7
+CHF3,1010254,,,,,HFC-23,2020,"Qorvo US, Inc.",0.0317,75-46-7
+CHF3,1010586,,,,,HFC-23,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.0845,75-46-7
+CHF3,1011813,,,,,HFC-23,2020,Qorvo Texas LLC,0.0998,75-46-7
+CHF3,1012448,,,,,HFC-23,2020,Wolfspeed RTP,0.3241,75-46-7
+CHF3,1012992,,,,,HFC-23,2020,Aptina LLC,0.006,75-46-7
+NF3,1000354,,,,,Nitrogen trifluoride,2020,SKYWATER TECHNOLOGY INC,0.1775,7783-54-2
+NF3,1003726,,,,,Nitrogen trifluoride,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,2.8322,7783-54-2
+NF3,1003759,,,,,Nitrogen trifluoride,2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.0258,7783-54-2
+NF3,1003945,,,,,Nitrogen trifluoride,2020,TEXAS INSTRUMENTS NORTH CAMPUS,3.8006,7783-54-2
+NF3,1003997,,,,,Nitrogen trifluoride,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.3884,7783-54-2
+NF3,1004006,,,,,Nitrogen trifluoride,2020,INTEL CORPORATION RONLER ACRES CAMPUS,3.026,7783-54-2
+NF3,1004300,,,,,Nitrogen trifluoride,2020,Onsemi East Fishkill Facility,0.4376,7783-54-2
+NF3,1004371,,,,,Nitrogen trifluoride,2020,INTEL CORPORATION - Ocotillo Campus,4.077,7783-54-2
+NF3,1004412,,,,,Nitrogen trifluoride,2020,GE GLOBAL RESEARCH CENTER,0.0084,7783-54-2
+NF3,1004746,,,,,Nitrogen trifluoride,2020,ANALOG DEVICES,0.0115,7783-54-2
+NF3,1004883,,,,,Nitrogen trifluoride,2020,MICROCHIP TECHNOLOGY INC,0.597,7783-54-2
+NF3,1005759,,,,,Nitrogen trifluoride,2020,"Wolfspeed, Inc",0.1809,7783-54-2
+NF3,1007527,,,,,Nitrogen trifluoride,2020,ON Semiconductor,0.4314,7783-54-2
+NF3,1008059,,,,,Nitrogen trifluoride,2020,Texas Instruments Richardson,1.6409,7783-54-2
+NF3,1008262,,,,,Nitrogen trifluoride,2020,"Jireh Semiconductor, Inc.",0.0639,7783-54-2
+NF3,1008734,,,,,Nitrogen trifluoride,2020,Avago Technologies,0.0171,7783-54-2
+NF3,1008768,,,,,Nitrogen trifluoride,2020,Microchip Technology Inc.,0.2929,7783-54-2
+NF3,1008930,,,,,Nitrogen trifluoride,2020,LA Semiconductor,0.1178,7783-54-2
+NF3,1009361,,,,,Nitrogen trifluoride,2020,WaferTech LLC,0.3428,7783-54-2
+NF3,1009556,,,,,Nitrogen trifluoride,2020,Texas Instruments- Lehi Fab,1.6119,7783-54-2
+NF3,1009580,,,,,Nitrogen trifluoride,2020,Fairchild Semiconductor,0.026,7783-54-2
+NF3,1009581,,,,,Nitrogen trifluoride,2020,Diodes US Manufacturing Incorporated,0.16,7783-54-2
+NF3,1009606,,,,,Nitrogen trifluoride,2020,INTEL CORPORATION ALOHA CAMPUS,0.259,7783-54-2
+NF3,1009738,,,,,Nitrogen trifluoride,2020,X-FAB Texas Inc.,0.0776,7783-54-2
+NF3,1009792,,,,,Nitrogen trifluoride,2020,Microchip Technology,0.1022,7783-54-2
+NF3,1009805,,,,,Nitrogen trifluoride,2020,"Micron Technology, Inc.",2.3478,7783-54-2
+NF3,1009807,,,,,Nitrogen trifluoride,2020,Polar Semiconductor LLC,0.2611,7783-54-2
+NF3,1009872,,,,,Nitrogen trifluoride,2020,Samsung Austin Semiconductor,8.43,7783-54-2
+NF3,1009928,,,,,Nitrogen trifluoride,2020,Robert Bosch Semiconductor LLC,0.0001,7783-54-2
+NF3,1009951,,,,,Nitrogen trifluoride,2020,Infineon Technologies Americas Corp,0.0414,7783-54-2
+NF3,1009982,,,,,Nitrogen trifluoride,2020,Analog Devices Inc,0.0847,7783-54-2
+NF3,1010005,,,,,Nitrogen trifluoride,2020,Tower Semiconductor,0.0103,7783-54-2
+NF3,1010066,,,,,Nitrogen trifluoride,2020,NXP Semiconductors - EB site,0.8202,7783-54-2
+NF3,1010067,,,,,Nitrogen trifluoride,2020,NXP Semiconductors - OH site,0.158,7783-54-2
+NF3,1010083,,,,,Nitrogen trifluoride,2020,NXP Semiconductors Chandler Site,0.5,7783-54-2
+NF3,1010139,,,,,Nitrogen trifluoride,2020,Newport Fab LLC (dba TowerJazz),0.2214,7783-54-2
+NF3,1010141,,,,,Nitrogen trifluoride,2020,Cypress Semiconductor,0.942,7783-54-2
+NF3,1010208,,,,,Nitrogen trifluoride,2020,Texas Instruments Incorporated - Maine Fab,0.577,7783-54-2
+NF3,1010241,,,,,Nitrogen trifluoride,2020,Honeywell Aerospace - Plymouth,0.0342,7783-54-2
+NF3,1010254,,,,,Nitrogen trifluoride,2020,"Qorvo US, Inc.",0.0036,7783-54-2
+NF3,1010586,,,,,Nitrogen trifluoride,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.4146,7783-54-2
+NF3,1011813,,,,,Nitrogen trifluoride,2020,Qorvo Texas LLC,0.0078,7783-54-2
+NF3,1012448,,,,,Nitrogen trifluoride,2020,Wolfspeed RTP,0.0199,7783-54-2
+SF6,1000354,,,,,Sulfur hexafluoride,2020,SKYWATER TECHNOLOGY INC,0.0957,2551-62-4
+SF6,1003726,,,,,Sulfur hexafluoride,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,1.3419,2551-62-4
+SF6,1003759,,,,,Sulfur hexafluoride,2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.3055,2551-62-4
+SF6,1003945,,,,,Sulfur hexafluoride,2020,TEXAS INSTRUMENTS NORTH CAMPUS,1.7873,2551-62-4
+SF6,1003997,,,,,Sulfur hexafluoride,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.057,2551-62-4
+SF6,1004006,,,,,Sulfur hexafluoride,2020,INTEL CORPORATION RONLER ACRES CAMPUS,2.715,2551-62-4
+SF6,1004300,,,,,Sulfur hexafluoride,2020,Onsemi East Fishkill Facility,0.0426,2551-62-4
+SF6,1004325,,,,,Sulfur hexafluoride,2020,"MICRON TECHNOLOGY, INC.",0.3112,2551-62-4
+SF6,1004371,,,,,Sulfur hexafluoride,2020,INTEL CORPORATION - Ocotillo Campus,3.458,2551-62-4
+SF6,1004412,,,,,Sulfur hexafluoride,2020,GE GLOBAL RESEARCH CENTER,0.0123,2551-62-4
+SF6,1004746,,,,,Sulfur hexafluoride,2020,ANALOG DEVICES,0.1597,2551-62-4
+SF6,1004883,,,,,Sulfur hexafluoride,2020,MICROCHIP TECHNOLOGY INC,0.225,2551-62-4
+SF6,1005759,,,,,Sulfur hexafluoride,2020,"Wolfspeed, Inc",1.5531,2551-62-4
+SF6,1007527,,,,,Sulfur hexafluoride,2020,ON Semiconductor,0.5972,2551-62-4
+SF6,1008059,,,,,Sulfur hexafluoride,2020,Texas Instruments Richardson,0.4685,2551-62-4
+SF6,1008262,,,,,Sulfur hexafluoride,2020,"Jireh Semiconductor, Inc.",0.9355,2551-62-4
+SF6,1008734,,,,,Sulfur hexafluoride,2020,Avago Technologies,3.803,2551-62-4
+SF6,1008768,,,,,Sulfur hexafluoride,2020,Microchip Technology Inc.,0.2332,2551-62-4
+SF6,1008930,,,,,Sulfur hexafluoride,2020,LA Semiconductor,0.3368,2551-62-4
+SF6,1009361,,,,,Sulfur hexafluoride,2020,WaferTech LLC,0.5157,2551-62-4
+SF6,1009556,,,,,Sulfur hexafluoride,2020,Texas Instruments- Lehi Fab,0.1676,2551-62-4
+SF6,1009580,,,,,Sulfur hexafluoride,2020,Fairchild Semiconductor,0.607,2551-62-4
+SF6,1009581,,,,,Sulfur hexafluoride,2020,Diodes US Manufacturing Incorporated,0.054,2551-62-4
+SF6,1009735,,,,,Sulfur hexafluoride,2020,"Skyworks Solutions, Inc.",0.0965,2551-62-4
+SF6,1009738,,,,,Sulfur hexafluoride,2020,X-FAB Texas Inc.,0.0165,2551-62-4
+SF6,1009792,,,,,Sulfur hexafluoride,2020,Microchip Technology,1.0652,2551-62-4
+SF6,1009805,,,,,Sulfur hexafluoride,2020,"Micron Technology, Inc.",0.1118,2551-62-4
+SF6,1009807,,,,,Sulfur hexafluoride,2020,Polar Semiconductor LLC,0.1549,2551-62-4
+SF6,1009872,,,,,Sulfur hexafluoride,2020,Samsung Austin Semiconductor,0.704,2551-62-4
+SF6,1009928,,,,,Sulfur hexafluoride,2020,Robert Bosch Semiconductor LLC,0.0013,2551-62-4
+SF6,1009951,,,,,Sulfur hexafluoride,2020,Infineon Technologies Americas Corp,0.1831,2551-62-4
+SF6,1009982,,,,,Sulfur hexafluoride,2020,Analog Devices Inc,0.4,2551-62-4
+SF6,1010005,,,,,Sulfur hexafluoride,2020,Tower Semiconductor,0.1684,2551-62-4
+SF6,1010033,,,,,Sulfur hexafluoride,2020,QORVO,1.0466,2551-62-4
+SF6,1010066,,,,,Sulfur hexafluoride,2020,NXP Semiconductors - EB site,0.24,2551-62-4
+SF6,1010067,,,,,Sulfur hexafluoride,2020,NXP Semiconductors - OH site,0.3905,2551-62-4
+SF6,1010083,,,,,Sulfur hexafluoride,2020,NXP Semiconductors Chandler Site,0.257,2551-62-4
+SF6,1010134,,,,,Sulfur hexafluoride,2020,Texas Instruments - Sherman,0.106,2551-62-4
+SF6,1010139,,,,,Sulfur hexafluoride,2020,Newport Fab LLC (dba TowerJazz),0.5619,2551-62-4
+SF6,1010141,,,,,Sulfur hexafluoride,2020,Cypress Semiconductor,0.414,2551-62-4
+SF6,1010208,,,,,Sulfur hexafluoride,2020,Texas Instruments Incorporated - Maine Fab,0.1503,2551-62-4
+SF6,1010241,,,,,Sulfur hexafluoride,2020,Honeywell Aerospace - Plymouth,0.0336,2551-62-4
+SF6,1010254,,,,,Sulfur hexafluoride,2020,"Qorvo US, Inc.",0.3503,2551-62-4
+SF6,1010586,,,,,Sulfur hexafluoride,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.0012,2551-62-4
+SF6,1011813,,,,,Sulfur hexafluoride,2020,Qorvo Texas LLC,0.7948,2551-62-4
+SF6,1012448,,,,,Sulfur hexafluoride,2020,Wolfspeed RTP,5.1446,2551-62-4
+SF6,1012992,,,,,Sulfur hexafluoride,2020,Aptina LLC,0.0091,2551-62-4
+,1000354,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,SKYWATER TECHNOLOGY INC,0.1098,
+,1000354,CF3CF2CF(OCH3)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,132182-92-4,"HFE-7300 (1,1,1,2,2,3,4,5,5,5-decafluoro-3-methoxy-4-trifluoromethyl-pentane)",Other,2020,SKYWATER TECHNOLOGY INC,0.3103,
+,1000354,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,SKYWATER TECHNOLOGY INC,0.1686,
+,1000354,,,,,Nitrous Oxide,2020,SKYWATER TECHNOLOGY INC,0.475,
+,1003726,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,1.4726,
+,1003726,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.01,
+,1003726,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.0198,
+,1003726,C5F18,Fully fluorinated GHGs,86508-42-1,Brayco IC X-100,Other,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.0048,
+,1003726,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.956,
+,1003726,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,0.973,
+,1003726,,,,,Nitrous Oxide,2020,GLOBALFOUNDRIES U.S. 2 LLC - Vermont Facility,34.053,
+,1003759,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (f),HT-170,Other,2020,"Analog Devices, Inc./ Wilmington Manufacturing",0.063,
+,1003759,,,,,Nitrous Oxide,2020,"Analog Devices, Inc./ Wilmington Manufacturing",4.347,
+,1003945,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.18,
+,1003945,C4F6,"Unsaturated perfluorocarbons (PFCs), unsaturated HFCs, unsaturated hydrochlorofluorocarbons (HCFCs), unsaturated halogenated ethers, unsaturated halogenated esters, fluorinated aldehydes, and fluorina",692-50-2,Hexafluoro-2-butyne,Other,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.0037,
+,1003945,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.0588,
+,1003945,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.1989,
+,1003945,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.3255,
+,1003945,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (p),HT-270,Other,2020,TEXAS INSTRUMENTS NORTH CAMPUS,0.0963,
+,1003945,,,,,Nitrous Oxide,2020,TEXAS INSTRUMENTS NORTH CAMPUS,42.336,
+,1003997,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.004,
+,1003997,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.01,
+,1003997,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (p),HT-270,Other,2020,INTEL CORPORATION - RIO RANCHO FACILITY,0.11,
+,1003997,,,,,Nitrous Oxide,2020,INTEL CORPORATION - RIO RANCHO FACILITY,25.034,
+,1004006,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,INTEL CORPORATION RONLER ACRES CAMPUS,0.15,
+,1004006,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,INTEL CORPORATION RONLER ACRES CAMPUS,11.88,
+,1004006,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,INTEL CORPORATION RONLER ACRES CAMPUS,0.27,
+,1004006,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (g),DO2-TS,Other,2020,INTEL CORPORATION RONLER ACRES CAMPUS,0.01,
+,1004006,,,,,Nitrous Oxide,2020,INTEL CORPORATION RONLER ACRES CAMPUS,176.559,
+,1004300,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Onsemi East Fishkill Facility,2.034,
+,1004300,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,Onsemi East Fishkill Facility,0.259,
+,1004300,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,Onsemi East Fishkill Facility,1.876,
+,1004300,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,Onsemi East Fishkill Facility,0.06,
+,1004300,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (p),HT-270,Other,2020,Onsemi East Fishkill Facility,0.136,
+,1004300,,,,,Nitrous Oxide,2020,Onsemi East Fishkill Facility,29.39,
+,1004325,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,"MICRON TECHNOLOGY, INC.",0.028,
+,1004325,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (f),HT-170,Other,2020,"MICRON TECHNOLOGY, INC.",0.0201,
+,1004325,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,"MICRON TECHNOLOGY, INC.",0.0066,
+,1004371,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,INTEL CORPORATION - Ocotillo Campus,0.0,
+,1004371,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,INTEL CORPORATION - Ocotillo Campus,0.53,
+,1004371,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,INTEL CORPORATION - Ocotillo Campus,0.0,
+,1004371,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,INTEL CORPORATION - Ocotillo Campus,0.0,
+,1004371,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (p),HT-270,Other,2020,INTEL CORPORATION - Ocotillo Campus,0.0,
+,1004371,,,,,Nitrous Oxide,2020,INTEL CORPORATION - Ocotillo Campus,171.0,
+,1004412,,,,,Nitrous Oxide,2020,GE GLOBAL RESEARCH CENTER,0.169,
+,1004746,,,,,Nitrous Oxide,2020,ANALOG DEVICES,4.964,
+,1004883,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,MICROCHIP TECHNOLOGY INC,0.007,
+,1004883,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,MICROCHIP TECHNOLOGY INC,1.163,
+,1004883,,,,,Nitrous Oxide,2020,MICROCHIP TECHNOLOGY INC,22.339,
+,1005759,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,"Wolfspeed, Inc",0.1452,
+,1005759,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,"Wolfspeed, Inc",0.1047,
+,1005759,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (f),HT-170,Other,2020,"Wolfspeed, Inc",0.007,
+,1005759,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (Fomblin 16/6),Fomblin 16/6,Other,2020,"Wolfspeed, Inc",0.0178,
+,1005759,,,,,Nitrous Oxide,2020,"Wolfspeed, Inc",6.935,
+,1007527,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,ON Semiconductor,0.938,
+,1007527,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,ON Semiconductor,0.0136,
+,1007527,,,,,Nitrous Oxide,2020,ON Semiconductor,54.433,
+,1008059,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Texas Instruments Richardson,7.78,
+,1008059,C4F6,"Unsaturated perfluorocarbons (PFCs), unsaturated HFCs, unsaturated hydrochlorofluorocarbons (HCFCs), unsaturated halogenated ethers, unsaturated halogenated esters, fluorinated aldehydes, and fluorina",692-50-2,Hexafluoro-2-butyne,Other,2020,Texas Instruments Richardson,0.0012,
+,1008059,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,Texas Instruments Richardson,0.14,
+,1008059,,,,,Nitrous Oxide,2020,Texas Instruments Richardson,34.191,
+,1008262,CH3OC7F13,Other fluorinated GHGs,1708962-18-8,Opteon SP10,Other,2020,"Jireh Semiconductor, Inc.",0.4675,
+,1008262,,,,,Nitrous Oxide,2020,"Jireh Semiconductor, Inc.",9.726,
+,1008734,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,Avago Technologies,1.338,
+,1008734,,,,,Nitrous Oxide,2020,Avago Technologies,13.999,
+,1008768,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Microchip Technology Inc.,0.5439,
+,1008768,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,Microchip Technology Inc.,0.0064,
+,1008768,,,,,Nitrous Oxide,2020,Microchip Technology Inc.,7.571,
+,1008930,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (g),DO2-TS,Other,2020,LA Semiconductor,0.002,
+,1008930,,,,,Nitrous Oxide,2020,LA Semiconductor,0.02,
+,1009361,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,WaferTech LLC,2.2235,
+,1009361,,,,,Nitrous Oxide,2020,WaferTech LLC,22.833,
+,1009556,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Texas Instruments- Lehi Fab,3.1242,
+,1009556,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,Texas Instruments- Lehi Fab,0.171,
+,1009556,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,Texas Instruments- Lehi Fab,0.0261,
+,1009556,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,Texas Instruments- Lehi Fab,1.7216,
+,1009556,,,,,Nitrous Oxide,2020,Texas Instruments- Lehi Fab,22.889,
+,1009580,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Fairchild Semiconductor,0.27,
+,1009580,,,,,Nitrous Oxide,2020,Fairchild Semiconductor,1.814,
+,1009581,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,Diodes US Manufacturing Incorporated,0.266,
+,1009581,,,,,Nitrous Oxide,2020,Diodes US Manufacturing Incorporated,0.581,
+,1009606,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,INTEL CORPORATION ALOHA CAMPUS,0.03,
+,1009606,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,INTEL CORPORATION ALOHA CAMPUS,1.7,
+,1009606,,,,,Nitrous Oxide,2020,INTEL CORPORATION ALOHA CAMPUS,15.263,
+,1009735,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,"Skyworks Solutions, Inc.",0.364,
+,1009735,,,,,Nitrous Oxide,2020,"Skyworks Solutions, Inc.",0.255,
+,1009738,C2ClF6,Fully fluorinated GHGs,76-15-3,Chloropentafluoroethane,Other,2020,X-FAB Texas Inc.,0.0041,
+,1009738,CHClF2,Other fluorinated GHGs,75-45-6,Chlorodifluoromethane,Other,2020,X-FAB Texas Inc.,0.0157,
+,1009738,,,,,Nitrous Oxide,2020,X-FAB Texas Inc.,0.114,
+,1009792,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Microchip Technology,0.6622,
+,1009792,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (g),DO2-TS,Other,2020,Microchip Technology,0.0872,
+,1009792,,,,,Nitrous Oxide,2020,Microchip Technology,1.137,
+,1009805,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,"Micron Technology, Inc.",7.7878,
+,1009805,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,"Micron Technology, Inc.",0.264,
+,1009805,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,"Micron Technology, Inc.",0.24,
+,1009805,,,,,Nitrous Oxide,2020,"Micron Technology, Inc.",35.879,
+,1009807,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Polar Semiconductor LLC,0.0558,
+,1009807,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (g),DO2-TS,Other,2020,Polar Semiconductor LLC,0.0,
+,1009807,,,,,Nitrous Oxide,2020,Polar Semiconductor LLC,3.669,
+,1009872,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Samsung Austin Semiconductor,4.3864,
+,1009872,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,Samsung Austin Semiconductor,0.025,
+,1009872,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (f),HT-170,Other,2020,Samsung Austin Semiconductor,0.982,
+,1009872,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,Samsung Austin Semiconductor,0.466,
+,1009872,,,,,Nitrous Oxide,2020,Samsung Austin Semiconductor,86.36,
+,1009928,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Robert Bosch Semiconductor LLC,0.42,
+,1009928,,,,,Nitrous Oxide,2020,Robert Bosch Semiconductor LLC,0.673,
+,1009951,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,Infineon Technologies Americas Corp,0.0,
+,1009951,,,,,Nitrous Oxide,2020,Infineon Technologies Americas Corp,1.256,
+,1009982,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,Analog Devices Inc,0.6336,
+,1009982,,,,,Nitrous Oxide,2020,Analog Devices Inc,9.418,
+,1010005,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (f),HT-170,Other,2020,Tower Semiconductor,0.332,
+,1010005,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (p),HT-270,Other,2020,Tower Semiconductor,0.055,
+,1010005,,,,,Nitrous Oxide,2020,Tower Semiconductor,10.26,
+,1010033,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,QORVO,0.1858,
+,1010033,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,QORVO,0.5995,
+,1010033,,,,,Nitrous Oxide,2020,QORVO,0.157,
+,1010066,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,NXP Semiconductors - EB site,0.0545,
+,1010066,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,NXP Semiconductors - EB site,0.0613,
+,1010066,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,NXP Semiconductors - EB site,0.0273,
+,1010066,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,NXP Semiconductors - EB site,0.357,
+,1010066,,,,,Nitrous Oxide,2020,NXP Semiconductors - EB site,3.7,
+,1010067,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,NXP Semiconductors - OH site,0.255,
+,1010067,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,NXP Semiconductors - OH site,0.071,
+,1010067,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,NXP Semiconductors - OH site,0.034,
+,1010067,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,NXP Semiconductors - OH site,0.021,
+,1010067,,,,,Nitrous Oxide,2020,NXP Semiconductors - OH site,1.368,
+,1010083,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,NXP Semiconductors Chandler Site,0.0043,
+,1010083,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,NXP Semiconductors Chandler Site,0.0033,
+,1010083,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (q),Perfluorosolv PFS-2,Other,2020,NXP Semiconductors Chandler Site,0.021,
+,1010083,"PERFLUORO COMPOUNDS, C5-18",Fully fluorinated GHGs,86508-42-1,3M Fluorinert FC-3283 Electronic Liquid,Other,2020,NXP Semiconductors Chandler Site,0.014,
+,1010083,,,,,Nitrous Oxide,2020,NXP Semiconductors Chandler Site,1.27,
+,1010134,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Texas Instruments - Sherman,0.025,
+,1010134,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (d),HT-110,Other,2020,Texas Instruments - Sherman,0.003,
+,1010134,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,Texas Instruments - Sherman,0.063,
+,1010134,,,,,Nitrous Oxide,2020,Texas Instruments - Sherman,1.213,
+,1010139,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,Newport Fab LLC (dba TowerJazz),0.0876,
+,1010139,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,Newport Fab LLC (dba TowerJazz),0.0194,
+,1010139,,,,,Nitrous Oxide,2020,Newport Fab LLC (dba TowerJazz),33.49,
+,1010141,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,Cypress Semiconductor,0.3978,
+,1010141,CF3CF2CF(OCH3)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,132182-92-4,"HFE-7300 (1,1,1,2,2,3,4,5,5,5-decafluoro-3-methoxy-4-trifluoromethyl-pentane)",Other,2020,Cypress Semiconductor,0.255,
+,1010141,,,,,Nitrous Oxide,2020,Cypress Semiconductor,25.012,
+,1010208,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Texas Instruments Incorporated - Maine Fab,0.8668,
+,1010208,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,Texas Instruments Incorporated - Maine Fab,0.9006,
+,1010208,,,,,Nitrous Oxide,2020,Texas Instruments Incorporated - Maine Fab,11.688,
+,1010241,"100% 1-Propene 1,1,2,3,3,3 - Hexafluoro-Oxidized, Polymd.",Fully fluorinated GHGs,69991-67-9,Galden DET,Other,2020,Honeywell Aerospace - Plymouth,0.5459,
+,1010241,100% Perfluorocompounds (Primarily compounds with 6 carbons),Fully fluorinated GHGs,86508-42-1,Fluorinert (FC-72),Other,2020,Honeywell Aerospace - Plymouth,0.1715,
+,1010241,C5F15NO,Fully fluorinated GHGs,1093615-61-2,FC-770 (Perfluoroisopropylmorpholine),Other,2020,Honeywell Aerospace - Plymouth,0.2794,
+,1010241,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,Honeywell Aerospace - Plymouth,0.0054,
+,1010241,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (g),DO2-TS,Other,2020,Honeywell Aerospace - Plymouth,0.7499,
+,1010241,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (o),D03,Other,2020,Honeywell Aerospace - Plymouth,0.8469,
+,1010241,,,,,Nitrous Oxide,2020,Honeywell Aerospace - Plymouth,0.159,
+,1010254,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (g),DO2-TS,Other,2020,"Qorvo US, Inc.",0.0134,
+,1010254,,,,,Nitrous Oxide,2020,"Qorvo US, Inc.",2.323,
+,1010586,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,1.2424,
+,1010586,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,3.5316,
+,1010586,CF3CF2CF2CF(OC2H5)CF(CF3)2,Saturated HFEs and HCFEs with 3 or more carbon-hydrogen bonds,297730-93-9,"HFE-7500 (3-ethoxy-1,1,1,2,3,4,4,5,5,6,6,6-dodecafluoro-2-trifluoromethyl-hexane)",Other,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.828,
+,1010586,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,0.003,
+,1010586,,,,,Nitrous Oxide,2020,GLOBALFOUNDRIES U.S. Inc. Fab 8,53.355,
+,1011813,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Qorvo Texas LLC,0.1022,
+,1011813,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,Qorvo Texas LLC,0.151,
+,1011813,,,,,Nitrous Oxide,2020,Qorvo Texas LLC,7.486,
+,1012448,(C3F7)3N,Fully fluorinated GHGs,338-83-0,FC-3283/FC-8270 (Perfluorotripropylamine),Other,2020,Wolfspeed RTP,0.0998,
+,1012448,(C4F9)3N,Fully fluorinated GHGs,1064698-37-8,FC-40/FC-43 (Perfluorotributylamine (PTBA)),Other,2020,Wolfspeed RTP,0.0499,
+,1012448,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (e),HT-135,Other,2020,Wolfspeed RTP,0.098,
+,1012448,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (f),HT-170,Other,2020,Wolfspeed RTP,0.007,
+,1012448,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (Fomblin 14/6),Fomblin 14/6,Other,2020,Wolfspeed RTP,0.0019,
+,1012448,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (Fomblin Y25/6),Fomblin Y25/6,Other,2020,Wolfspeed RTP,0.0057,
+,1012448,CF3(OCFCF3CF2)n-(OCF2)m-OCF3,Fully fluorinated GHGs,69991-67-9 (h),HT-200,Other,2020,Wolfspeed RTP,0.029,
+,1012448,,,,,Nitrous Oxide,2020,Wolfspeed RTP,5.878,
+,1012992,C4F6,"Unsaturated perfluorocarbons (PFCs), unsaturated HFCs, unsaturated hydrochlorofluorocarbons (HCFCs), unsaturated halogenated ethers, unsaturated halogenated esters, fluorinated aldehydes, and fluorina",692-50-2,Hexafluoro-2-butyne,Other,2020,Aptina LLC,0.0007,
