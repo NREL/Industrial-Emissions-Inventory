@@ -1,6 +1,4 @@
-Below is the updated README with the additional information regarding the large data files:
 
----
 
 # AEGIS: Air Emissions Grouped By Industrial Sectors
 
