@@ -1,6 +1,4 @@
-Below is the updated README with the additional information regarding the large data files:
 
----
 
 # AEGIS: Air Emissions Grouped By Industrial Sectors
 
@@ -146,4 +144,3 @@ AEGIS is released under the [MIT License](LICENSE).
 
 ---
 
-This README provides a comprehensive overview of the AEGIS framework, its features, and how to set it up and use it. Please obtain the large data files (`reduced_stack_file.csv`, `combinedinventories_NEI_TRI_GHGRP.csv`, and `flow_by_process_NEI.csv`) separately as they are not included in the repository due to GitHub storage limitations. Feel free to modify or expand the sections based on additional project specifics or future enhancements.
