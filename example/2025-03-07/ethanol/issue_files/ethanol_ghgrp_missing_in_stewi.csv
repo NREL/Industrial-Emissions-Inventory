@@ -1,0 +1,7 @@
+Facility Id,FRS Id,Facility Name,City_x,State_x,Zip Code,Address_x,County_x,Latitude_x,Longitude_x,Primary NAICS Code,FRS_ID,FacilityName,Address_y,City_y,State_y,Zip,Latitude_y,Longitude_y,County_y,NAICS,SIC,FacilityID,Source
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110000427020.0,AGRI ENERGY LLC,502 SOUTH WALNUT AVENUE,LUVERNE,MN,56156.0,43.648333,-96.224444,ROCK COUNTY,325199,nan,1005284,GHGRP
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110017436130.0,CARGILL INC - EDDYVILLE,1 CARGILL DR.,EDDYVILLE,IA,52553.0,41.14481,-92.63579,WAPELLO COUNTY,311221,nan,1007881,GHGRP
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110056959929.0,POET BIOREFINING,2111 SANDUSKY STREET,FOSTORIA,OH,44830.0,41.17562,-83.3806,SENECA COUNTY,325192,nan,1006912,GHGRP
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110059765696.0,Cargill Corn Milling North America,650 Industrial park Drive,Blair,NE,68008.0,41.53397,-96.0979,WASHINGTON COUNTY,311221,nan,1006425,GHGRP
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,nan,Charter Waste Landfill,12035 West Murphy Road,Odessa,TX,79764.0,31.745833,-102.546661,ECTOR COUNTY,562212,nan,1002509,GHGRP
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,nan,"EPL Oil & Gas, Inc. - SP 77 A",None,Offshore,LA,0.0,28.8308,-89.4061,ORLEANS PARISH,211111,nan,1010333,GHGRP

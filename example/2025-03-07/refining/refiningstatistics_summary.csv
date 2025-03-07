@@ -1,0 +1,15 @@
+,mean,median,emissions,sector,minimum,maximum
+0,4.8936E-4,3.1405E-4,Volatile Organic Compounds,w/o outliers,6.9189E-5,2.4362E-3
+0,5.4726E-4,3.1456E-4,Volatile Organic Compounds,w. outliers,6.9189E-5,4.9094E-3
+0,1.4832E-4,8.5845E-5,Sulfur Dioxide,w/o outliers,1.7388E-6,9.9297E-4
+0,1.7898E-4,8.7000E-5,Sulfur Dioxide,w. outliers,1.7388E-6,1.8858E-3
+0,4.3111E-4,3.7932E-4,Nitrogen Oxides,w/o outliers,5.8703E-5,1.0740E-3
+0,4.9770E-4,4.0569E-4,Nitrogen Oxides,w. outliers,5.8703E-5,4.5409E-3
+0,1.3467E-5,5.6921E-6,PM10-PM2.5,w/o outliers,0.0000E+4,8.9940E-5
+0,2.8178E-5,6.5476E-6,PM10-PM2.5,w. outliers,0.0000E+4,1.2858E-3
+0,2.2763E-4,1.7149E-4,Methane,w/o outliers,3.8504E-5,1.4226E-3
+0,4.7161E-4,1.7996E-4,Methane,w. outliers,2.5510E-5,3.2404E-2
+0,9.9840E-1,9.9871E-1,Carbon Dioxide,w/o outliers,9.8300E-1,9.9995E-1
+0,9.9387E-1,9.9865E-1,Carbon Dioxide,w. outliers,4.0969E-1,9.9995E-1
+0,8.1999E-6,8.4747E-6,Nitrous Oxide,w/o outliers,1.1182E-6,1.9848E-5
+0,9.9850E-6,8.2702E-6,Nitrous Oxide,w. outliers,1.1182E-6,2.5722E-4
