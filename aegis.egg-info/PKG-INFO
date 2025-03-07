@@ -1,0 +1,303 @@
+Metadata-Version: 2.2
+Name: aegis
+Version: 0.0.1
+Summary: AEGIS is a robust framework designed to build and compile emissions inventories for various industrial sectors. It integrates multiple emissions databases provided by the USEPA – including GHGRP, NEI, and TRI – and leverages the STEWI and STEWICOMBO tools to retrieve, merge, and process data. The framework produces facility- and process-level inventories, identifies discrepancies (e.g., NAICS or FRS mismatches), and performs exploratory analysis including emission concentration calculations and visualization.
+Home-page: https://github.com/NREL/Industrial-Emissions-Inventory
+Author: Tapajyoti Ghosh
+Author-email: tghosh@nrel.gov
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohappyeyeballs==2.5.0
+Requires-Dist: aiohttp==3.11.13
+Requires-Dist: aiosignal==1.3.2
+Requires-Dist: alabaster==0.7.16
+Requires-Dist: appdirs==1.4.4
+Requires-Dist: applaunchservices==0.3.0
+Requires-Dist: appnope==0.1.4
+Requires-Dist: arrow==1.3.0
+Requires-Dist: astroid==3.3.8
+Requires-Dist: asttokens==3.0.0
+Requires-Dist: async-timeout==5.0.1
+Requires-Dist: asyncssh==2.20.0
+Requires-Dist: atomicwrites==1.4.1
+Requires-Dist: attrs==25.1.0
+Requires-Dist: autopep8==2.0.4
+Requires-Dist: babel==2.17.0
+Requires-Dist: backports.tarfile==1.2.0
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: binaryornot==0.4.4
+Requires-Dist: black==25.1.0
+Requires-Dist: bleach==6.2.0
+Requires-Dist: boto3==1.35.98
+Requires-Dist: botocore==1.35.98
+Requires-Dist: certifi==2024.12.14
+Requires-Dist: cffi==1.17.1
+Requires-Dist: chardet==5.2.0
+Requires-Dist: charset-normalizer==3.4.1
+Requires-Dist: click==8.1.8
+Requires-Dist: cloudpickle==3.1.1
+Requires-Dist: comm==0.2.2
+Requires-Dist: contourpy==1.3.0
+Requires-Dist: cookiecutter==2.6.0
+Requires-Dist: cryptography==44.0.2
+Requires-Dist: cycler==0.12.1
+Requires-Dist: debugpy==1.8.13
+Requires-Dist: decorator==5.2.1
+Requires-Dist: defusedxml==0.7.1
+Requires-Dist: Deprecated==1.2.18
+Requires-Dist: diff-match-patch==20241021
+Requires-Dist: dill==0.3.9
+Requires-Dist: docstring-to-markdown==0.15
+Requires-Dist: docutils==0.21.2
+Requires-Dist: esupy@ git+https://github.com/USEPA/esupy.git@2a54c424911c7b4e6a0a8f287a994496a49cbc24
+Requires-Dist: et_xmlfile==2.0.0
+Requires-Dist: exceptiongroup==1.2.2
+Requires-Dist: executing==2.2.0
+Requires-Dist: fastjsonschema==2.21.1
+Requires-Dist: flake8==7.1.2
+Requires-Dist: fonttools==4.55.3
+Requires-Dist: frozenlist==1.5.0
+Requires-Dist: idna==3.10
+Requires-Dist: imagesize==1.4.1
+Requires-Dist: importlib_metadata==8.6.1
+Requires-Dist: importlib_resources==6.5.2
+Requires-Dist: inflection==0.5.1
+Requires-Dist: intervaltree==3.1.0
+Requires-Dist: ipykernel==6.29.5
+Requires-Dist: ipython==8.18.1
+Requires-Dist: isort==6.0.1
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jaraco.context==6.0.1
+Requires-Dist: jaraco.functools==4.1.0
+Requires-Dist: jedi==0.19.2
+Requires-Dist: jellyfish==1.1.3
+Requires-Dist: Jinja2==3.1.6
+Requires-Dist: jmespath==1.0.1
+Requires-Dist: joblib==1.4.2
+Requires-Dist: jsonschema==4.23.0
+Requires-Dist: jsonschema-specifications==2024.10.1
+Requires-Dist: jupyter_client==8.6.3
+Requires-Dist: jupyter_core==5.7.2
+Requires-Dist: jupyterlab_pygments==0.3.0
+Requires-Dist: keyring==25.6.0
+Requires-Dist: kiwisolver==1.4.7
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: MarkupSafe==3.0.2
+Requires-Dist: matplotlib==3.9.4
+Requires-Dist: matplotlib-inline==0.1.7
+Requires-Dist: mccabe==0.7.0
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: mistune==3.1.2
+Requires-Dist: more-itertools==10.6.0
+Requires-Dist: multidict==6.1.0
+Requires-Dist: mypy-extensions==1.0.0
+Requires-Dist: nbclient==0.10.2
+Requires-Dist: nbconvert==7.16.6
+Requires-Dist: nbformat==5.10.4
+Requires-Dist: nest-asyncio==1.6.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: numpydoc==1.8.0
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: packaging==24.2
+Requires-Dist: pandas==1.5.2
+Requires-Dist: pandocfilters==1.5.1
+Requires-Dist: parso==0.8.4
+Requires-Dist: pathspec==0.12.1
+Requires-Dist: pexpect==4.9.0
+Requires-Dist: pickleshare==0.7.5
+Requires-Dist: pillow==11.1.0
+Requires-Dist: platformdirs==4.3.6
+Requires-Dist: pluggy==1.5.0
+Requires-Dist: prompt_toolkit==3.0.50
+Requires-Dist: propcache==0.3.0
+Requires-Dist: psutil==7.0.0
+Requires-Dist: ptyprocess==0.7.0
+Requires-Dist: pure_eval==0.2.3
+Requires-Dist: pyarrow==18.1.0
+Requires-Dist: pycodestyle==2.12.1
+Requires-Dist: pycparser==2.22
+Requires-Dist: pydocstyle==6.3.0
+Requires-Dist: pyflakes==3.2.0
+Requires-Dist: requests==2.32.3
+Requires-Dist: scikit-learn==1.6.1
+Requires-Dist: scipy==1.13.1
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: six==1.17.0
+Requires-Dist: snowballstemmer==2.2.0
+Requires-Dist: sortedcontainers==2.4.0
+Requires-Dist: soupsieve==2.6
+Requires-Dist: Sphinx==7.4.7
+Requires-Dist: stewi==1.1.3
+Requires-Dist: spyder==6.0.4
+Requires-Dist: superqt==0.7.1
+Requires-Dist: tabulate==0.9.0
+Requires-Dist: text-unidecode==1.3
+Requires-Dist: threadpoolctl==3.5.0
+Requires-Dist: tomli==2.2.1
+Requires-Dist: traitlets==5.14.3
+Requires-Dist: tzdata==2024.2
+Requires-Dist: urllib3==1.26.20
+Requires-Dist: watchdog==6.0.0
+Requires-Dist: yapf==0.43.0
+Requires-Dist: yarl==1.18.3
+Requires-Dist: zipp==3.21.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+
+# AEGIS: Air Emissions Grouped By Industrial Sectors
+
+AEGIS is a robust framework designed to build and compile emissions inventories for various industrial sectors. It integrates multiple emissions databases provided by the USEPA – including GHGRP, NEI, and TRI – and leverages the STEWI and STEWICOMBO tools to retrieve, merge, and process data. The framework produces facility- and process-level inventories, identifies discrepancies (e.g., NAICS or FRS mismatches), and performs exploratory analysis including emission concentration calculations and visualization.
+
+## Features
+
+- **Multi-database Integration:**  
+  Retrieves and combines emissions data from GHGRP, NEI, and TRI inventories.
+
+- **Robust Data Processing:**  
+  Uses structured processing routines to merge facility and process-level data, apply NAICS code filtering, and address data quality issues.
+
+- **Emission Concentration Calculations:**  
+  Computes emission concentrations using CO₂ as a reference to estimate flue gas totals.
+
+- **Exploratory Data Analysis & Visualization:**  
+  Generates scatter plots and other visualizations for in-depth analysis of emission flows and concentrations.
+
+- **Error Handling & Logging:**  
+  Incorporates detailed logging and robust error handling to ensure smooth execution and easier debugging.
+
+- **Extensible and Documented:**  
+  Code is organized into modular functions with Sphinx-compatible docstrings, making it easier to extend and maintain.
+
+## Requirements
+
+- **Python 3.x**  
+- **Key Python Libraries:**  
+  - [pandas](https://pandas.pydata.org/)
+  - [numpy](https://numpy.org/)
+  - [matplotlib](https://matplotlib.org/)
+  - [seaborn](https://seaborn.pydata.org/)
+  - [STEWI](https://github.com/USEPA/Stewi) and [STEWICOMBO](https://github.com/USEPA/Stewicombo) (for data retrieval and processing)
+
+- **Operating System:**  
+  Cross-platform (Windows, macOS, Linux)
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/YourOrganization/AEGIS.git
+   cd AEGIS
+   ```
+
+2. **Create a Virtual Environment (Recommended):**
+
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Required Packages:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   *(Ensure that the `requirements.txt` file includes all necessary libraries such as pandas, numpy, matplotlib, seaborn, STEWI, etc.)*
+
+## Data Files
+
+Some data files are too large to be stored on GitHub. The following files in the `Data/` folder are **not** supplied in the repository and must be obtained separately:
+
+- `reduced_stack_file.csv`
+- `combinedinventories_NEI_TRI_GHGRP.csv`
+- `flow_by_process_NEI.csv`
+
+Ensure these files are placed in the `Data/` folder as required by the framework.
+
+## Usage
+
+AEGIS is designed to be executed as a modular script. You can run the main inventory-building process by executing the primary script (e.g., `run.py`):
+
+```bash
+python run.py
+```
+
+### Configuration
+
+- **Sector and NAICS Codes:**  
+  Configure the target industrial sector and corresponding NAICS codes either via command-line arguments or by editing the configuration section in the main script.
+
+- **File Paths:**  
+  Ensure that data files (GHGRP, NEI, TRI source files, and supplementary files) are stored in the correct directories as specified in the code (e.g., the `../Data/` folder).
+
+## Directory Structure
+
+A typical directory structure for AEGIS may look like this:
+
+```
+AEGIS/
+│
+├── Data/                   # Raw data files and intermediate results
+│   ├── GHGRP_epa_<year>.xlsx
+│   ├── NEI_facility_information_file.xlsx
+│   ├── TRI_Facility_information_file.xlsx
+│   ├── reduced_stack_file.csv   # Not provided; obtain separately.
+│   ├── combinedinventories_NEI_TRI_GHGRP.csv   # Not provided; obtain separately.
+│   ├── flow_by_process_NEI.csv   # Not provided; obtain separately.
+│   └── ... (other data files)
+│
+├── src/                    # Source code modules
+│   ├── fecm_data_explorationv2.py
+│   └── ... (other modules)
+│
+├── run.py                  # Main execution script
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation (this file)
+```
+
+## Documentation
+
+The code is fully documented using Sphinx-compatible docstrings. You can generate additional documentation by running:
+
+```bash
+sphinx-build -b html docs/ build/docs
+```
+
+*(Ensure you have Sphinx installed and a proper `conf.py` in your `docs/` folder.)*
+
+## Contributing
+
+Contributions to AEGIS are welcome! Please follow these guidelines:
+
+1. Fork the repository and create your branch from `main`.
+2. Ensure your code adheres to the project's style and includes proper logging, documentation, and error handling.
+3. Submit a pull request with a detailed description of your changes.
+
+## License
+
+AEGIS is released under the [MIT License](LICENSE).
+
+## References
+
+- **Emissions Databases:**  
+  - GHGRP, NEI, TRI – USEPA emissions databases.
+- **STEWI & STEWICOMBO:**  
+  - [STEWI GitHub Repository](https://github.com/USEPA/Stewi)
+  - [STEWICOMBO GitHub Repository](https://github.com/USEPA/Stewicombo)
+
+---
+
