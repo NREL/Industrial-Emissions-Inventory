@@ -42,7 +42,7 @@ AEGIS is a robust framework designed to build and compile emissions inventories 
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/YourOrganization/AEGIS.git
+   git clone https://github.com/NREL/AEGIS.git
    cd AEGIS
    ```
 
@@ -76,7 +76,7 @@ Ensure these files are placed in the `Data/` folder as required by the framework
 AEGIS is designed to be executed as a modular script. You can run the main inventory-building process by executing the primary script (e.g., `run.py`):
 
 ```bash
-python run.py
+python main.py
 ```
 
 ### Configuration
