@@ -1,55 +1,88 @@
-'''
-This file runs the fecm inventory for sectors listed sequentially and creates output files
-in folders with current date as names. 
-The fecm inventory builder involves 3 main parts - 
-1. Running Stewi and obtaining the inventories
-2. Compiling the data to create the emissions inventory for a certain sector, find errors and provide results files at facility and process level
-3. Statistical analysis
-'''
+"""
+This script runs the FECM inventory for specified sectors and creates output files
+in folders named with the current date. The FECM inventory builder consists of three main parts:
 
+1. Running Stewi to obtain emissions inventories.
+2. Compiling the data to create emissions inventories for a sector, handling errors, and generating facility- and process-level results.
+3. Performing statistical analysis on the compiled inventory.
+"""
 
-
-from fecm_data_explorationv2 import main
+import logging
+from datetime import datetime
+from aegis import main
 from statistical_analysis import stat_analysis
 
+# Configure logging
+logging.basicConfig(
+    filename=f"fecm_inventory_{datetime.today().strftime('%Y-%m-%d')}.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
-'''
-The sectors listed here do not have a user defined NAICS code
-Instead the NAICS code is obtained from the GHGRP Flight tool sector wise exported files and used for compilation of emission inventories
-The two boolean flags refer to 
-1. If a GHGRP Flight Tool exported file with NAICS code is available or not
-2. If a corrected parquet file is available with manual corrections provided for debugging various inventory issues and errors
-If a corrected parquet is available, the inventory builder drops all non GHGRP listed facilities
-'''
-
-
-flag_for_running_stewi = True
-corrected_parquet = True
-
-sectors = ['cement','steel','ammonia','hydrogen','refining','natural_gas_processing']
-year = "2017"
-
-count = 0
-for sec in sectors:
-    print("Creating inventory for ", sec)
-    if count > 0:
-        main(sec,True,0,corrected_parquet,False,year)
-    else:
-        main(sec,True,0,corrected_parquet,flag_for_running_stewi,year)
-    count = count + 1
+def run_inventory_for_sector(sector: str, use_flight_tool: bool, naics_code: int, corrected_parquet: bool, run_stewi: bool, year: str):
+    """
+    Runs the emissions inventory process for a given industrial sector.
     
+    Parameters
+    ----------
+    sector : str
+        Name of the industrial sector (e.g., 'cement', 'steel').
+    use_flight_tool : bool
+        Whether to use GHGRP Flight Tool exported file for NAICS code.
+    naics_code : int
+        NAICS code for the sector; required if `use_flight_tool` is False.
+    corrected_parquet : bool
+        If True, use a corrected parquet file with manual corrections.
+    run_stewi : bool
+        Whether to run Stewi for emissions inventory retrieval.
+    year : str
+        Year for which the inventory is being built.
+    """
+    try:
+        logging.info(f"Starting inventory creation for sector: {sector}")
+        main(sector, use_flight_tool, naics_code, corrected_parquet, run_stewi, year)
+        logging.info(f"Successfully created inventory for sector: {sector}")
+    except Exception as e:
+        logging.error(f"Error processing sector {sector}: {e}", exc_info=True)
 
-sectors = ['pulp','ethanol']
-"""
-For ethanol and pulp, GHGRP FLight Tool exported sector files are not available. Thus best possible NAICS code estimates are provided to build the inventory
-"""
-for sec in sectors:
-    if sec == "ethanol":
-        main(sec,False,325193,corrected_parquet,False,year)
-        pass
-    elif sec == "pulp":
-        main(sec,False,322110,corrected_parquet,False,year)
+def run_statistical_analysis(sector: str):
+    """
+    Runs statistical analysis on the compiled emissions inventory for a sector.
+    
+    Parameters
+    ----------
+    sector : str
+        Name of the industrial sector.
+    """
+    try:
+        logging.info(f"Starting statistical analysis for sector: {sector}")
+        stat_analysis(sector)
+        logging.info(f"Statistical analysis completed for sector: {sector}")
+    except Exception as e:
+        logging.error(f"Error during statistical analysis for {sector}: {e}", exc_info=True)
 
-
-for sec in sectors:
-    stat_analysis(sec)
+if __name__ == "__main__":
+    # Define sector configurations
+    flag_for_running_stewi = False
+    corrected_parquet = True
+    year = "2017"
+    
+    # Sectors that require GHGRP Flight Tool exported files
+    ghgrp_sectors = ['cement', 'steel', 'ammonia', 'hydrogen', 'refining', 'natural_gas_processing']
+    
+    for idx, sector in enumerate(ghgrp_sectors):
+        run_inventory_for_sector(sector, True, 0, corrected_parquet, flag_for_running_stewi if idx == 0 else False, year)
+    
+    # Sectors without GHGRP Flight Tool exported files
+    custom_naics_sectors = {
+        "ethanol": 325193,
+        "pulp": 322110
+    }
+    
+    for sector, naics_code in custom_naics_sectors.items():
+        run_inventory_for_sector(sector, False, naics_code, corrected_parquet, False, year)
+    
+    # Run statistical analysis for all sectors
+    all_sectors = ghgrp_sectors + list(custom_naics_sectors.keys())
+    for sector in all_sectors:
+        run_statistical_analysis(sector)
