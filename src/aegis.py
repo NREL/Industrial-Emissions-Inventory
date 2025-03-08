@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""
-Air Emissions Grouped By Industrial Sectors (AEGIS)
-=====================================================
-
-The AEGIS Inventory Builder achieves multiple objectives:
-1. Runs STEWI to download and obtain databases from three sources - GHGRP, NEI, and TRI.
-2. Compiles the databases and builds emissions inventories for individual sectors.
-3. Compiles emissions inventories at the facility and process levels.
-4. Compiles stack parameter information for facilities in the NEI.
-"""
 
 import os
 import sys

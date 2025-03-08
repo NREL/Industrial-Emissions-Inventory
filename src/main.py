@@ -1,4 +1,12 @@
 """
+Air Emissions Grouped By Industrial Sectors (AEGIS)
+----------------------------------------------------
+The AEGIS Inventory Builder achieves multiple objectives:
+1. Runs STEWI to download and obtain databases from three sources - GHGRP, NEI, and TRI.
+2. Compiles the databases and builds emissions inventories for individual sectors.
+3. Compiles emissions inventories at the facility and process levels.
+4. Compiles stack parameter information for facilities in the NEI.
+
 This script runs the FECM inventory for specified sectors and creates output files
 in folders named with the current date. The FECM inventory builder consists of three main parts:
 
@@ -40,6 +48,7 @@ def run_inventory_for_sector(sector: str, use_flight_tool: bool, naics_code: int
     """
     try:
         logging.info(f"Starting inventory creation for sector: {sector}")
+        sys.exit(0)
         main(sector, use_flight_tool, naics_code, corrected_parquet, run_stewi, year)
         logging.info(f"Successfully created inventory for sector: {sector}")
     except Exception as e:
@@ -69,6 +78,7 @@ if __name__ == "__main__":
     
     # Sectors that require GHGRP Flight Tool exported files
     ghgrp_sectors = ['cement', 'steel', 'ammonia', 'hydrogen', 'refining', 'natural_gas_processing']
+    ghgrp_sectors = ['cement']
     
     for idx, sector in enumerate(ghgrp_sectors):
         run_inventory_for_sector(sector, True, 0, corrected_parquet, flag_for_running_stewi if idx == 0 else False, year)

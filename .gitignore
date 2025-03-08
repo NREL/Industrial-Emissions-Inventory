@@ -1,3 +1,6 @@
 
 .DS_Store
 *.pyc
+Data/combinedinventories_NEI_TRI_GHGRP.csv
+Data/flow_by_process_NEI.csv
+Data/reduced_stack_file.csv
