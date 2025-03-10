@@ -48,7 +48,6 @@ def run_inventory_for_sector(sector: str, use_flight_tool: bool, naics_code: int
     """
     try:
         logging.info(f"Starting inventory creation for sector: {sector}")
-        sys.exit(0)
         main(sector, use_flight_tool, naics_code, corrected_parquet, run_stewi, year)
         logging.info(f"Successfully created inventory for sector: {sector}")
     except Exception as e:
@@ -77,9 +76,7 @@ if __name__ == "__main__":
     year = "2017"
     
     # Sectors that require GHGRP Flight Tool exported files
-    ghgrp_sectors = ['cement', 'steel', 'ammonia', 'hydrogen', 'refining', 'natural_gas_processing']
-    ghgrp_sectors = ['cement']
-    
+    ghgrp_sectors = ['cement', 'steel', 'ammonia', 'hydrogen', 'refining', 'natural_gas_processing'] 
     for idx, sector in enumerate(ghgrp_sectors):
         run_inventory_for_sector(sector, True, 0, corrected_parquet, flag_for_running_stewi if idx == 0 else False, year)
     

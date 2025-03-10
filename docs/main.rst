@@ -1,8 +1,8 @@
 
-Main Documentation
+Run Documentation
 --------------------
 
-.. automodule:: main
+.. automodule:: run
    :members:
    :undoc-members:
    :show-inheritance:
