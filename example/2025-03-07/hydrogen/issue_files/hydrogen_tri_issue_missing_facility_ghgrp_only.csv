@@ -1,5 +1,0 @@
-TRIFD,FACILITY NAME,PRIMARY NAICS,NAICS 2,NAICS 3,NAICS 4,NAICS 5,NAICS 6,PARENT CO NAME,FRS ID,FRS_ID,FacilityName,Address,City,State,Zip,Latitude,Longitude,County,NAICS,SIC,FacilityID,Source,_merge,FRS_ID_Issues
-issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110000437974.0,EVONIK CORP,8300 W RT 24,MAPLETON,IL,61547,40.564725,-89.724485,PEORIA,325613,nan,61547GLDSC8300W,TRI,right_only,False
-issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110067040703.0,ARKEMA INC CLEAR LAKE,9502 B BAYPORT BLVD,PASADENA,TX,77507,29.62139,-95.06389,HARRIS,325110,nan,77507DWCHM952BB,TRI,right_only,False
-issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110067040703.0,CLARIANT CORP CLEAR LAKE PLANT,9502 BAYPORT BLVD - ETOX UNIT,PASADENA,TX,77507,29.625819,-95.061592,HARRIS,325613,nan,7750WCLRNT952BA,TRI,right_only,False
-issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110000490870.0,SOLVAY CHEMICALS INC,3500 INDUSTRIAL WAY,LONGVIEW,WA,98632,46.136952,-122.982513,COWLITZ,325180,nan,98632NTRXM3500I,TRI,right_only,False

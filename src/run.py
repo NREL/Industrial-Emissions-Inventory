@@ -77,18 +77,21 @@ if __name__ == "__main__":
     
     # Sectors that require GHGRP Flight Tool exported files
     ghgrp_sectors = ['cement', 'steel', 'ammonia', 'hydrogen', 'refining', 'natural_gas_processing'] 
-    for idx, sector in enumerate(ghgrp_sectors):
-        run_inventory_for_sector(sector, True, 0, corrected_parquet, flag_for_running_stewi if idx == 0 else False, year)
-    
+
     # Sectors without GHGRP Flight Tool exported files
     custom_naics_sectors = {
         "ethanol": 325193,
         "pulp": 322110
     }
+
+    for idx, sector in enumerate(ghgrp_sectors):
+        run_inventory_for_sector(sector, True, 0, corrected_parquet, flag_for_running_stewi if idx == 0 else False, year)
+    
+
     
     for sector, naics_code in custom_naics_sectors.items():
         run_inventory_for_sector(sector, False, naics_code, corrected_parquet, False, year)
-    
+
     # Run statistical analysis for all sectors
     all_sectors = ghgrp_sectors + list(custom_naics_sectors.keys())
     for sector in all_sectors:

@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="Python" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Run Documentation &mdash; aegis 0.0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=0ea5f55c"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Aegis Documentation" href="aegis.html" />
+    <link rel="prev" title="Usage" href="usage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            aegis
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Run Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#air-emissions-grouped-by-industrial-sectors-aegis">Air Emissions Grouped By Industrial Sectors (AEGIS)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#run.run_inventory_for_sector"><code class="docutils literal notranslate"><span class="pre">run_inventory_for_sector()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#run.run_statistical_analysis"><code class="docutils literal notranslate"><span class="pre">run_statistical_analysis()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="aegis.html">Aegis Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_analysis.html">Statistical analysis Documentation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">aegis</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Run Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/run.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-run">
+<span id="run-documentation"></span><h1>Run Documentation<a class="headerlink" href="#module-run" title="Link to this heading"></a></h1>
+<section id="air-emissions-grouped-by-industrial-sectors-aegis">
+<h2>Air Emissions Grouped By Industrial Sectors (AEGIS)<a class="headerlink" href="#air-emissions-grouped-by-industrial-sectors-aegis" title="Link to this heading"></a></h2>
+<p>The AEGIS Inventory Builder achieves multiple objectives:
+1. Runs STEWI to download and obtain databases from three sources - GHGRP, NEI, and TRI.
+2. Compiles the databases and builds emissions inventories for individual sectors.
+3. Compiles emissions inventories at the facility and process levels.
+4. Compiles stack parameter information for facilities in the NEI.</p>
+<p>This script runs the FECM inventory for specified sectors and creates output files
+in folders named with the current date. The FECM inventory builder consists of three main parts:</p>
+<ol class="arabic simple">
+<li><p>Running Stewi to obtain emissions inventories.</p></li>
+<li><p>Compiling the data to create emissions inventories for a sector, handling errors, and generating facility- and process-level results.</p></li>
+<li><p>Performing statistical analysis on the compiled inventory.</p></li>
+</ol>
+</section>
+<dl class="py function">
+<dt class="sig sig-object py" id="run.run_inventory_for_sector">
+<span class="sig-prename descclassname"><span class="pre">run.</span></span><span class="sig-name descname"><span class="pre">run_inventory_for_sector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sector</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_flight_tool</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics_code</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">corrected_parquet</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">run_stewi</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">year</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/run.html#run_inventory_for_sector"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#run.run_inventory_for_sector" title="Link to this definition"></a></dt>
+<dd><p>Runs the emissions inventory process for a given industrial sector.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sector</strong> (<em>str</em>) -- Name of the industrial sector (e.g., 'cement', 'steel').</p></li>
+<li><p><strong>use_flight_tool</strong> (<em>bool</em>) -- Whether to use GHGRP Flight Tool exported file for NAICS code.</p></li>
+<li><p><strong>naics_code</strong> (<em>int</em>) -- NAICS code for the sector; required if <cite>use_flight_tool</cite> is False.</p></li>
+<li><p><strong>corrected_parquet</strong> (<em>bool</em>) -- If True, use a corrected parquet file with manual corrections.</p></li>
+<li><p><strong>run_stewi</strong> (<em>bool</em>) -- Whether to run Stewi for emissions inventory retrieval.</p></li>
+<li><p><strong>year</strong> (<em>str</em>) -- Year for which the inventory is being built.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="run.run_statistical_analysis">
+<span class="sig-prename descclassname"><span class="pre">run.</span></span><span class="sig-name descname"><span class="pre">run_statistical_analysis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sector</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/run.html#run_statistical_analysis"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#run.run_statistical_analysis" title="Link to this definition"></a></dt>
+<dd><p>Runs statistical analysis on the compiled emissions inventory for a sector.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>sector</strong> (<em>str</em>) -- Name of the industrial sector.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="usage.html" class="btn btn-neutral float-left" title="Usage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="aegis.html" class="btn btn-neutral float-right" title="Aegis Documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Tapajyoti Ghosh.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
