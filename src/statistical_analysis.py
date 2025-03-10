@@ -35,6 +35,21 @@ def load_inventory_data(sector: str) -> pd.DataFrame:
     return pd.read_csv(file_path)
 
 
+def load_inventory_data_concentration(sector: str) -> pd.DataFrame:
+    """
+    Load facility-level inventory data for a given sector with concentration.
+
+    :param sector: Industrial sector name (e.g., cement, hydrogen)
+    :return: DataFrame containing the inventory data
+    :raises FileNotFoundError: If the required file is missing
+    """
+    file_path = os.path.join(OUTPUT_PATH, sector, f"{sector}_facility_level_with_concentration_via_co2_reference.csv")
+    if not os.path.exists(file_path):
+        logging.error(f"Missing inventory file: {file_path}")
+        raise FileNotFoundError(f"Inventory file not found: {file_path}")
+    logging.info(f"Loading inventory data from {file_path}")
+    return pd.read_csv(file_path)
+
 def plot_histogram(data: pd.DataFrame, sector: str, pollutant: str, filename_suffix: str):
     """
     Generate and save a histogram plot for pollutant flow amounts.
@@ -119,6 +134,9 @@ def stat_analysis(sector: str):
         # Generate histograms
         for pollutant in emissions:
             plot_histogram(data, sector, pollutant, f"{pollutant.lower().replace(' ', '_')}_histogram")
+
+        # Load data
+        data = load_inventory_data_concentration(sector)
 
         # Detect outliers
         outlier_ids = []

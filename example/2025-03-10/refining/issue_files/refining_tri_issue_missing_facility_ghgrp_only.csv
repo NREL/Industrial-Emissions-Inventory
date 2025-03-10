@@ -1,0 +1,4 @@
+TRIFD,FACILITY NAME,PRIMARY NAICS,NAICS 2,NAICS 3,NAICS 4,NAICS 5,NAICS 6,PARENT CO NAME,FRS ID,FRS_ID,FacilityName,Address,City,State,Zip,Latitude,Longitude,County,NAICS,SIC,FacilityID,Source,_merge
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110031267064.0,WESTLAKE EPOXY INC.- DEER PARK SITE,5900 HIGHWAY 225 - GATE 7B,DEER PARK,TX,77536,29.722222,-95.126944,HARRIS,325211,nan,77536RSLTN5900H,TRI,right_only
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110031267064.0,SHELL CHEMICAL LP,5900 HWY 225 EAST,DEER PARK,TX,77536,29.722222,-95.126944,HARRIS,325110,nan,77536SHLLLHIGHW,TRI,right_only
+issues,issues,issues,issues,issues,issues,issues,issues,issues,issues,110000475940.0,ALTAIR PARAMOUNT LLC,14700 DOWNEY AVE,PARAMOUNT,CA,90723,33.899645,-118.15141,LOS ANGELES,325199,nan,90723PRMNT14700,TRI,right_only

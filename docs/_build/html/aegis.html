@@ -1,0 +1,560 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="Python" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aegis Documentation &mdash; aegis 0.0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=0ea5f55c"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Statistical analysis Documentation" href="statistical_analysis.html" />
+    <link rel="prev" title="Usage" href="usage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            aegis
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Aegis Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.add_cas_number"><code class="docutils literal notranslate"><span class="pre">add_cas_number()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.combine_facility_name_inv"><code class="docutils literal notranslate"><span class="pre">combine_facility_name_inv()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.concentration_calculation"><code class="docutils literal notranslate"><span class="pre">concentration_calculation()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.emission_concentration_calculation"><code class="docutils literal notranslate"><span class="pre">emission_concentration_calculation()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.facility_stack_parameters"><code class="docutils literal notranslate"><span class="pre">facility_stack_parameters()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.ghgrp"><code class="docutils literal notranslate"><span class="pre">ghgrp()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.ghgrp_process_exploration_fuel"><code class="docutils literal notranslate"><span class="pre">ghgrp_process_exploration_fuel()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.ghgrp_process_exploration_unit"><code class="docutils literal notranslate"><span class="pre">ghgrp_process_exploration_unit()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.main"><code class="docutils literal notranslate"><span class="pre">main()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.manipulate_databases"><code class="docutils literal notranslate"><span class="pre">manipulate_databases()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.naics_code_checker"><code class="docutils literal notranslate"><span class="pre">naics_code_checker()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.nei"><code class="docutils literal notranslate"><span class="pre">nei()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.nei_by_process_exploration"><code class="docutils literal notranslate"><span class="pre">nei_by_process_exploration()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.overlap_explorer"><code class="docutils literal notranslate"><span class="pre">overlap_explorer()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.plots_and_exploration1"><code class="docutils literal notranslate"><span class="pre">plots_and_exploration1()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.plots_and_exploration2"><code class="docutils literal notranslate"><span class="pre">plots_and_exploration2()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.run_stewi"><code class="docutils literal notranslate"><span class="pre">run_stewi()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.save_data"><code class="docutils literal notranslate"><span class="pre">save_data()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#aegis.tri"><code class="docutils literal notranslate"><span class="pre">tri()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_analysis.html">Statistical analysis Documentation</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">aegis</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Aegis Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/aegis.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-aegis">
+<span id="aegis-documentation"></span><h1>Aegis Documentation<a class="headerlink" href="#module-aegis" title="Link to this heading"></a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.add_cas_number">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">add_cas_number</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df_em</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#add_cas_number"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.add_cas_number" title="Link to this definition"></a></dt>
+<dd><p>Assigns Chemical Abstracts Service (CAS) numbers to the emissions.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df_em</strong> (<em>pandas.DataFrame</em>) -- Emissions inventory DataFrame.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Emissions inventory with CAS numbers assigned.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>pandas.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.combine_facility_name_inv">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">combine_facility_name_inv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path3</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#combine_facility_name_inv"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.combine_facility_name_inv" title="Link to this definition"></a></dt>
+<dd><p>Combines facility names from STEWI for debugging purposes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a</strong> (<em>str</em>) -- Names of the inventories.</p></li>
+<li><p><strong>b</strong> (<em>str</em>) -- Names of the inventories.</p></li>
+<li><p><strong>c</strong> (<em>str</em>) -- Names of the inventories.</p></li>
+<li><p><strong>out_path3</strong> (<em>str</em>) -- Path to the issue files directory.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.concentration_calculation">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">concentration_calculation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df1_sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">co2concentration</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#concentration_calculation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.concentration_calculation" title="Link to this definition"></a></dt>
+<dd><p>Calculates the concentration of emissions based on a CO2 reference.
+It first isolates the CO2 flow for each facility, computes total emissions excluding CO2,
+then calculates the total flue gas amount. Finally, it computes the concentration of each emission.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df1_sector</strong> (<em>pandas.DataFrame</em>) -- DataFrame containing flow emissions data.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Path to the sector output directory.</p></li>
+<li><p><strong>co2concentration</strong> (<em>float</em>) -- The literature-obtained CO2 concentration value for the sector.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.emission_concentration_calculation">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">emission_concentration_calculation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df1_sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#emission_concentration_calculation"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.emission_concentration_calculation" title="Link to this definition"></a></dt>
+<dd><p>Calculates emission concentration by summing up all reported emissions per facility and then computing
+the concentration of each individual emission relative to the total. It further extracts facilities that
+report CO2 and focuses analysis on those facilities.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df1_sector</strong> (<em>pandas.DataFrame</em>) -- DataFrame of sector facilities with emission data.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Path to the sector output directory.</p></li>
+<li><p><strong>Outputs</strong></p></li>
+<li><p><strong>-------</strong></p></li>
+<li><p><strong>emissions</strong> (<em>Writes CSV file with concentration calculations for facility-level</em>)</p></li>
+<li><p><strong>flows.</strong> (<em>including CO2</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>DataFrame of sector facilities that report CO2 emissions along with all other emissions.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>pandas.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.facility_stack_parameters">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">facility_stack_parameters</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df1_sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#facility_stack_parameters"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.facility_stack_parameters" title="Link to this definition"></a></dt>
+<dd><p>Combines facility information with available stack parameters from the NEI database.
+Facilities not reporting to the NEI database do not have any stack data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df1_sector</strong> (<em>pandas.DataFrame</em>) -- DataFrame containing facility-level inventory data.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Path to the output directory for the sector.</p></li>
+<li><p><strong>Outputs</strong></p></li>
+<li><p><strong>-------</strong></p></li>
+<li><p><strong>facilities.</strong> (<em>Writes CSV files with stack parameter information for available</em>)</p></li>
+<li><p><strong>emissions</strong> (<em>The output file contains columns for</em>)</p></li>
+<li><p><strong>ID</strong> (<em>facility</em>)</p></li>
+<li><p><strong>name</strong> (<em>facility</em>)</p></li>
+<li><p><strong>data.</strong> (<em>and stack</em>)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.ghgrp">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">ghgrp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">year</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghgrpfilename</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frs_id_list</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#ghgrp"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.ghgrp" title="Link to this definition"></a></dt>
+<dd><p>Reads GHGRP data files, compares them with the facility-level inventory, and creates issue files listing various issues,
+including missing facilities and FRS mismatches.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>year</strong> (<em>int</em><em> or </em><em>str</em>) -- Year being analyzed.</p></li>
+<li><p><strong>filename_flag</strong> (<em>bool</em>) -- Flag indicating if the GHGRP Flight file is available.</p></li>
+<li><p><strong>ghgrpfilename</strong> (<em>str</em>) -- Filename for the GHGRP Flight file.</p></li>
+<li><p><strong>out_path3</strong> (<em>str</em>) -- Path to the issue files directory.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Output directory for the sector.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+<li><p><strong>naics1</strong> (<em>int</em><em> or </em><em>str</em>) -- Primary NAICS code.</p></li>
+<li><p><strong>frs_id_list</strong> (<em>list</em>) -- List of FRS IDs.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>A list of NAICS codes extracted from the GHGRP flight file (if available).</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.ghgrp_process_exploration_fuel">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">ghgrp_process_exploration_fuel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">naics1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">corrected_parquet_available_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frs_id_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#ghgrp_process_exploration_fuel"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.ghgrp_process_exploration_fuel" title="Link to this definition"></a></dt>
+<dd><p>Explores process-level emissions reported by the GHGRP database at the fuel level.
+Combines process-level information from supplementary GHGRP fuel files with STEWI data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>naics1</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics2</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics3</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics4</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>filename_flag</strong> (<em>bool</em>) -- Flag for Flight file availability.</p></li>
+<li><p><strong>naics_list</strong> (<em>list</em>) -- List of NAICS codes (if available).</p></li>
+<li><p><strong>corrected_parquet_available_flag</strong> (<em>bool</em>) -- Flag indicating if a corrected parquet file is available.</p></li>
+<li><p><strong>frs_id_list</strong> (<em>list</em>) -- List of FRS IDs.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Output directory for the sector.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.ghgrp_process_exploration_unit">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">ghgrp_process_exploration_unit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">naics1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">corrected_parquet_available_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frs_id_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#ghgrp_process_exploration_unit"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.ghgrp_process_exploration_unit" title="Link to this definition"></a></dt>
+<dd><p>Explores process-level emissions reported by the GHGRP database at the unit level.
+Combines process-level information from supplementary GHGRP files with STEWI data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>naics1</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics2</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics3</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics4</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>filename_flag</strong> (<em>bool</em>) -- Flag for Flight file availability.</p></li>
+<li><p><strong>naics_list</strong> (<em>list</em>) -- List of NAICS codes (if available).</p></li>
+<li><p><strong>corrected_parquet_available_flag</strong> (<em>bool</em>) -- Flag indicating if a corrected parquet file is available.</p></li>
+<li><p><strong>frs_id_list</strong> (<em>list</em>) -- List of FRS IDs.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Output directory for the sector.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.main">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">main</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">corrected_parquet_available_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">flag_for_running_stewi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">year</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#main"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.main" title="Link to this definition"></a></dt>
+<dd><p>Overarching function to compile the emissions inventories.</p>
+<dl class="simple">
+<dt>This function is called by the run file to create the FECM inventory. It:</dt><dd><ol class="arabic simple">
+<li><p>Retrieves data using STEWI.</p></li>
+<li><p>Compiles facility and process-level inventories.</p></li>
+<li><p>Produces issue files and stack parameter information files.</p></li>
+</ol>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sector</strong> (<em>str</em>) -- Industrial sector being analyzed.</p></li>
+<li><p><strong>filename_flag</strong> (<em>bool</em>) -- Flag indicating if the GHGRP Flight file is present.</p></li>
+<li><p><strong>naics</strong> (<em>int</em><em> or </em><em>str</em>) -- NAICS code for the sector.</p></li>
+<li><p><strong>corrected_parquet_available_flag</strong> (<em>bool</em>) -- Flag indicating if a corrected STEWI parquet file is available.</p></li>
+<li><p><strong>flag_for_running_stewi</strong> (<em>bool</em>) -- Flag to determine whether to run the STEWI process.</p></li>
+<li><p><strong>year</strong> (<em>int</em><em> or </em><em>str</em>) -- Year being analyzed.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.manipulate_databases">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">manipulate_databases</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">naics_code1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics_code2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics_code3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics_code4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">corrected_parquet_available_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">year</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ghgrpfilename</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path3</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#manipulate_databases"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.manipulate_databases" title="Link to this definition"></a></dt>
+<dd><p>Reads and manipulates combined inventories and facility data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>naics_code1</strong> (<em>int</em><em> or </em><em>str</em>) -- NAICS codes.</p></li>
+<li><p><strong>naics_code2</strong> (<em>int</em><em> or </em><em>str</em>) -- NAICS codes.</p></li>
+<li><p><strong>naics_code3</strong> (<em>int</em><em> or </em><em>str</em>) -- NAICS codes.</p></li>
+<li><p><strong>naics_code4</strong> (<em>int</em><em> or </em><em>str</em>) -- NAICS codes.</p></li>
+<li><p><strong>filename_flag</strong> (<em>bool</em>) -- Flag for Flight file availability.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- Industrial sector.</p></li>
+<li><p><strong>corrected_parquet_available_flag</strong> (<em>bool</em>) -- Flag for using corrected parquet.</p></li>
+<li><p><strong>year</strong> (<em>int</em><em> or </em><em>str</em>) -- Year being analyzed.</p></li>
+<li><p><strong>ghgrpfilename</strong> (<em>str</em>) -- Path to the GHGRP Flight file.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Path to the sector output directory.</p></li>
+<li><p><strong>out_path3</strong> (<em>str</em>) -- Path to the issue files directory.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>(df1_sector, naics_list, frs_id_list)</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.naics_code_checker">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">naics_code_checker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frs_id_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path3</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#naics_code_checker"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.naics_code_checker" title="Link to this definition"></a></dt>
+<dd><p>Checks for NAICS code inconsistencies for facilities.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df1</strong> (<em>pandas.DataFrame</em>) -- DataFrame containing facility and emissions data.</p></li>
+<li><p><strong>frs_id_list</strong> (<em>list</em>) -- List of FRS IDs to check.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- Sector being analyzed.</p></li>
+<li><p><strong>out_path3</strong> (<em>str</em>) -- Path to the issue files directory.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.nei">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">nei</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">naics_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#nei"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.nei" title="Link to this definition"></a></dt>
+<dd><p>Reads the NEI data files, compares them with the facility-level inventory, and creates issue files listing various issues,
+including missing facilities and FRS mismatches.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>naics_list</strong> (<em>list</em>) -- List of NAICS codes for the industrial sector.</p></li>
+<li><p><strong>filename_flag</strong> (<em>bool</em>) -- Flag indicating if the Flight file is available.</p></li>
+<li><p><strong>naics1</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics2</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics3</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics4</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Output directory for the sector.</p></li>
+<li><p><strong>out_path3</strong> (<em>str</em>) -- Path to the issue files directory.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.nei_by_process_exploration">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">nei_by_process_exploration</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">naics1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">corrected_parquet_available_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frs_id_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#nei_by_process_exploration"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.nei_by_process_exploration" title="Link to this definition"></a></dt>
+<dd><p>Explores the NEI dataset by process emissions from STEWI. Combines the SCC codes with NEI provided codes
+and obtains fuel and unit information.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>naics1</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics2</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics3</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics4</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>filename_flag</strong> (<em>bool</em>) -- Flag indicating if the GHGRP Flight file is available.</p></li>
+<li><p><strong>naics_list</strong> (<em>list</em>) -- List of NAICS codes extracted (if available) from the Flight file.</p></li>
+<li><p><strong>corrected_parquet_available_flag</strong> (<em>bool</em>) -- Flag indicating if a corrected parquet file is available.</p></li>
+<li><p><strong>frs_id_list</strong> (<em>list</em>) -- List of FRS IDs used for filtering.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Output directory for the sector.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.overlap_explorer">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">overlap_explorer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df1_sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path3</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#overlap_explorer"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.overlap_explorer" title="Link to this definition"></a></dt>
+<dd><p>Explores overlap between databases and facilities by identifying the number of databases
+that report for each facility (or FRS ID) and listing the associated emission flows.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>df1_sector</strong> (<em>pandas.DataFrame</em>) -- DataFrame containing facility-level emissions data.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+<li><p><strong>out_path3</strong> (<em>str</em>) -- Path to the issue files directory.</p></li>
+<li><p><strong>Outputs</strong></p></li>
+<li><p><strong>-------</strong></p></li>
+<li><p><strong>with</strong> (<em>Writes CSV files</em>) -- <ul>
+<li><p>Overlap information with facility names.</p></li>
+<li><p>Overlap information without facility names (to reduce duplicates).</p></li>
+</ul>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.plots_and_exploration1">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">plots_and_exploration1</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sector_df2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#plots_and_exploration1"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.plots_and_exploration1" title="Link to this definition"></a></dt>
+<dd><p>Generates exploratory plots for specified cap emissions by visualizing concentration and flow amount.
+Saves scatter plots for each emission type and outputs a CSV file containing facility-level data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sector_df2</strong> (<em>pandas.DataFrame</em>) -- DataFrame for sector facilities with CO2 emission data.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Path to the sector output directory.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.plots_and_exploration2">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">plots_and_exploration2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sector_df3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#plots_and_exploration2"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.plots_and_exploration2" title="Link to this definition"></a></dt>
+<dd><p>Generates exploratory plots for back-calculated emission concentrations.
+It uses a literature-based CO2 concentration reference to back-calculate the total flue gas amount,
+and then recalculates pollutant concentrations for each facility.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>sector_df3</strong> (<em>pandas.DataFrame</em>) -- DataFrame for sector facilities with back-calculated emission concentration data.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Path to the sector output directory.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.run_stewi">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">run_stewi</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">option</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">year</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path3</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#run_stewi"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.run_stewi" title="Link to this definition"></a></dt>
+<dd><p>Saves combined inventory information from STEWI.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>option</strong> (<em>str</em>) -- Inventory preference option.</p></li>
+<li><p><strong>year</strong> (<em>int</em><em> or </em><em>str</em>) -- Year being analyzed.</p></li>
+<li><p><strong>out_path3</strong> (<em>str</em>) -- Path to the issue files directory.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.save_data">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">save_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">inventory</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">year</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#save_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.save_data" title="Link to this definition"></a></dt>
+<dd><p>Saves individual inventory information from STEWI.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>inventory</strong> (<em>str</em>) -- Inventory name (e.g., 'GHGRP', 'NEI', or 'TRI').</p></li>
+<li><p><strong>year</strong> (<em>int</em><em> or </em><em>str</em>) -- Year being analyzed.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="aegis.tri">
+<span class="sig-prename descclassname"><span class="pre">aegis.</span></span><span class="sig-name descname"><span class="pre">tri</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">naics_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">frs_id_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">filename_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">naics4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path2</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">out_path3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sector</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/aegis.html#tri"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#aegis.tri" title="Link to this definition"></a></dt>
+<dd><p>Reads TRI data files, compares them with the facility-level inventory, and creates issue files listing various issues,
+including missing facilities and FRS mismatches.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>naics_list</strong> (<em>list</em>) -- List of NAICS codes for the industrial sector.</p></li>
+<li><p><strong>filename_flag</strong> (<em>bool</em>) -- Flag indicating if the Flight file is available.</p></li>
+<li><p><strong>naics1</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics2</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics3</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>naics4</strong> (<em>int</em><em> or </em><em>str</em>) -- Various NAICS codes.</p></li>
+<li><p><strong>out_path2</strong> (<em>str</em>) -- Output directory for the sector.</p></li>
+<li><p><strong>out_path3</strong> (<em>str</em>) -- Path to the issue files directory.</p></li>
+<li><p><strong>sector</strong> (<em>str</em>) -- The sector name.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="usage.html" class="btn btn-neutral float-left" title="Usage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="statistical_analysis.html" class="btn btn-neutral float-right" title="Statistical analysis Documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Tapajyoti Ghosh.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
