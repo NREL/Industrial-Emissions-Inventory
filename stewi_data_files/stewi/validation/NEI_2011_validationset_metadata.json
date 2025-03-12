@@ -1,9 +1,0 @@
-{
-    "SourceType": "Static File",
-    "SourceFileName": "NEI Data",
-    "SourceURL": "https://gaftp.epa.gov/air/nei/2011/data_summaries/2011v2/2011neiv2_facility.zip",
-    "SourceVersion": "2011v2/2011neiv2",
-    "SourceAcquisitionTime": "06-Aug-2021",
-    "StEWI_Version": "1.0.6",
-    "Criteria": "Data Summaries tab, Facility-level by Pollutant zip file download, summed to national level"
-}

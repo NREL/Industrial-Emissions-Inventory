@@ -1,9 +1,0 @@
-{
-    "SourceType": "Static File",
-    "SourceFileName": "TRI Explorer",
-    "SourceURL": "https://enviro.epa.gov/triexplorer/tri_release.chemical",
-    "SourceVersion": NaN,
-    "SourceAcquisitionTime": "11-May-2023",
-    "StEWI_Version": "1.1.3",
-    "Criteria": "Year, All of United States, All Chemicals, All Industries, Details:(Other On-Site Disposal or Other Releases, Other Off-Site Disposal or Other Releases)"
-}

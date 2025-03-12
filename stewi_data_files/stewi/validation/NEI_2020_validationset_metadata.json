@@ -1,9 +1,0 @@
-{
-    "SourceType": "Static File",
-    "SourceFileName": "NEI Data",
-    "SourceURL": "https://gaftp.epa.gov/air/nei/2020/data_summaries/Facility%20Level%20by%20Pollutant.zip",
-    "SourceVersion": "Facility%20Level%20by%20Pollutant",
-    "SourceAcquisitionTime": "09-May-2023",
-    "StEWI_Version": "1.1.3",
-    "Criteria": "Data Summaries tab, Facility-level by Pollutant zip file download, summed to national level"
-}
