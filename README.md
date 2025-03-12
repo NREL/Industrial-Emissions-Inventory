@@ -26,7 +26,7 @@ AEGIS is a robust framework designed to build and compile emissions inventories 
 
 ## Dcoumentation
 
-[Documentation](https://tjlca.github.io)
+[Documentation](https://nrel.github.io/Industrial-Emissions-Inventory/)
 
 ## Requirements
 
