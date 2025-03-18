@@ -65,7 +65,7 @@ AEGIS is a robust framework designed to build and compile emissions inventories 
 
    *(Ensure that the `requirements.txt` file includes all necessary libraries such as pandas, numpy, matplotlib, seaborn, STEWI, etc.)*
 
-4. ** Create Environment using Conda and Install Required Packages (optional)**
+4. **Create Environment using Conda and Install Required Packages (optional)**
 
    ```bash
    conda env create -f environment.yml (using the environment.yml file in conda folder to create environment) 
