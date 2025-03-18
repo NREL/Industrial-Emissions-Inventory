@@ -30,7 +30,7 @@ AEGIS is a robust framework designed to build and compile emissions inventories 
 
 ## Requirements
 
-- **Python 3.x**  
+- **Python 3.x (3.9 recommended) **  
 - **Key Python Libraries:**  
   - [pandas](https://pandas.pydata.org/)
   - [numpy](https://numpy.org/)
@@ -64,6 +64,13 @@ AEGIS is a robust framework designed to build and compile emissions inventories 
    ```
 
    *(Ensure that the `requirements.txt` file includes all necessary libraries such as pandas, numpy, matplotlib, seaborn, STEWI, etc.)*
+
+4. **Create Environment using Conda and Install Required Packages (optional)**
+
+   ```bash
+   conda env create -f environment.yml (using the environment.yml file in conda folder to create environment) 
+   pip install git+https://github.com/USEPA/standardizedinventories.git@v1.1.3#egg=StEWI (install stewi and esupy packages)
+   ```
 
 ## Data Files
 
@@ -107,11 +114,25 @@ AEGIS/
 │   ├── flow_by_process_NEI.csv   # Not provided; obtain separately.
 │   └── ... (other data files)
 │
+│── conda/ 
+│   └── environment.yml     # Python Python dependencies (for conda)
+│
+│── docs/ 
+│
+│
+│── docs/example/2025-03-10 # example of outputs after executing the main script
+│
+│
 ├── src/                    # Source code modules
-│   ├── fecm_data_explorationv2.py
+│   ├── run.py                  # Main execution script
 │   └── ... (other modules)
 │
-├── run.py                  # Main execution script
+│── stewi_data_files/
+│
+│
+│── test/ 
+│
+│
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation (this file)
 ```
