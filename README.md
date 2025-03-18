@@ -65,6 +65,13 @@ AEGIS is a robust framework designed to build and compile emissions inventories 
 
    *(Ensure that the `requirements.txt` file includes all necessary libraries such as pandas, numpy, matplotlib, seaborn, STEWI, etc.)*
 
+4. ** Create Environment using Conda and Install Required Packages (optional)**
+
+   ```bash
+   conda env create -f environment.yml (using the environment.yml file in conda folder to create environment) 
+   pip install git+https://github.com/USEPA/standardizedinventories.git@v1.1.3#egg=StEWI (install stewi and esupy packages)
+   ```
+
 ## Data Files
 
 Some data files are too large to be stored on GitHub. The following files in the `Data/` folder are **not** supplied in the repository and must be obtained separately:
